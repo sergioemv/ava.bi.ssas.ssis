@@ -1,0 +1,599 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6980b755-3717-434a-97b2-ddf0cfed7581" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DSV AVAPIS DW 6</ID>
+  <Name>WELL_WellDisposition</Name>
+  <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="58" scrolltop="-269" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="83" x="26908" y="18680" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_WellStructure (dbo.DM_Dim_WellStructure)" left="20" top="3855" logicalid="12" controlid="1" masterid="0" hint1="0" hint2="0" width="4419" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800004311000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Dim_WellStructure" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_AllocationReference" left="7011" top="0" logicalid="13" controlid="2" masterid="0" hint1="0" hint2="0" width="4154" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800003a100000af050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DM_Dim_AllocationReference" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Fact_WellDisposition (dbo.DM_Fact_WellDisposition)" left="6839" top="3855" logicalid="14" controlid="3" masterid="0" hint1="0" hint2="0" width="5486" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800006e15000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Fact_WellDisposition" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_Date (dbo.DM_Dim_Date)" left="7421" top="11255" logicalid="15" controlid="4" masterid="0" hint1="0" hint2="0" width="3334" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000060d0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Dim_Date" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4139" top="5956" logicalid="16" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DM_Fact_WellDisposition_DM_Dim_WellStructure]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="23" destattachpoint="26" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4439" y="6355" />
+              <point x="6839" y="6355" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7039" top="956" logicalid="17" controlid="6" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DM_Fact_WellDisposition-DM_Dim_AllocationReference]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="1" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7438" y="1455" />
+              <point x="7438" y="2655" />
+              <point x="7382" y="2655" />
+              <point x="7382" y="3855" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7589" top="8555" logicalid="18" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DM_Fact_WellDisposition_DM_Dim_Date]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="0" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7988" y="11255" />
+              <point x="7988" y="10055" />
+              <point x="7932" y="10055" />
+              <point x="7932" y="8855" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_WellOperation" left="13667" top="4987" logicalid="19" controlid="8" masterid="0" hint1="0" hint2="0" width="3761" height="2295" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b10e0000f7080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DM_Dim_WellOperation" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="12025" top="5185" logicalid="20" controlid="9" masterid="0" hint1="0" hint2="0" width="1942" height="920" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DM_Fact_WellDisposition-DM_Dim_WellOperation]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="3" sourceattachpoint="14" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13667" y="5584" />
+              <point x="12725" y="5584" />
+              <point x="12725" y="5805" />
+              <point x="12325" y="5805" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_WHCK" left="7558" top="9260" logicalid="21" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="1466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000ba050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DM_Dim_WHCK" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7559" top="8555" logicalid="22" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="1205" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DM_Fact_WellDisposition-DM_Dim_WHCK]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="3" sourceattachpoint="0" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7958" y="9260" />
+              <point x="7958" y="8860" />
+              <point x="7945" y="8860" />
+              <point x="7945" y="9255" />
+              <point x="7932" y="9255" />
+              <point x="7932" y="8855" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>58</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-269</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>83</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="a22dff74-7d71-4c4b-ba0f-d34d00934cfc">
+      <ID>DIM WellStructure</ID>
+      <Name>Well Structure</Name>
+      <DimensionID>DM Dim Well Structure</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f16caad0-e807-4a4e-aaba-ae2835147688">
+          <AttributeID>DM Dim Well Structure</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e072a8e8-1fd5-43b5-8a4c-68aa1396623a">
+          <AttributeID>Production Unit Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ffc80aed-80d0-40a0-ba1f-3ec3391ff09a">
+          <AttributeID>Block Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="036d25cb-1ec0-44b5-b6ae-a7d9c8df23b0">
+          <AttributeID>Field Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c19431ff-66ff-4efa-a402-2c0ad47798ed">
+          <AttributeID>Well Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="af246da2-52bd-4f86-aeff-cc20f8cd3314">
+          <AttributeID>Line Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="630d6ba5-a84e-4bf8-bf21-530ef8799480">
+          <AttributeID>Completion Zone Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0a62647d-72ae-4500-b7a7-982d1995fd30">
+          <AttributeID>Completion Zone Reservoir</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="9d661745-3dd6-4721-a53f-aead4edc9f06">
+          <HierarchyID>Field - Well - Line - Completion Zone</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="d3ab9192-7d5e-4757-ab3d-360e8a4a0fbb">
+      <ID>DM Dim Allocation Reference</ID>
+      <Name>Allocation Reference</Name>
+      <DimensionID>DM Dim Allocation Reference</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f29d2a24-86bc-47e3-bf81-062ccde0118a">
+          <AttributeID>DM Dim Allocation Reference</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="9355f9a7-0fcd-422e-bfac-2256959cba87">
+      <ID>DIM Date</ID>
+      <Name>Date</Name>
+      <DimensionID>DIM Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9e7874ad-30a0-445c-8222-056a4fac226a">
+          <AttributeID>Date Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d9907683-d35a-45d5-b4c1-80a6c4e454fe">
+          <AttributeID>Date Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="536465f2-1d55-4884-b4c9-3347ad7c95fd">
+          <AttributeID>Date Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8df91bfe-0782-4fa7-a9fa-f4cf3aa17c8f">
+          <AttributeID>Date Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d7e24bd1-f387-40f7-9f7f-c78c25a4c5f7">
+          <AttributeID>Data Date</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="da0cb756-6221-4cc8-8911-47576067f168">
+      <ID>DIM WellOperation</ID>
+      <Name>Operation</Name>
+      <DimensionID>DIM WellOperation</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="55db1de7-f730-4ffa-8c17-64876eeed42a">
+          <AttributeID>Meter Operation ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="deca7300-4749-4323-aa64-484f35735ad1">
+          <AttributeID>Data Item</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="007b5b12-4845-41f8-a5b3-f4229c9176d4">
+          <AttributeID>Operation Status</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="4aefbd60-0ca5-4487-84bd-aea7b13e3200">
+      <ID>DIM WHCK</ID>
+      <Name>WHCK</Name>
+      <DimensionID>DM Dim WHCK</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9c1e99f2-3203-44ac-bdac-f9a2c67fa0df">
+          <AttributeID>DM Dim WHCK</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="41993306-5da5-40fd-8456-50595baa1234">
+      <ID>DM Fact Well Disposition</ID>
+      <Name>Well Disposition</Name>
+      <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="04bdb50e-3677-4f2f-8ef2-336f1be50a96">
+          <ID>WH Ck</ID>
+          <Name>WH Ck</Name>
+          <Source dwd:design-time-name="13dad855-c02f-4c80-852a-6ddde46eaae0">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3edde1d4-f16f-45d0-96d4-e465e547d39c">
+              <TableID>dbo_DM_Fact_WellDisposition</TableID>
+              <ColumnID>WHCk</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="258671c9-32f8-4fe3-9b15-18eaf7dd3680">
+          <ID>MF Ck</ID>
+          <Name>MF Ck</Name>
+          <Source dwd:design-time-name="5b0e86e1-72e6-4f12-90e5-84d0d6fb93bf">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="561e90f9-a899-4230-b10a-dd411d85e1ed">
+              <TableID>dbo_DM_Fact_WellDisposition</TableID>
+              <ColumnID>MFCk</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="435eab27-5791-41d3-ba46-12db4b83db5b">
+          <ID>Number Hours</ID>
+          <Name>Number Hours</Name>
+          <Source dwd:design-time-name="230f4fac-7bb9-4898-bced-4c2778523d41">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="873aacdf-6456-438a-b239-7993e60fb2e1">
+              <TableID>dbo_DM_Fact_WellDisposition</TableID>
+              <ColumnID>NumberHours</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0b599ac8-9ee1-4906-86c3-0fe0cc5d9158">
+          <ID>WH Press After Ck</ID>
+          <Name>WH Press After Ck</Name>
+          <Source dwd:design-time-name="8cdc3e63-dfaf-4c7e-b079-488dee97571a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a293dba1-cecb-496f-a981-79f3b1159773">
+              <TableID>dbo_DM_Fact_WellDisposition</TableID>
+              <ColumnID>WHPressAfterCk</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="348459f3-bf93-4617-9395-466c094dd6cb">
+          <ID>WH Press Before Ck</ID>
+          <Name>WH Press Before Ck</Name>
+          <Source dwd:design-time-name="72249197-5c1c-4d9d-be96-44fa891284e7">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d5768637-1e36-4fa0-8285-22b3c6efd431">
+              <TableID>dbo_DM_Fact_WellDisposition</TableID>
+              <ColumnID>WHPressBeforeCk</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="757c8757-6cff-446d-be16-273693c1cad0">
+          <ID>WH Temp After Ck</ID>
+          <Name>WH Temp After Ck</Name>
+          <Source dwd:design-time-name="a9d25ae9-84d0-4e92-85f1-3abf8f7f1a73">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9f2dd1ee-c8c6-42ec-81d1-b765cb01538e">
+              <TableID>dbo_DM_Fact_WellDisposition</TableID>
+              <ColumnID>WHTempAfterCk</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a9820630-683d-4693-a65e-950dba85925b">
+          <ID>WH Temp Before Ck</ID>
+          <Name>WH Temp Before Ck</Name>
+          <Source dwd:design-time-name="7122c4c1-f705-4932-a93d-c26ff073cbed">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="26eb593c-ab77-446e-93ae-b49622a4045e">
+              <TableID>dbo_DM_Fact_WellDisposition</TableID>
+              <ColumnID>WHTempBeforeCk</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="50b2e334-5cf9-440f-ae2e-593041428735">
+          <ID>Casing Press</ID>
+          <Name>Casing Press</Name>
+          <Source dwd:design-time-name="9571a758-f43a-431c-bd6c-68bb5d6a9025">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2c47e131-e70e-4840-858b-ea360abd4c51">
+              <TableID>dbo_DM_Fact_WellDisposition</TableID>
+              <ColumnID>CasingPress</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6053b799-1339-4f03-a076-0a12887b2e9f">
+          <ID>Gas Net Volume Production</ID>
+          <Name>Gas Net Volume Production</Name>
+          <Source dwd:design-time-name="c182e7d9-480a-4500-ad77-21214892e845">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e8ac43de-9c2d-4589-81ff-6d5f51cbacf4">
+              <TableID>dbo_DM_Fact_WellDisposition</TableID>
+              <ColumnID>GasNetVolumeProduction</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5915d533-d1cb-43ef-bb6c-9ae9f5bead61">
+          <ID>Oil Net Volume Production</ID>
+          <Name>Oil Net Volume Production</Name>
+          <Source dwd:design-time-name="1c29185a-588d-4896-8612-7cd2a30913cd">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="abf54014-222f-4dd9-8f5c-431eca99c36d">
+              <TableID>dbo_DM_Fact_WellDisposition</TableID>
+              <ColumnID>OilNetVolumeProduction</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="df334f99-6d92-4634-b5c6-2b306db4427e">
+          <ID>Oil Correct API</ID>
+          <Name>Oil Correct API</Name>
+          <Source dwd:design-time-name="a1d33234-fb50-473e-bec7-06605146096e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="55a89d7a-d60c-4bda-83f0-776c2c052dde">
+              <TableID>dbo_DM_Fact_WellDisposition</TableID>
+              <ColumnID>OilCorrectAPI</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="71f1647e-bc01-4197-8da3-6e73b781d978">
+          <ID>NGL Net Volume Production</ID>
+          <Name>NGL Net Volume Production</Name>
+          <Source dwd:design-time-name="7b0399ff-975b-4a28-8dfb-fae346a656d7">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8657bb60-e325-419e-8eda-cb31bca96180">
+              <TableID>dbo_DM_Fact_WellDisposition</TableID>
+              <ColumnID>NGLNetVolumeProduction</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="96ccff7a-ca8b-4063-b890-bb89e77ecb4f">
+          <ID>LPG Net Voulme Production</ID>
+          <Name>LPG Net Volume Production</Name>
+          <Source dwd:design-time-name="51e1cbdd-c1cb-4e39-98c9-aaf2678c9708">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b3242362-28da-418f-a4d9-a19ec169a4d0">
+              <TableID>dbo_DM_Fact_WellDisposition</TableID>
+              <ColumnID>LPGNetVoulmeProduction</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d6ff4281-d9ea-48f8-82da-c97aa624c600">
+          <ID>CO2 Net Voulme Production</ID>
+          <Name>CO2 Net Volume Vented</Name>
+          <Source dwd:design-time-name="e1c9a533-888a-4add-8996-0fecd6bc4f36">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="54ddc260-ac24-4da9-97f4-b27a59d5f200">
+              <TableID>dbo_DM_Fact_WellDisposition</TableID>
+              <ColumnID>CO2NetVoulmeProduction</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d551fc30-52ba-4667-b74c-b65067ee22b5">
+          <ID>Water Net Volume Production</ID>
+          <Name>Water Net Volume Production</Name>
+          <Source dwd:design-time-name="4f255ced-afc8-4075-a5c9-e448259adc43">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b5635fa6-42ae-4400-a0d4-0d52a5aa4f40">
+              <TableID>dbo_DM_Fact_WellDisposition</TableID>
+              <ColumnID>WaterNetVolumeProduction</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d98b93c6-006f-475a-a4ed-2adf020ef328">
+          <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="aa225d36-2234-40c0-ab32-9658ee6e6154">
+              <AttributeID>DM Dim Well Structure</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1d94be7a-8033-4b58-bac5-251669ad8999">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ac534a8a-a57c-41db-ae76-b70c247a77db">
+                    <TableID>dbo_DM_Fact_WellDisposition</TableID>
+                    <ColumnID>WellStructureID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b4a07b57-301f-4b46-8d5c-1bb68403b340">
+          <CubeDimensionID>DM Dim Allocation Reference</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f0bd8f85-1ea4-4a7a-ae22-2f6c8a759db5">
+              <AttributeID>DM Dim Allocation Reference</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="44458dda-b602-4f1c-a1ac-f7911954d7c1">
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <DataType>WChar</DataType>
+                  <DataSize>15</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d3063979-2b30-459e-8797-3b003fd22b59">
+                    <TableID>dbo_DM_Fact_WellDisposition</TableID>
+                    <ColumnID>AllocationReferenceDD</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c00d969a-3d58-4469-837b-676f93677081">
+          <CubeDimensionID>DIM Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="efb55829-6a42-4ce2-88f8-43fdc97fa022">
+              <AttributeID>Date Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="acc55250-763e-4cca-b7b1-e687457a5fa9">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9d3a1df5-3ac3-49aa-aef8-d50aea6242b4">
+                    <TableID>dbo_DM_Fact_WellDisposition</TableID>
+                    <ColumnID>DateId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3ce89fa7-8e4c-4d9d-b509-18dc3adf7fd7">
+          <CubeDimensionID>DIM WellOperation</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="00570bfc-62a1-4e96-9c5b-bce5658b7297">
+              <AttributeID>Meter Operation ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="079a68f6-c329-4b53-836b-36c5d3209f70">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="00cd0706-82c1-4372-83fa-bb7a0393da95">
+                    <TableID>dbo_DM_Fact_WellDisposition</TableID>
+                    <ColumnID>MeterOperationID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="69341899-570e-41d0-a4b7-d1df04be1ccf">
+          <CubeDimensionID>DIM WHCK</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1a718cb3-846a-4b8a-bcd8-2dee9f5bef6f">
+              <AttributeID>DM Dim WHCK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6a5d03c7-c928-495f-bdfe-81a2333b34f2">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1bd2ae03-ad87-4c93-a191-bd9a55bb610a">
+                    <TableID>dbo_DM_Fact_WellDisposition</TableID>
+                    <ColumnID>WHCk</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="fcd58ffe-d57f-4d8f-9aa0-a6273ea6d75a">
+    <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+  </Source>
+</Cube>

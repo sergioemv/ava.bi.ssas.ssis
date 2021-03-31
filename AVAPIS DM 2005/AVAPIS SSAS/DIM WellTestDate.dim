@@ -1,0 +1,222 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="895c5e7a-f420-4e2e-a293-4c9dcd18006e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DIM WellTestDate</ID>
+  <Name>DIM WellTestDate</Name>
+  <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1686" scrolltop="-6389" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7541" y="20214" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_WellTestDate" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3334" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000060d0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DM_Dim_WellTestDate" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1686</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6389</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f421347d-f4a0-46f2-9fc7-30cc8e987011">
+    <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+  </Source>
+  <Type>Time</Type>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="a058ee8c-cc91-4c4b-9e31-fa0e68733c92">
+      <ID>Año</ID>
+      <Name>DateYear</Name>
+      <Type>Years</Type>
+      <EstimatedCount>22</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ab1174c2-35eb-47da-bfc6-781c8af39539">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5e57b9ab-cf5d-490c-a352-46ad3591f998">
+            <TableID>DM_Dim_WellTestDate</TableID>
+            <ColumnID>DateYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="8fef2b8b-66c1-4bc3-8163-fe6859aa6a55">
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="8f7983bc-4a38-4c21-9866-05788420012b">
+          <TableID>DM_Dim_WellTestDate</TableID>
+          <ColumnID>DateYear</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+    <Attribute dwd:design-time-name="4d92962b-adc8-4c8b-b9d6-dda18acf5fe5">
+      <ID>Mes</ID>
+      <Name>DateMonth</Name>
+      <Type>Months</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1201f88b-bc51-4114-af92-4daa7c916b67">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="940001b8-423f-41ac-8930-8bb2063059b1">
+            <TableID>DM_Dim_WellTestDate</TableID>
+            <ColumnID>DateMonth</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <DefaultMember></DefaultMember>
+    </Attribute>
+    <Attribute dwd:design-time-name="45b9c425-775e-466d-91b7-eecb8ee133bc">
+      <ID>Día del mes</ID>
+      <Name>DateDay</Name>
+      <Type>DayOfMonth</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="12fa12a7-69b9-426b-b08f-c7b194c99404">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b966e146-a28e-4fb7-a3ab-b9ef9d44d4e1">
+            <TableID>DM_Dim_WellTestDate</TableID>
+            <ColumnID>DateDay</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="db982c90-e64a-4bdb-9c01-c42cc5fb01ee">
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="df3fcef7-241c-4a60-8e52-a050f5915f8f">
+          <TableID>DM_Dim_WellTestDate</TableID>
+          <ColumnID>DateDay</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+    <Attribute dwd:design-time-name="aea99aeb-0f5c-471d-81cf-8fb74f761b3a">
+      <ID>DateId</ID>
+      <Name>DateId</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>8037</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b256f3e3-b293-4f34-af9c-6c24ea236558">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="60821a3b-ac5b-4beb-8656-b91f70d1f10d">
+            <TableID>DM_Dim_WellTestDate</TableID>
+            <ColumnID>DateId</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="78fb5e03-12f2-4e2e-a314-5a8d93b029f7">
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="8c5b61cd-cb64-413b-ab0f-beaad9f58f25">
+          <TableID>DM_Dim_WellTestDate</TableID>
+          <ColumnID>DateId</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="05177c6b-a412-4b65-ba42-7ca72afeb81c">
+          <AttributeID>Año</AttributeID>
+          <Name>DateYear</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="72d0483c-ed2e-4335-a74b-5f29c9d8c131">
+          <AttributeID>Mes</AttributeID>
+          <Name>DateMonth</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0ea83867-5136-4f38-bc17-736e0762be8b">
+          <AttributeID>Día del mes</AttributeID>
+          <Name>DateDay</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d1fe6fa4-8905-449c-a7c4-42634cccb4a7">
+          <AttributeID>Data Date</AttributeID>
+          <Name>TestDate</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="c463de25-1537-4277-a0cd-5f4829a6f5bd">
+      <ID>Data Date</ID>
+      <Name>TestDate</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="54f09e59-213c-4b84-bbcd-53cbf891582c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="29f086df-bf24-46f5-98f4-db231e52b8c1">
+            <TableID>DM_Dim_WellTestDate</TableID>
+            <ColumnID>DateYear</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="d02c5f0f-8c2b-443e-b891-851d0f3c6c5d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d61f1073-a47e-402f-b5b2-1eeac0de4c5f">
+            <TableID>DM_Dim_WellTestDate</TableID>
+            <ColumnID>DateMonth</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="319377ed-3645-42aa-ae24-90577ca61184">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="92dbc30e-eb2f-4be8-b435-048a89f89c29">
+            <TableID>DM_Dim_WellTestDate</TableID>
+            <ColumnID>DateDay</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="8e6d9713-c83e-4314-bc6a-633bb57a5a86">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="847db35a-fdc7-4307-af08-9181d744e628">
+          <TableID>DM_Dim_WellTestDate</TableID>
+          <ColumnID>DataDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+  </Attributes>
+</Dimension>

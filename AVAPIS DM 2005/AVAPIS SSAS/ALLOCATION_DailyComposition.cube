@@ -1,0 +1,1474 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cc040cde-7e84-407b-b834-d6fb329d05a3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DSV AVAPIS DW 4</ID>
+  <Name>ALLOCATION_DailyComposition</Name>
+  <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="30" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1121" scrolltop="-3571" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="26908" y="18759" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_WellStructure (dbo.DM_Dim_WellStructure)" left="5833" top="5972" logicalid="15" controlid="1" masterid="0" hint1="0" hint2="0" width="4419" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800004311000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Dim_WellStructure" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_AllocOperation" left="20" top="13372" logicalid="16" controlid="2" masterid="0" hint1="0" hint2="0" width="3413" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000550d0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Dim_MeterOperation" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Fact_AllocationCompositionDaily (dbo.DM_Fact_AllocationCompositionDaily)" left="20" top="5972" logicalid="17" controlid="3" masterid="0" hint1="0" hint2="0" width="3413" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000550d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Fact_AllocationCompositionDaily" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_Date (dbo.DM_Dim_Date)" left="7150" top="79" logicalid="18" controlid="4" masterid="0" hint1="0" hint2="0" width="3334" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000060d0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Dim_Date" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3133" top="8073" logicalid="19" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DM_Fact_AllocationCompositionDaily_DM_Dim_WellStructure]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="22" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5833" y="8472" />
+              <point x="3433" y="8472" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1327" top="10672" logicalid="20" controlid="6" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DM_Fact_AllocationCompositionDaily_DM_Dim_MeterOperation]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1726" y="13372" />
+              <point x="1726" y="10972" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3133" top="3116" logicalid="21" controlid="7" masterid="0" hint1="0" hint2="0" width="4317" height="3456" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DM_Fact_AllocationCompositionDaily_DM_Dim_Date]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="22" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7150" y="3515" />
+              <point x="5292" y="3515" />
+              <point x="5292" y="6272" />
+              <point x="3433" y="6272" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_WHCK" left="10879" top="6416" logicalid="22" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000af050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DM_Dim_WHCK" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3133" top="6522" logicalid="23" controlid="9" masterid="0" hint1="0" hint2="0" width="8046" height="1021" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DM_Fact_AllocationCompositionDaily-DM_Dim_WHCK]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="3" sourceattachpoint="12" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10879" y="7143" />
+              <point x="7156" y="7143" />
+              <point x="7156" y="6822" />
+              <point x="3433" y="6822" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Fact_AllocationCompositionMonth (dbo.DM_Fact_AllocationCompositionMonth)" left="0" top="0" logicalid="24" controlid="10" masterid="0" hint1="0" hint2="0" width="3493" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000a50d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Fact_AllocationCompositionMonth" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3193" top="-184" logicalid="25" controlid="11" masterid="0" hint1="0" hint2="0" width="4257" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DM_Fact_AllocationCompositionMonth_DM_Dim_Date]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="10" sourceattachpoint="10" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7150" y="215" />
+              <point x="5322" y="215" />
+              <point x="5322" y="300" />
+              <point x="3493" y="300" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3193" top="4400" logicalid="26" controlid="12" masterid="0" hint1="0" hint2="0" width="2940" height="2272" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DM_Fact_AllocationCompositionMonth_DM_Dim_WellStructure]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="10" sourceattachpoint="14" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5833" y="6272" />
+              <point x="4663" y="6272" />
+              <point x="4663" y="4700" />
+              <point x="3493" y="4700" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3193" top="3850" logicalid="27" controlid="13" masterid="0" hint1="0" hint2="0" width="7986" height="3143" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DM_Fact_AllocationCompositionMonth-DM_Dim_WHCK]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="10" sourceattachpoint="10" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10879" y="6593" />
+              <point x="7186" y="6593" />
+              <point x="7186" y="4150" />
+              <point x="3493" y="4150" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="346" top="4700" logicalid="28" controlid="14" masterid="0" hint1="0" hint2="0" width="1230" height="9172" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DM_Fact_AllocationCompositionMonth-DM_Dim_AllocOperation]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="10" sourceattachpoint="2" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1176" y="13372" />
+              <point x="1176" y="9186" />
+              <point x="646" y="9186" />
+              <point x="646" y="5000" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1121</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3571</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="bb699059-f921-44b2-99cf-dbd084f7672b">
+      <ID>DIM WellStructure</ID>
+      <Name>Well</Name>
+      <DimensionID>DM Dim Well Structure</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="eed39d00-05ce-484c-825a-b350433b7f5c">
+          <AttributeID>DM Dim Well Structure</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e4de667e-c35e-4344-a403-823a1bcf990e">
+          <AttributeID>Production Unit Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e9b46ca8-03e3-4609-b606-fb1ab40a8f73">
+          <AttributeID>Block Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d6d89baf-a682-4f31-9cb8-1bfaafb38604">
+          <AttributeID>Field Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="09c4b326-9663-45ec-8555-8c9d0c06d61f">
+          <AttributeID>Well Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e2bfd605-ab49-4fbd-af33-1d34b804f361">
+          <AttributeID>Line Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4a75c783-1412-4358-a33a-042e4289ca8e">
+          <AttributeID>Completion Zone Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="72f980d6-f3d7-4656-beff-83deeff9acd1">
+          <AttributeID>Completion Zone Reservoir</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="89b5c8cb-0469-49f6-9a72-bfd196fc3de6">
+          <HierarchyID>Field - Well - Line - Completion Zone</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="bef9e003-f7ea-47c0-85f3-3596976c9ae3">
+      <ID>DIM Date</ID>
+      <Name>Date</Name>
+      <DimensionID>DIM Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="01a6ecdb-158a-45cf-9cdb-8f72730f9658">
+          <AttributeID>Date Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7d6d6b10-1791-44c1-9d6e-336d72d44e21">
+          <AttributeID>Date Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c4cf53f3-c364-4348-a900-54b599cda5e1">
+          <AttributeID>Date Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a2bc8ba7-8a54-4acf-9094-787906c58451">
+          <AttributeID>Date Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e4bb76aa-7e50-4d06-a61c-beec9aef6b3d">
+          <AttributeID>Data Date</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c5eca564-92b7-4bae-813d-d0322e31e9f5">
+      <ID>DIM AllocOperation</ID>
+      <Name>Operation</Name>
+      <DimensionID>DIM AllocOperation</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="fa4ba107-732c-4f36-bb8f-b4b5c498b3c7">
+          <AttributeID>Meter Operation ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="30b0978d-fc03-4c38-8693-a8ba8d839293">
+          <AttributeID>Data Item</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="177fdbe2-57ea-4ec5-ae71-71623b1dfb82">
+          <AttributeID>Operation Status</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="892efff1-2809-45a7-8aa3-76a13df62c74">
+      <ID>DIM WHCK</ID>
+      <Name>WHCK</Name>
+      <DimensionID>DM Dim WHCK</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="eefaa966-3444-4b8d-a4c8-9f43923a8ca3">
+          <AttributeID>DM Dim WHCK</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="843e4de7-4ed9-44a0-9532-00ec4ee6ae04">
+      <ID>DM Fact Allocation Composition Daily</ID>
+      <Name>Composition Allocation Daily</Name>
+      <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="43901266-0cc4-41ac-bff5-9f2d385f0dd0">
+          <ID>WH Ck</ID>
+          <Name>_day WHCk</Name>
+          <Source dwd:design-time-name="b65de0f0-ed3e-44fc-8976-093756af3184">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1f5f2686-5c90-402c-a984-05ba69116331">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>WHCk</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="27511525-d945-4431-aa95-655446b232ac">
+          <ID>MF Ck</ID>
+          <Name>_day MFCk</Name>
+          <Source dwd:design-time-name="c6ffc26d-805f-4b8e-a2ab-8d82a0b64460">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e1efadd9-ee62-46ee-90ba-4694e88dc92e">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>MFCk</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="f364a8c0-7423-404d-9e12-665a9d928be9">
+          <ID>Number Hours</ID>
+          <Name>_day Number Hours</Name>
+          <Source dwd:design-time-name="57d74d13-3765-47d8-afcc-0270645955aa">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7e95943a-98d4-4c5b-ad2a-71b6a8779f6d">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>NumberHours</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="f7bcee89-9c95-4d3b-ab65-4d2d0b836a14">
+          <ID>Gas Production N</ID>
+          <Name>_day Gas Production N</Name>
+          <Source dwd:design-time-name="0aaac124-121c-43f2-81a6-0c621bccb547">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="75d6d7a4-0e52-4e1d-a585-e62194fc15a2">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>GasProductionN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="1fcfdcfe-84ad-4606-9cea-298c872b9a83">
+          <ID>Gas Production E</ID>
+          <Name>_day Gas Production E</Name>
+          <Source dwd:design-time-name="eda3a1d5-2cb3-4ba9-b63c-77b498c7d360">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="49551f91-a8e1-4ab9-8eda-46687d7e9cb8">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>GasProductionE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="b782d0d5-ba2d-4559-a20e-2dc445ab05c0">
+          <ID>Gas Fuel N</ID>
+          <Name>_day Gas Fuel N</Name>
+          <Source dwd:design-time-name="b01e2560-346b-498b-8694-c15ad0633de7">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9d3c8db6-78e8-410c-96ad-e3debdda05cb">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>GasFuelN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="6c7de1f4-1136-4f06-a1bd-2a6a87931a67">
+          <ID>Gas Fuel E</ID>
+          <Name>_day Gas Fuel E</Name>
+          <Source dwd:design-time-name="0cbeffdc-ff91-465e-a235-734669f75b6a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="15111ab2-9ff4-4fdd-803a-ac34ed2a393c">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>GasFuelE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="f271ba75-5f31-41ca-bb23-9556fad26e4e">
+          <ID>Gas Flare N</ID>
+          <Name>_day Gas Flare N</Name>
+          <Source dwd:design-time-name="2baf76af-eb2f-4405-b80b-80ba5ea82e32">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3db5a8af-4c60-4646-adfa-165faa5e204f">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>GasFlareN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="a27cc1e7-93fa-4783-8779-d6d30d60a935">
+          <ID>Gas Flare E</ID>
+          <Name>_day Gas Flare E</Name>
+          <Source dwd:design-time-name="1a351370-d7e7-476d-b3c9-84a43095e802">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="45bf2673-4190-4802-a5d5-2d16770f6573">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>GasFlareE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="0536cb22-7975-42c0-975a-f5d9b369be67">
+          <ID>Gas Converted N</ID>
+          <Name>_day Gas Converted N</Name>
+          <Source dwd:design-time-name="fc46299a-5ce1-41f3-bdd7-d02c2a80afb8">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="31362a52-ce27-421c-954e-a7fee012f86f">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>GasConvertedN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="3ada3255-dab1-4314-8025-4054d8dbfcce">
+          <ID>Gas Converted E</ID>
+          <Name>_day Gas Converted E</Name>
+          <Source dwd:design-time-name="17cb9535-b38f-4c05-8c85-13d959ae372d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="80eb7611-df1d-44e5-b59c-e53f12ce4f80">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>GasConvertedE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="b6ced7d8-4aaf-4c44-8f05-7b38412c8d76">
+          <ID>Gas Recycled N</ID>
+          <Name>_day Gas Recycled N</Name>
+          <Source dwd:design-time-name="ab11dfb6-9da2-4621-a058-efa6b5ad15eb">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0581af87-94f2-4c8b-9516-546ae48592b0">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>GasRecycledN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="b48ed1e0-c769-422e-84a0-e46b791adeec">
+          <ID>Gas Recycled E</ID>
+          <Name>_day Gas Recycled E</Name>
+          <Source dwd:design-time-name="728d407d-931e-4f08-a1a3-b994eb8bb133">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4c179bfc-6a9a-47b9-a196-c83491e3c29b">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>GasRecycledE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="46a62ae6-69c8-42ea-9579-6cc68c081bd5">
+          <ID>Gas Sales N</ID>
+          <Name>_day Gas Sales N</Name>
+          <Source dwd:design-time-name="a06d7873-8d0c-4596-a3d9-eef4462b9a76">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="069408bc-9ac2-4908-8311-0428db0cc51b">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>GasSalesN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="c7cc960b-16de-40fa-a844-34637a089ecd">
+          <ID>Gas Sales E</ID>
+          <Name>_day Gas Sales E</Name>
+          <Source dwd:design-time-name="d6e4d964-610b-4797-b8d2-6e49e437679b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d6e0cef3-93a5-47a4-9ea6-eaab2c92b2e7">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>GasSalesE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="640b3c97-ebf3-442a-be7e-d71da5111db3">
+          <ID>CO2HPN</ID>
+          <Name>_day CO2HPN</Name>
+          <Source dwd:design-time-name="cae9b2de-3890-46c8-aa8f-435be6c3bc98">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c5235744-8731-4a28-9027-7c287bd0cee4">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>CO2HPN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="183285a5-351f-4233-b507-e794e6c7ac7f">
+          <ID>CO2HPE</ID>
+          <Name>_day CO2HPE</Name>
+          <Source dwd:design-time-name="be759e48-7a1b-41aa-8611-8dc9f2d6476f">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1bdc4d31-d4d2-49dd-938d-ef0b2c1818c6">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>CO2HPE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="4b4a6635-fde3-407c-833b-0b3435b43e01">
+          <ID>NGL Production N</ID>
+          <Name>_day NGL Production N</Name>
+          <Source dwd:design-time-name="ace22a21-cf1c-40b1-aea1-477f85746029">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8ca9f19d-17b7-4f28-9c1c-f7e0ef0b7afd">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>NGLProductionN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="614f58f1-6b6b-4c3e-8cbf-b836ac82fce9">
+          <ID>NGL Production E</ID>
+          <Name>_day NGL Production E</Name>
+          <Source dwd:design-time-name="48ca1665-b775-462a-933b-179f18e19f20">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4f8f051d-8a08-4be8-b5f1-690e8a4b4741">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>NGLProductionE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="b90eedf9-8e3f-4df7-9f99-4f465815a086">
+          <ID>LPG Production N</ID>
+          <Name>_day LPG Production N</Name>
+          <Source dwd:design-time-name="8c9022e9-b8e2-4891-8d73-6716fa2613cd">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fcc52383-fbe2-4e1a-a74e-14207c248bc6">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>LPGProductionN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="bd9d328b-0c84-4908-bf4e-6d3a69e59562">
+          <ID>LPG Production E</ID>
+          <Name>_day LPG Production E</Name>
+          <Source dwd:design-time-name="422dd105-751b-46bc-8e20-e5c5c9842677">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="09ff7d58-4ada-4ee1-9e9b-090492692331">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>LPGProductionE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="6041fa9d-1e41-4586-9c4c-aa5b7ebdd742">
+          <ID>Oil Production N</ID>
+          <Name>_day Oil Production N</Name>
+          <Source dwd:design-time-name="1b342ce8-bc1a-479d-98ce-46335294e4e6">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7b9cef14-2699-4a42-92b0-3d78e4c873cc">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>OilProductionN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="497cb030-0c06-4ac7-a19e-b84f977109b7">
+          <ID>Oil Production E</ID>
+          <Name>_day Oil Production E</Name>
+          <Source dwd:design-time-name="f4f39b8f-844d-49e5-8132-8a3ab3e8ec6c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4b673afa-27e5-4472-b5c4-d72460e9e8a2">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>OilProductionE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="022922aa-aa1c-4c47-85bd-314f2f5cd930">
+          <ID>Oil Correct API</ID>
+          <Name>_day Oil Correct API</Name>
+          <Source dwd:design-time-name="6987a2b2-c45b-4f1c-a306-346477033a06">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d7ffd03c-ae55-4a6a-a2ae-d41e0ae083a3">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>OilCorrectAPI</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="1f841f54-2462-4cd7-b1bf-87bdc25e24f3">
+          <ID>Water Production</ID>
+          <Name>_day Water Production</Name>
+          <Source dwd:design-time-name="49818484-07c3-479e-81bc-5caa8a6e47c6">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="85e23604-19df-4a4c-b41a-8c74684ec13d">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>WaterProduction</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="39821353-9e1e-4807-a30f-568d1db44e3a">
+          <ID>Gas Injection</ID>
+          <Name>_day Gas Injection</Name>
+          <Source dwd:design-time-name="e7e465d2-6df4-415c-8ed5-c4458d0eaff8">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3c6c666a-b7a4-4f90-bef6-263feb67d035">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>GasInjection</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="6df1074b-b295-447d-a914-2e785d08978f">
+          <ID>Gas Lift</ID>
+          <Name>_day Gas Lift</Name>
+          <Source dwd:design-time-name="b0470f58-19d0-4ea4-a802-ba3f21dab7b3">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d4568c65-6a16-4c85-9353-58929cce4d51">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>GasLift</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="da6fdb10-892f-4f2f-b173-396aab6d1779">
+          <ID>Water Injection</ID>
+          <Name>_day Water Injection</Name>
+          <Source dwd:design-time-name="fd3579f1-6f33-403b-81e4-f90639dcb997">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b4ccd376-0eda-4a21-939a-93ea5f19fc2d">
+              <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+              <ColumnID>WaterInjection</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="593f4ea1-9971-4401-984c-9eb67bc5ebae">
+          <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="242a08e4-7716-40b4-ad7f-7a92e9dabff2">
+              <AttributeID>DM Dim Well Structure</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1b4d0d76-cbe4-46b4-a257-6f9b0a5d8d16">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="06172d00-477b-403d-867b-e8038e97fc19">
+                    <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+                    <ColumnID>WellStructureID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="28d05153-f8bd-4b19-9d5f-7ec63beb7550">
+          <CubeDimensionID>DIM Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="93f837cc-3a73-478b-a81f-c28b55d9f8d0">
+              <AttributeID>Date Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2d1d2e15-9e58-4393-8db7-845ac17e7584">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c914da18-311a-4b78-ba92-3d55e7ce8b55">
+                    <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+                    <ColumnID>DateId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d238143c-fcdf-4941-bb18-b74b53613ee6">
+          <CubeDimensionID>DIM AllocOperation</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="44dbb9be-3750-4411-8d7b-e8afe268bfe2">
+              <AttributeID>Meter Operation ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="15a060e0-5922-4582-ab8d-3a92a6387438">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d7fd1228-4163-42cd-9c5f-110fa4dda9c5">
+                    <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+                    <ColumnID>MeterOperationID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1b7bc00c-9a9e-47cf-afc5-e2b102fed52e">
+          <CubeDimensionID>DIM WHCK</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="40551efe-082b-4424-9fad-ce815ee1d016">
+              <AttributeID>DM Dim WHCK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="aa6e9536-65b4-4509-b11c-8f11a2a97979">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1fee8743-2eab-4ceb-9834-82b275b0add3">
+                    <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+                    <ColumnID>WHCk</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="db0c22b6-0e0b-4ea3-984c-0a0c8c590366">
+      <ID>DM Fact Allocation Composition Month</ID>
+      <Name>Composition Allocation Monthly</Name>
+      <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="36ff82c6-7cd8-4562-9e77-0556e30677d9">
+          <ID>MF Ck 1</ID>
+          <Name>_month MFCK</Name>
+          <Source dwd:design-time-name="ef953907-97f9-4faa-b526-cb90fe324b52">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c10cc50e-be75-4718-8f30-0d15acdb1d57">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>MFCk</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="8045fcca-5299-4f23-9637-7fc991c93b12">
+          <ID>Number Hours - DM Fact Allocation Composition Month</ID>
+          <Name>_month Number Hours</Name>
+          <Source dwd:design-time-name="a2bb9df0-9882-431f-a739-57cef1146a54">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="325ba72d-5721-431e-b0b6-2c3b1beeb731">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>NumberHours</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="61c7f93b-5385-4adb-bc6b-77a0c0503a1f">
+          <ID>Gas Production N - DM Fact Allocation Composition Month</ID>
+          <Name>_month Gas Production N</Name>
+          <Source dwd:design-time-name="146309bb-dd5b-4002-86de-92b9d126f8a1">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2dae106e-a8e7-408c-a849-60a10acd62d9">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>GasProductionN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="b0005f4b-7d4e-425d-94c0-eedeaaed0d73">
+          <ID>Gas Production E - DM Fact Allocation Composition Month</ID>
+          <Name>_month Gas Production E</Name>
+          <Source dwd:design-time-name="db56743c-1330-4230-b995-f25a2156f207">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="19d6d11b-67ee-46a1-abe4-e288cafa9a6b">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>GasProductionE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="dc1c1c2b-70ff-4c10-8bbf-731d067617e8">
+          <ID>Gas Fuel N - DM Fact Allocation Composition Month</ID>
+          <Name>_month Gas Fuel N</Name>
+          <Source dwd:design-time-name="e594a9e4-efa1-460c-97b0-c840e47e6967">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bf562991-7a23-4033-a536-ff48a72087c1">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>GasFuelN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="550891df-d2f1-4ad3-9e14-c816968c9efe">
+          <ID>Gas Fuel E - DM Fact Allocation Composition Month</ID>
+          <Name>_month Gas Fuel E</Name>
+          <Source dwd:design-time-name="86fc0088-3f07-4c10-b4d8-9147ecbcaa38">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="071df156-4e8b-4cac-b36e-b519d1582841">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>GasFuelE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="e1a140cd-2cd1-4948-8d92-525d46e58d20">
+          <ID>Gas Flare N - DM Fact Allocation Composition Month</ID>
+          <Name>_month Gas Flare N</Name>
+          <Source dwd:design-time-name="85360f39-417b-4a5f-bd18-72794d46cea0">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8e41a026-5a28-42fc-8931-0f6a09467db7">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>GasFlareN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="76f96047-faf2-4225-9de4-5df0569bc55a">
+          <ID>Gas Flare E - DM Fact Allocation Composition Month</ID>
+          <Name>_month Gas Flare E</Name>
+          <Source dwd:design-time-name="0bdf3e4e-c576-4085-9b25-d9f5cfbeb272">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3111a6d4-ae17-49d3-8a87-44ff84a527f8">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>GasFlareE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="2d38d6e5-25bf-4c04-b127-fd3c0f52d6dd">
+          <ID>Gas Converted N - DM Fact Allocation Composition Month</ID>
+          <Name>_month Gas Converted N</Name>
+          <Source dwd:design-time-name="f707a547-0a92-46a4-8794-048a18dc7aa8">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="59518258-445c-4ed2-b08a-b72a3360c724">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>GasConvertedN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="ac46b45a-da27-447e-a2ef-caed693bab0a">
+          <ID>Gas Converted E - DM Fact Allocation Composition Month</ID>
+          <Name>_month Gas Converted E</Name>
+          <Source dwd:design-time-name="5f658b36-5437-4ddd-9c3a-c80352f40d75">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="84521964-dace-417e-9fe9-5dbeaed3abc1">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>GasConvertedE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="122e81bd-611f-4f0e-b343-1270d116d931">
+          <ID>Gas Recycled N - DM Fact Allocation Composition Month</ID>
+          <Name>_month Gas Recycled N</Name>
+          <Source dwd:design-time-name="213d8534-d43c-4698-9d9e-04253f5ba07b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7c0031ad-ddd4-4bf5-9fba-2a49affacdcd">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>GasRecycledN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="3e381e38-71f1-4c04-a057-aaa003befd6f">
+          <ID>Gas Recycled E - DM Fact Allocation Composition Month</ID>
+          <Name>_month Gas Recycled E</Name>
+          <Source dwd:design-time-name="417b37ae-c78a-4a1e-95f7-662c9014e0d0">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="49eb67f5-f922-4f38-b6c5-88be48a5ff32">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>GasRecycledE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="79e6c962-b8dd-46df-b9ab-6d08fbe9692d">
+          <ID>Gas Sales N - DM Fact Allocation Composition Month</ID>
+          <Name>_month Gas Sales N</Name>
+          <Source dwd:design-time-name="4fe79667-a40a-4b35-9169-db7303ec4c5b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8565cd6f-8e1c-4fae-a14a-4022423c7dc7">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>GasSalesN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="753e9167-f923-4590-a4e2-8fd7ae55ede4">
+          <ID>Gas Sales E - DM Fact Allocation Composition Month</ID>
+          <Name>_month Gas Sales E</Name>
+          <Source dwd:design-time-name="c3f600b4-8f8a-492e-b5dc-8feac2e58dac">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d9ad0e14-11e1-4ed7-a0af-74552a1e4ab7">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>GasSalesE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="9ce151d3-61aa-4779-80a6-7240ffacc41c">
+          <ID>CO2HPN - DM Fact Allocation Composition Month</ID>
+          <Name>_month CO2HPN</Name>
+          <Source dwd:design-time-name="9bc02bc7-9729-495f-aeb5-fabe28b7b746">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="87fc1042-d2fa-484e-9186-f11284b1212f">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>CO2HPN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="2ff9fd4f-ef3e-444b-8633-20edc2cd4cdd">
+          <ID>CO2HPE - DM Fact Allocation Composition Month</ID>
+          <Name>_month CO2HPE</Name>
+          <Source dwd:design-time-name="6679e173-8f12-4810-9a1b-c3c838438bf6">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="24210ee1-776e-4083-844a-e5786d27cde9">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>CO2HPE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="86974cbb-fc83-4601-aca2-1e57087ae5e8">
+          <ID>NGL Production N - DM Fact Allocation Composition Month</ID>
+          <Name>_month NGL Production N</Name>
+          <Source dwd:design-time-name="37fdc0c4-a444-45ac-b9d1-fd8b0e5aa7d1">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="18b99402-2e6f-46a9-8ce4-0431a6ac9a1c">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>NGLProductionN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="23fa9038-ff24-48e6-ad0b-417cd84b8667">
+          <ID>NGL Production E - DM Fact Allocation Composition Month</ID>
+          <Name>_month NGL Production E</Name>
+          <Source dwd:design-time-name="d8d89565-3c75-4f94-aef6-7500eb17e11e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9b5bebac-a7f0-4985-bb34-79f0b6dbb63c">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>NGLProductionE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="bd1836c9-e22f-4d06-8904-d696621cb670">
+          <ID>LPG Production N - DM Fact Allocation Composition Month</ID>
+          <Name>_month LPG Production N</Name>
+          <Source dwd:design-time-name="06bc4505-2671-42fb-b199-ed79eeffcca4">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="83103ae1-368a-40fc-8d2d-5210a59ac12b">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>LPGProductionN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="134a9a30-2d62-49ae-90c5-69414dce125e">
+          <ID>LPG Production E - DM Fact Allocation Composition Month</ID>
+          <Name>_month LPG Production E</Name>
+          <Source dwd:design-time-name="56005376-70e9-4e07-a355-3c14cc5f4be9">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="58c4ccc0-6198-4161-b307-be4d3f54f891">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>LPGProductionE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="39b773f9-cd23-4277-9686-4da9f4d705f0">
+          <ID>Oil Production N - DM Fact Allocation Composition Month</ID>
+          <Name>_month Oil Production N</Name>
+          <Source dwd:design-time-name="2d0b329a-7ce6-4449-846e-9d77396d50b9">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="eeffd42d-d88a-4aa9-aad7-7dde53a41e2b">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>OilProductionN</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="770d3254-90b5-4043-9986-9a3fe6403b07">
+          <ID>Oil Production E - DM Fact Allocation Composition Month</ID>
+          <Name>_month Oil Production E</Name>
+          <Source dwd:design-time-name="9d8bd474-1876-4230-a80b-7ebf99923761">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a4c27989-f372-41ce-bde4-b1a6ae6dde89">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>OilProductionE</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="ca1a2c6d-2b16-455b-bfd1-37db6d8f416b">
+          <ID>Oil Correct API - DM Fact Allocation Composition Month</ID>
+          <Name>_month Oil Correct API</Name>
+          <Source dwd:design-time-name="eec29035-58d3-4c17-b4a0-dc493503369e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ca525525-7e6f-4d92-b1e7-098cd0836539">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>OilCorrectAPI</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="375e2086-4d82-4ed8-999f-f73123b5d86e">
+          <ID>Water Production - DM Fact Allocation Composition Month</ID>
+          <Name>_month Water Production</Name>
+          <Source dwd:design-time-name="072ccdc2-aed1-4b97-966f-53fec88b2532">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f3346199-9894-4eb0-a868-8eb7b3553e8b">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>WaterProduction</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="51bfbbef-525d-4005-bc8d-f6c00d164a19">
+          <ID>Gas Injection - DM Fact Allocation Composition Month</ID>
+          <Name>_month Gas Injection</Name>
+          <Source dwd:design-time-name="3c46d5f3-9881-4bc4-b046-3c0d48808bc1">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ad351086-c397-4288-bc57-48582a553dc6">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>GasInjection</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="192f1fc7-58d2-49b7-8beb-c787ced1e1f6">
+          <ID>Gas Lift - DM Fact Allocation Composition Month</ID>
+          <Name>_month Gas Lift</Name>
+          <Source dwd:design-time-name="60b3f3e4-fd78-4008-9bfd-979206047aa5">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="576a4a96-133c-401a-809c-cf59692566fc">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>GasLift</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="27a8ec39-9a58-4f59-846c-446bbc23c950">
+          <ID>Water Injection - DM Fact Allocation Composition Month</ID>
+          <Name>_month Water Injection</Name>
+          <Source dwd:design-time-name="c243d1b6-272c-4dc7-b933-bbb855ff9e8b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="833bd56b-626b-440b-9a3b-40386a3d7807">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>WaterInjection</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="42bad362-6a3a-46c6-9e9f-97e591e5e398">
+          <ID>WH Ck 1</ID>
+          <Name>_month WHCK</Name>
+          <Source dwd:design-time-name="ac139ef4-33bc-479c-bc5f-d3e977529bfe">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b6a6660d-58ab-4bbf-89a0-425915fb77f2">
+              <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+              <ColumnID>WHCk</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="20c42d9e-2823-4a40-bab8-3a2bc5ca5130">
+          <CubeDimensionID>DIM Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="06d7d3af-416b-465c-858a-19e436f5f3f5">
+              <AttributeID>Date Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1c792819-f092-44c4-9ff8-fdd4eaa9178d">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="89f163ca-c3bc-4c94-a442-a4a9bb040b59">
+                    <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+                    <ColumnID>DateId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="afd55587-70bc-44ac-b5d4-2ace6e079510">
+          <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="607ceea4-e0bd-4450-b3b0-a3e962f43fea">
+              <AttributeID>DM Dim Well Structure</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="695425be-3d04-42a1-a514-aa792f5cb0d2">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ac7bd9ab-1d42-4bd1-8b68-43ce09fbf4b3">
+                    <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+                    <ColumnID>WellStructureID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5e0a4fe5-45c3-4d69-9873-fd70993ba23a">
+          <CubeDimensionID>DIM WHCK</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="33e3861b-ecd9-45d0-aa8c-2c7a249cc678">
+              <AttributeID>DM Dim WHCK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bc11a272-9d23-4707-8c37-13e0e8899f9a">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="409af188-1bec-4ef1-bdf1-74fc9e90c4c5">
+                    <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+                    <ColumnID>WHCk</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ef21c407-1ed6-4068-b886-9404c1884e95">
+          <CubeDimensionID>DIM AllocOperation</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4e167d1e-ee4e-42d1-8d23-c53c4c57e3fb">
+              <AttributeID>Meter Operation ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="729346f7-c67a-48b4-99ca-4c819b6db74a">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4e9d2a5c-152a-417f-8350-960bd8a4caac">
+                    <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+                    <ColumnID>MeterOperationID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="38f27269-163a-4d9b-a22a-d7b69608a900">
+    <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="658105be-b7c0-4238-8cc0-c6f8305434da">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+El comando CALCULATE controla la agregación de celdas hoja en el cubo.
+Si se elimina o modifica el comando CALCULATE, se ven afectados los datos del cubo.
+Sólo debe editar este comando si especifica manualmente cómo se agrega el cubo.
+*/
+CALCULATE;     
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Gas Production]
+ AS iif (isleaf([Date].[DataDay].currentmember)
+or isleaf([Date].[DataDate].currentmember),
+[_day Gas Production E]+[_day Gas Production N],
+[_month Gas Production E]+[_month Gas Production N]), 
+FORMAT_STRING = "#,#.00", 
+NON_EMPTY_BEHAVIOR = { [_day Gas Production N], [_day Gas Production E], [_month Gas Production N], [_month Gas Production E] }, 
+VISIBLE = 1;       
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Gas Fuel]
+ AS iif (isleaf([Date].[DataDay].currentmember)
+or isleaf([Date].[DataDate].currentmember),
+[_day Gas Fuel E]+[_day Gas Fuel N],
+[_month Gas Fuel E]+[_month Gas Fuel N]), 
+FORMAT_STRING = "#,#.00", 
+NON_EMPTY_BEHAVIOR = { [_day Gas Fuel N], [_day Gas Fuel E], [_month Gas Fuel N], [_month Gas Fuel E] }, 
+VISIBLE = 1;      
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Gas Flare]
+ AS iif (isleaf([Date].[DataDay].currentmember)
+or isleaf([Date].[DataDate].currentmember),
+[_day Gas Flare E]+[_day Gas Flare N],
+[_month Gas Flare E]+[_month Gas Flare N]), 
+FORMAT_STRING = "#,#.00", 
+NON_EMPTY_BEHAVIOR = { [_day Gas Flare N], [_day Gas Flare E], [_month Gas Flare N], [_month Gas Flare E] }, 
+VISIBLE = 1;      
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Gas Converted]
+ AS iif (isleaf([Date].[DataDay].currentmember)
+or isleaf([Date].[DataDate].currentmember),
+[_day Gas Converted E]+[_day Gas Converted N],
+[_month Gas Converted E]+[_month Gas Converted N]), 
+FORMAT_STRING = "#,#.00", 
+NON_EMPTY_BEHAVIOR = { [_day Gas Converted N], [_day Gas Converted E], [_month Gas Converted N], [_month Gas Converted E] }, 
+VISIBLE = 1;      
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Gas Recycled]
+ AS iif (isleaf([Date].[DataDay].currentmember)
+or isleaf([Date].[DataDate].currentmember),
+[_day Gas Recycled E]+[_day Gas Recycled N],
+[_month Gas Recycled E]+[_month Gas Recycled N]), 
+FORMAT_STRING = "#,#.00", 
+NON_EMPTY_BEHAVIOR = { [_day Gas Recycled N], [_day Gas Recycled E], [_month Gas Recycled N], [_month Gas Recycled E] }, 
+VISIBLE = 1;      
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Gas Sales]
+ AS iif (isleaf([Date].[DataDay].currentmember)
+or isleaf([Date].[DataDate].currentmember),
+[_day Gas Sales E]+[_day Gas Sales N],
+[_month Gas Sales E]+[_month Gas Sales N]), 
+FORMAT_STRING = "#,#.00", 
+NON_EMPTY_BEHAVIOR = { [_day Gas Sales N], [_day Gas Sales E], [_month Gas Sales N], [_month Gas Sales E] }, 
+VISIBLE = 1;     
+ 
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Oil Production]
+ AS iif (isleaf([Date].[DataDay].currentmember)
+or isleaf([Date].[DataDate].currentmember),
+[_day Oil Production E]+[_day Oil Production N],
+[_month Oil Production E]+[_month Oil Production N]), 
+FORMAT_STRING = "#,#.00", 
+NON_EMPTY_BEHAVIOR = { [_day Oil Production N], [_day Oil Production E], [_month Oil Production N], [_month Oil Production E] }, 
+VISIBLE = 1;     
+
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Water Production]
+ AS iif (isleaf([Date].[DataDay].currentmember)
+or isleaf([Date].[DataDate].currentmember),
+[_day Water Production],
+[_month Water Production]), 
+FORMAT_STRING = "#,#.00", 
+NON_EMPTY_BEHAVIOR = { [_day Water Injection], [_month Water Production] }, 
+VISIBLE = 1;     
+
+CREATE MEMBER CURRENTCUBE.[MEASURES].[NGL Production]
+ AS iif (isleaf([Date].[DataDay].currentmember)
+or isleaf([Date].[DataDate].currentmember),
+[_day NGL Production E]+[_day NGL Production N],
+[_month NGL Production E]+[_month NGL Production N]), 
+FORMAT_STRING = "#,#", 
+NON_EMPTY_BEHAVIOR = { [_day NGL Production N], [_day NGL Production E], [_month NGL Production N], [_month NGL Production E] }, 
+VISIBLE = 1;      
+
+
+CREATE MEMBER CURRENTCUBE.[MEASURES].[GOR Test]
+ AS iif(([Oil Production] ) &gt; 0,
+ ([Gas Production]) / ([Oil Production]),null), 
+FORMAT_STRING = "#,#", 
+VISIBLE = 1;       
+
+CREATE MEMBER CURRENTCUBE.[MEASURES].[GWR Test]
+ AS iif( [Water Production] &gt; 0, ( [Gas Production] ) / [Water Production], null ), 
+FORMAT_STRING = "#,#.00", 
+VISIBLE = 1;       
+
+CREATE MEMBER CURRENTCUBE.[MEASURES].[WGR Test]
+ AS iif( ([Gas Production] ) &gt; 0 , 
+( [Water Production] / ( [Gas Production] ) ) * 1000000
+, null ), 
+FORMAT_STRING = "#,#.00", 
+VISIBLE = 1;       
+
+CREATE MEMBER CURRENTCUBE.[MEASURES].[NGLGR Test]
+ AS iif(([Gas Production]) &gt; 0 , 
+( ( [NGL Production] ) / ( [Gas Production] ) ) * 1000000,null), 
+FORMAT_STRING = "#,#.00", 
+VISIBLE = 1;       
+
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Water Cut]
+ AS iif(( [Water Production] + [Oil Production] ) &gt; 0 ,  [Water Production] / ( [Water Production] + [Oil Production]),null), 
+FORMAT_STRING = "#,#.00000", 
+VISIBLE = 1;       
+
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Yield Test]
+ AS iif(( [Gas Production] ) &gt; 0 , ( ( [Ngl Production] + [Oil Production]) / ( [Gas Production]) ) * 1000000
+,null), 
+FORMAT_STRING = "#,#.00", 
+VISIBLE = 1;       
+CREATE MEMBER CURRENTCUBE.[MEASURES].[CO2]
+ AS iif (isleaf([Date].[DataDay].currentmember)
+or isleaf([Date].[DataDate].currentmember),
+[_day CO2HPE]+[_day CO2HPN],
+[_month CO2HPE]+[_month CO2HPN]), 
+FORMAT_STRING = "#,#.00", 
+NON_EMPTY_BEHAVIOR = { [_day CO2HPN], [_day CO2HPE], [_month CO2HPN], [_month CO2HPE] }, 
+VISIBLE = 1;      
+CREATE MEMBER CURRENTCUBE.[MEASURES].[LPG Production]
+ AS iif (isleaf([Date].[DataDay].currentmember)
+or isleaf([Date].[DataDate].currentmember),
+[_day LPG Production E]+[_day LPG Production N],
+[_month LPG Production E]+[_month LPG Production N]), 
+FORMAT_STRING = "#,#", 
+NON_EMPTY_BEHAVIOR = { [_day LPG Production N], [_day LPG Production E], [_month LPG Production N], [_month LPG Production E] }, 
+VISIBLE = 1  ;      
+
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Gas Injection]
+ AS iif (isleaf([Date].[DataDay].currentmember)
+or isleaf([Date].[DataDate].currentmember),
+[_day Gas Injection],
+[_month Gas Injection]), 
+FORMAT_STRING = "#,#", 
+NON_EMPTY_BEHAVIOR = { [_day Gas Injection], [_month Gas Injection] }, 
+VISIBLE = 1  ;      
+
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Gas Lift]
+ AS iif (isleaf([Date].[DataDay].currentmember)
+or isleaf([Date].[DataDate].currentmember),
+[_day Gas Lift],
+[_month Gas Lift]), 
+FORMAT_STRING = "#,#", 
+NON_EMPTY_BEHAVIOR = { [_day Gas Lift], [_month Gas Lift] }, 
+VISIBLE = 1  ;      
+
+CREATE MEMBER CURRENTCUBE.[MEASURES].[MFCK]
+ AS iif (isleaf([Date].[DataDay].currentmember)
+or isleaf([Date].[DataDate].currentmember),
+[_day MFCK],
+[_month MFCK]), 
+FORMAT_STRING = "#,#", 
+NON_EMPTY_BEHAVIOR = { [_day MFCk], [_month MFCK] }, 
+VISIBLE = 1  ;      
+
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Number Hours]
+ AS iif (isleaf([Date].[DataDay].currentmember)
+or isleaf([Date].[DataDate].currentmember),
+[_day Number Hours],
+[_month Number Hours]), 
+FORMAT_STRING = "#,#", 
+NON_EMPTY_BEHAVIOR = { [_day Number Hours], [_month Number Hours] }, 
+VISIBLE = 1  ;      
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Net day]
+ AS [Number hours]/24, 
+FORMAT_STRING = "#,#.00", 
+NON_EMPTY_BEHAVIOR = { [_day Number Hours], [_month Number Hours] }, 
+VISIBLE = 1;   
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Oil Correct API]
+ AS iif (isleaf([Date].[DataDay].currentmember)
+or isleaf([Date].[DataDate].currentmember),
+[_day Oil Correct API],
+[_month Oil Correct API]), 
+FORMAT_STRING = "#,#", 
+NON_EMPTY_BEHAVIOR = { [_day Oil Correct API], [_month Oil Correct API] }, 
+VISIBLE = 1  ;      
+
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Water Injection]
+ AS iif (isleaf([Date].[DataDay].currentmember)
+or isleaf([Date].[DataDate].currentmember),
+[_day Water Injection],
+[_month Water Injection]), 
+FORMAT_STRING = "#,#", 
+NON_EMPTY_BEHAVIOR = { [_day Water Injection], [_month Water Injection] }, 
+VISIBLE = 1  ;      
+
+CREATE MEMBER CURRENTCUBE.[MEASURES].[WHCK]
+ AS iif (isleaf([Date].[DataDay].currentmember)
+or isleaf([Date].[DataDate].currentmember),
+[_day WHCK],
+[_month WHCK]), 
+FORMAT_STRING = "#,#", 
+NON_EMPTY_BEHAVIOR = { [_day WHCk], [_month WHCK] }, 
+VISIBLE = 1  ;      
+
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Rate Gas Production]
+ AS Iif ( [Measures].[Net Day] &gt; 0, round([Measures].[Gas Production] / [Measures].[Net Day],0), null ), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1;     
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Rate Fuel Production]
+ AS Iif ( [Measures].[Net Day] &gt; 0, round([Measures].[Gas Fuel] / [Measures].[Net Day],0), null ), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1;     
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Rate Gas Flare]
+ AS Iif ( [Measures].[Net Day] &gt; 0, round([Measures].[Gas Flare] / [Measures].[Net Day],0), null ), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1;     
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Rate Gas Converted]
+ AS Iif ( [Measures].[Net Day] &gt; 0, round([Measures].[Gas Converted] / [Measures].[Net Day],0), null ), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1;     
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Rate Gas Recycled]
+ AS Iif ( [Measures].[Net Day] &gt; 0, round([Measures].[Gas Recycled] / [Measures].[Net Day],0), null ), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1;     
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Rate Gas Sales]
+ AS Iif ( [Measures].[Net Day] &gt; 0, round([Measures].[Gas Sales] / [Measures].[Net Day],0), null ), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1;     
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Rate CO2]
+ AS Iif ( [Measures].[Net Day] &gt; 0, round([Measures].[CO2] / [Measures].[Net Day],0), null ), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1;     
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Rate NGL Production]
+ AS Iif ( [Measures].[Net Day] &gt; 0, round([Measures].[NGL Production] / [Measures].[Net Day],0), null ), 
+VISIBLE = 1;     
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Rate LPG Production]
+ AS Iif ( [Measures].[Net Day] &gt; 0, round([Measures].[LPG Production] / [Measures].[Net Day],0), null ), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1;     
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Rate Oil Production]
+ AS Iif ( [Measures].[Net Day] &gt; 0, round([Measures].[Oil Production] / [Measures].[Net Day],0), null ), 
+VISIBLE = 1;     
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Rate Water Production]
+ AS Iif ( [Measures].[Net Day] &gt; 0, round([Measures].[Water Production] / [Measures].[Net Day],0), null ), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>

@@ -1,0 +1,266 @@
+﻿<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <ProductVersion>9.0.1399.0</ProductVersion>
+  <SchemaVersion>9.0.2.10</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmR3ZD0iaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS9EYXRhV2FyZWhvdXNlL0Rlc2lnbmVyLzEuMCI+DQogIDxFbmFibGVkPmZhbHNlPC9FbmFibGVkPg0KICA8UHJvamVjdE5hbWU+PC9Qcm9qZWN0TmFtZT4NCiAgPEF1eFBhdGg+PC9BdXhQYXRoPg0KICA8TG9jYWxQYXRoPjwvTG9jYWxQYXRoPg0KICA8UHJvdmlkZXI+PC9Qcm92aWRlcj4NCjwvU291cmNlQ29udHJvbEluZm8+</State>
+  <Database>
+    <Name>Proyecto de Analysis Services1.database</Name>
+    <FullPath>Proyecto de Analysis Services1.database</FullPath>
+  </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>TANK_OILTankDataDay.cube</Name>
+      <FullPath>TANK_OILTankDataDay.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>TANK_OILTankDataDay.partitions</Name>
+          <FullPath>TANK_OILTankDataDay.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TANK_WATERTankDataDay.cube</Name>
+      <FullPath>TANK_WATERTankDataDay.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>TANK_WATERTankDataDay.partitions</Name>
+          <FullPath>TANK_WATERTankDataDay.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TANK_OILTankTicketData.cube</Name>
+      <FullPath>TANK_OILTankTicketData.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>TANK_OILTankTicketData.partitions</Name>
+          <FullPath>TANK_OILTankTicketData.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TANK_OILMeterTicketData.cube</Name>
+      <FullPath>TANK_OILMeterTicketData.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>TANK_OILMeterTicketData.partitions</Name>
+          <FullPath>TANK_OILMeterTicketData.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>METER_LIQUID.cube</Name>
+      <FullPath>METER_LIQUID.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>METER_LIQUID.partitions</Name>
+          <FullPath>METER_LIQUID.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>WELL_WellDisposition.cube</Name>
+      <FullPath>WELL_WellDisposition.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>WELL_WellDisposition.partitions</Name>
+          <FullPath>WELL_WellDisposition.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>WELL_WellTestCromatography.cube</Name>
+      <FullPath>WELL_WellTestCromatography.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>WELL_WellTestCromatography.partitions</Name>
+          <FullPath>WELL_WellTestCromatography.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ALLOCATION_DailyReservoir.cube</Name>
+      <FullPath>ALLOCATION_DailyReservoir.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>ALLOCATION_DailyReservoir.partitions</Name>
+          <FullPath>ALLOCATION_DailyReservoir.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>METER_GASCromatographyDay.cube</Name>
+      <FullPath>METER_GASCromatographyDay.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>METER_GASCromatographyDay.partitions</Name>
+          <FullPath>METER_GASCromatographyDay.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>METER_GASDataDayControl.cube</Name>
+      <FullPath>METER_GASDataDayControl.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>METER_GASDataDayControl.partitions</Name>
+          <FullPath>METER_GASDataDayControl.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ALLOCATION_DailyComposition.cube</Name>
+      <FullPath>ALLOCATION_DailyComposition.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>ALLOCATION_DailyComposition.partitions</Name>
+          <FullPath>ALLOCATION_DailyComposition.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ALLOCATION_MonthCompositionCumm.cube</Name>
+      <FullPath>ALLOCATION_MonthCompositionCumm.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>ALLOCATION_MonthCompositionCumm.partitions</Name>
+          <FullPath>ALLOCATION_MonthCompositionCumm.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ALLOCATION_MonthReservoirCumm.cube</Name>
+      <FullPath>ALLOCATION_MonthReservoirCumm.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>ALLOCATION_MonthReservoirCumm.partitions</Name>
+          <FullPath>ALLOCATION_MonthReservoirCumm.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>DIM TicketElements.dim</Name>
+      <FullPath>DIM TicketElements.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM MeterGasStructure.dim</Name>
+      <FullPath>DIM MeterGasStructure.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM TankOilMeterOilTicket.dim</Name>
+      <FullPath>DIM TankOilMeterOilTicket.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM TankOilMeterStructure.dim</Name>
+      <FullPath>DIM TankOilMeterStructure.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM TankOilStructure.dim</Name>
+      <FullPath>DIM TankOilStructure.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM TankWaterStructure.dim</Name>
+      <FullPath>DIM TankWaterStructure.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM TicketAbstract.dim</Name>
+      <FullPath>DIM TicketAbstract.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM TankOilTicket.dim</Name>
+      <FullPath>Dim TankOilTicket.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM MeterTestType.dim</Name>
+      <FullPath>DIM MeterTestType.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM MeterLiquidStructure.dim</Name>
+      <FullPath>DIM MeterLiquidStructure.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM WellStructure.dim</Name>
+      <FullPath>DIM WellStructure.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM WellAllocationReference.dim</Name>
+      <FullPath>DIM WellAllocationReference.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM WellTestDate.dim</Name>
+      <FullPath>DIM WellTestDate.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM WellTest.dim</Name>
+      <FullPath>DIM WellTest.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Reservoir.dim</Name>
+      <FullPath>DIM Reservoir.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM WHCK.dim</Name>
+      <FullPath>DIM WHCK.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM Date.dim</Name>
+      <FullPath>DIM Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM AllocOperation.dim</Name>
+      <FullPath>DIM AllocOperation.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM MeterOperation.dim</Name>
+      <FullPath>DIM MeterOperation.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM WellOperation.dim</Name>
+      <FullPath>DIM WellOperation.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM WellSeparatorData.dim</Name>
+      <FullPath>DIM WellSeparatorData.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM DateMonth.dim</Name>
+      <FullPath>DIM DateMonth.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>DS AVAPIS DW.ds</Name>
+      <FullPath>DS AVAPIS DW.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>DSV AVAPIS DW.dsv</Name>
+      <FullPath>DSV AVAPIS DW.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>DS AVAPIS DW</Id>
+            <Name>DS AVAPIS DW</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI.1;Data Source=(local);Integrated Security=SSPI;Initial Catalog=AVA_PIS_Datamart</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>DS AVAPIS DW</Id>
+            <Name>DS AVAPIS DW</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+        <RemovePasswords>false</RemovePasswords>
+        <DeploymentServerEdition>Standard</DeploymentServerEdition>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

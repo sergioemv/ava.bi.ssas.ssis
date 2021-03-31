@@ -1,0 +1,25 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="82464176-d513-408a-bef1-95319c5d84fd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ALLOCATION_MonthCompositionCumm</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>DM Fact Allocation Composition Cumm</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="266d4960-4ea8-4d79-8791-41a55e287cef">
+          <ID>DM Fact Allocation Composition Cumm</ID>
+          <Name>Allocation Composition</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7d669dd3-91ba-4ce9-9945-6a2f0b850e39">
+            <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+            <TableID>dbo_DM_Fact_AllocationCompositionCumm</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

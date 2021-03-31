@@ -1,0 +1,657 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5c2e0e51-9925-494f-955f-d8ddeec5c60f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ALLOCATION_DailyReservoir</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>DM Fact Allocation Reservoir Daily</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d6a39699-5382-4bae-a4db-59533e8c7bc0">
+          <ID>DM Fact Allocation Reservoir Daily</ID>
+          <Name>Reservoir Allocation</Name>
+          <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+          <Annotations>
+            <Annotation>
+              <Name>AggregationPercent</Name>
+              <Value>58</Value>
+            </Annotation>
+          </Annotations>
+          <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f4110b27-36c6-4668-aaa8-3b226134a7fd">
+            <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+            <TableID>dbo_DM_Fact_AllocationReservoirDaily</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="ed1d5985-719a-4a10-ac86-00e23a038579">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="192f60c2-9533-4a6f-b87f-debe1038b888">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
+          <EstimatedRows>1914</EstimatedRows>
+          <AggregationDesignID>AggregationDesign</AggregationDesignID>
+        </Partition>
+      </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign</ID>
+          <Name>AggregationDesign</Name>
+          <CreatedTimestamp>2008-09-07T15:41:26Z</CreatedTimestamp>
+          <LastSchemaUpdate>2008-09-07T15:41:26Z</LastSchemaUpdate>
+          <EstimatedRows>1914</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>DIM Reservoir</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>DM Dim Reservoir</AttributeID>
+                  <EstimatedCount>10</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Reservoir Name</AttributeID>
+                  <EstimatedCount>10</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>DM Dim Well Structure</AttributeID>
+                  <EstimatedCount>534</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Production Unit Code</AttributeID>
+                  <EstimatedCount>1</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Block Code</AttributeID>
+                  <EstimatedCount>2</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Field Code</AttributeID>
+                  <EstimatedCount>4</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Well Code</AttributeID>
+                  <EstimatedCount>19</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Line Code</AttributeID>
+                  <EstimatedCount>42</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Completion Zone Code</AttributeID>
+                  <EstimatedCount>178</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Completion Zone Reservoir</AttributeID>
+                  <EstimatedCount>41</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DIM Date</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Date Id</AttributeID>
+                  <EstimatedCount>8037</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Date Year</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Date Month Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Date Day</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DIM AllocOperation</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Meter Operation ID</AttributeID>
+                  <EstimatedCount>77</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Data Item</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Operation Status</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DIM WHCK</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>DM Dim WHCK</AttributeID>
+                  <EstimatedCount>22</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>DIM Reservoir</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>DM Dim Reservoir</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Production Unit Code</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM AllocOperation</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WHCK</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 1</ID>
+              <Name>Aggregation 1</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>DIM Reservoir</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Production Unit Code</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM AllocOperation</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Meter Operation ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WHCK</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 2</ID>
+              <Name>Aggregation 2</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>DIM Reservoir</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Production Unit Code</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM AllocOperation</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WHCK</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 3</ID>
+              <Name>Aggregation 3</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>DIM Reservoir</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Production Unit Code</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM AllocOperation</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WHCK</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>DM Dim WHCK</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 4</ID>
+              <Name>Aggregation 4</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>DIM Reservoir</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>DM Dim Reservoir</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Production Unit Code</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM AllocOperation</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WHCK</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>DM Dim WHCK</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 5</ID>
+              <Name>Aggregation 5</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>DIM Reservoir</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>DM Dim Well Structure</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM AllocOperation</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WHCK</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 6</ID>
+              <Name>Aggregation 6</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>DIM Reservoir</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM AllocOperation</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WHCK</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>DM Dim WHCK</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 7</ID>
+              <Name>Aggregation 7</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>DIM Reservoir</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM AllocOperation</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WHCK</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 8</ID>
+              <Name>Aggregation 8</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>DIM Reservoir</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>DM Dim Reservoir</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM AllocOperation</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WHCK</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 9</ID>
+              <Name>Aggregation 9</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>DIM Reservoir</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM AllocOperation</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Meter Operation ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WHCK</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation a</ID>
+              <Name>Aggregation a</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>DIM Reservoir</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>DM Dim Reservoir</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM AllocOperation</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM WHCK</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>DM Dim WHCK</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DM Fact Allocation Reservoir Month</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="1a5d020a-3ac0-44cc-9ca8-48f4d0319a5c">
+          <ID>DM Fact Allocation Reservoir Month</ID>
+          <Name>DM Fact Allocation Reservoir Month</Name>
+          <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+          <Annotations>
+            <Annotation>
+              <Name>AggregationPercent</Name>
+              <Value>56</Value>
+            </Annotation>
+          </Annotations>
+          <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="cec1a883-ecb7-4300-8ad3-48068263ae7c">
+            <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+            <TableID>dbo_DM_Fact_AllocationReservoirMonth</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="c73d2ebc-8aa8-42dd-8cce-a6524f00ee11">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="96802d08-7dab-411c-a635-2f09ab175232">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
+          <EstimatedRows>42</EstimatedRows>
+          <AggregationDesignID>AggregationDesign</AggregationDesignID>
+        </Partition>
+      </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign</ID>
+          <Name>AggregationDesign</Name>
+          <CreatedTimestamp>2008-09-07T15:42:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>2008-09-07T15:42:00Z</LastSchemaUpdate>
+          <EstimatedRows>42</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>DM Dim Well Structure</AttributeID>
+                  <EstimatedCount>534</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Production Unit Code</AttributeID>
+                  <EstimatedCount>1</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Block Code</AttributeID>
+                  <EstimatedCount>2</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Field Code</AttributeID>
+                  <EstimatedCount>4</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Well Code</AttributeID>
+                  <EstimatedCount>19</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Line Code</AttributeID>
+                  <EstimatedCount>42</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Completion Zone Code</AttributeID>
+                  <EstimatedCount>178</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Completion Zone Reservoir</AttributeID>
+                  <EstimatedCount>41</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DIM Date</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Date Id</AttributeID>
+                  <EstimatedCount>8037</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Date Year</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Date Month Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Date Day</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DIM Reservoir</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>DM Dim Reservoir</AttributeID>
+                  <EstimatedCount>10</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Reservoir Name</AttributeID>
+                  <EstimatedCount>10</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DIM AllocOperation</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Meter Operation ID</AttributeID>
+                  <EstimatedCount>77</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Data Item</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Operation Status</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Production Unit Code</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM Reservoir</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM AllocOperation</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 1</ID>
+              <Name>Aggregation 1</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM Reservoir</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>DM Dim Reservoir</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM AllocOperation</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 2</ID>
+              <Name>Aggregation 2</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>DIM WellStructure</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM Reservoir</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DIM AllocOperation</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

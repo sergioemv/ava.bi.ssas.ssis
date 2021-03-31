@@ -1,0 +1,25 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="01db4c8a-158e-4e23-aee1-5baa82d0ac1c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>METER_LIQUID</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>DM Fact Meter Liquid Data Day</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="a82790e4-a36b-461a-a6ed-c157a54e56cc">
+          <ID>DM Fact Meter Liquid Data Day</ID>
+          <Name>Liquid Meter Data Day</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f26e43c2-4190-448d-8a11-222f1f47f6d9">
+            <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+            <TableID>dbo_DM_Fact_MeterLiquidDataDay</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

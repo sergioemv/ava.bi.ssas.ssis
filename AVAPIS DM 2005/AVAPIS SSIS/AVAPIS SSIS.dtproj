@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProductVersion>9.0.1399.0</ProductVersion>
+  <SchemaVersion>9.0.1.0</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmR3ZD0iaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS9EYXRhV2FyZWhvdXNlL0Rlc2lnbmVyLzEuMCI+DQogIDxFbmFibGVkPmZhbHNlPC9FbmFibGVkPg0KICA8UHJvamVjdE5hbWU+PC9Qcm9qZWN0TmFtZT4NCiAgPEF1eFBhdGg+PC9BdXhQYXRoPg0KICA8TG9jYWxQYXRoPjwvTG9jYWxQYXRoPg0KICA8UHJvdmlkZXI+PC9Qcm92aWRlcj4NCjwvU291cmNlQ29udHJvbEluZm8+</State>
+  <Database>
+    <Name>AVAPIS SSIS.database</Name>
+    <FullPath>AVAPIS SSIS.database</FullPath>
+  </Database>
+  <Cubes />
+  <Dimensions />
+  <DataSources>
+    <ProjectItem>
+      <Name>DS AVAPIS TRANSACT.ds</Name>
+      <FullPath>DS AVAPIS TRANSACT.ds</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DS AVAPIS DW.ds</Name>
+      <FullPath>DS AVAPIS DW.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews />
+  <MiningModels />
+  <Roles />
+  <Miscellaneous />
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <OutputPath>bin</OutputPath>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>DS AVAPIS DW</Id>
+            <Name>DS AVAPIS DW</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI.1;Data Source=(local);Integrated Security=SSPI;Initial Catalog=AVA_PIS_Datamart</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DS AVAPIS TRANSACT</Id>
+            <Name>DS AVAPIS TRANSACT</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI.1;Data Source=(local);Integrated Security=SSPI;Initial Catalog=AVA_PISystem</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionProviderMappings />
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>DS AVAPIS DW</Id>
+            <Name>DS AVAPIS DW</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DS AVAPIS TRANSACT</Id>
+            <Name>DS AVAPIS TRANSACT</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+        <RunInOptimizedMode>true</RunInOptimizedMode>
+      </Options>
+    </Configuration>
+  </Configurations>
+  <DTSPackages>
+    <DtsPackage>
+      <Name>IS_E_TMP_TANK.dtsx</Name>
+      <FullPath>IS_E_TMP_TANK.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>IS_E_TMP_COMMON.dtsx</Name>
+      <FullPath>IS_E_TMP_COMMON.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>IS_E_TMP_METER.dtsx</Name>
+      <FullPath>IS_E_TMP_METER.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>IS_E_TMP_WELL.dtsx</Name>
+      <FullPath>IS_E_TMP_WELL.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>IS_INITIAL.dtsx</Name>
+      <FullPath>IS_INITIAL.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>IS_E_TMP_ALLOC.dtsx</Name>
+      <FullPath>IS_E_TMP_ALLOC.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>IS_ETL_Main.dtsx</Name>
+      <FullPath>IS_ETL_Main.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+  </DTSPackages>
+</Project>

@@ -1,0 +1,210 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ed848b88-f031-400b-ac3e-c2c8e8b25d65" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DM Dim Meter Structure</ID>
+  <Name>DIM MeterGasStructure</Name>
+  <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1395" scrolltop="-6284" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6059" y="16351" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_MeterGasStructure" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3784" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000c80e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Dim_MeterStructure" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1395</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6284</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="449aa526-4c0c-4140-b616-48a81f39ef8a">
+    <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+  </Source>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="2c2725ec-ddf4-443d-b1c0-617d3f1e9cc0">
+      <ID>DM Dim Meter Structure</ID>
+      <Name>Meter</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>102</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d66af9da-650b-4a07-8957-a36130754ca3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aa99cf9e-00d3-4759-978a-4af763ccd39d">
+            <TableID>dbo_DM_Dim_MeterStructure</TableID>
+            <ColumnID>MeterStructureID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="b666655b-28b4-4fbd-84da-f39c357b8c85">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="12de0d00-b2c9-4a06-9367-90aa30d5149a">
+          <TableID>dbo_DM_Dim_MeterStructure</TableID>
+          <ColumnID>MeterID</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="211dd970-6802-446a-b2c2-7fbcaf6483eb">
+          <AttributeID>Production Unit Code</AttributeID>
+          <Name>Production Unit</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="95daee5f-48db-4627-89c9-1707fdb47603">
+          <AttributeID>Process Plant Name</AttributeID>
+          <Name>Process Plant</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4c07e857-9f94-4129-9e18-813edfb77ed4">
+          <AttributeID>Meter Type</AttributeID>
+          <Name>Meter Type</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="c005341f-e202-43ef-bf36-fdc67d63c319">
+      <ID>Production Unit Code</ID>
+      <Name>Production Unit</Name>
+      <EstimatedCount>1</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4373fe96-b395-47ff-acf2-a02a4f2079f5">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8dc5cccb-9ac9-4396-86b2-e2d440762f3b">
+            <TableID>dbo_DM_Dim_MeterStructure</TableID>
+            <ColumnID>ProductionUnitCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="01b8a133-c7b3-4445-a131-3f1214d5e02b">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="c8830498-23ab-483b-967b-a79de77485ae">
+          <TableID>dbo_DM_Dim_MeterStructure</TableID>
+          <ColumnID>ProductionUnitID</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="24aa6083-a03a-4253-b1d2-aa32c13f0c1f">
+      <ID>Process Plant Name</ID>
+      <Name>Process Plant</Name>
+      <EstimatedCount>1</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d83efda2-e113-4e6f-b1a6-ecdb190b75a3">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c3d6720a-b5aa-470f-8001-ec73c9d6f0c3">
+            <TableID>dbo_DM_Dim_MeterStructure</TableID>
+            <ColumnID>ProcessPlantCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="d5181015-acd5-42f7-9ed9-667e387918ef">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="79cf71ab-813b-41f7-a1b7-ce55435f05cf">
+          <TableID>dbo_DM_Dim_MeterStructure</TableID>
+          <ColumnID>ProcessPlantID</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="8cb11a84-0eca-4dce-8069-08a19facda00">
+      <ID>Meter Type</ID>
+      <Name>Meter Type</Name>
+      <EstimatedCount>6</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e51a7f21-6593-4e7b-9a73-3fd89c079faa">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6a9b90fb-ca4f-4c55-afe6-55a73a4744a7">
+            <TableID>dbo_DM_Dim_MeterStructure</TableID>
+            <ColumnID>MeterType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="5930ff86-fd86-4091-bf96-af6f1ef58b7d">
+      <ID>Jerarquía</ID>
+      <Name>P Unit - Plant -Meter</Name>
+      <Levels>
+        <Level dwd:design-time-name="d0d67a3c-1a92-497f-806b-fb949ab35149">
+          <ID>Production Unit</ID>
+          <Name>Production Unit</Name>
+          <SourceAttributeID>Production Unit Code</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="86592fcd-a726-4c97-9460-cae4bf2d789b">
+          <ID>Process Plant</ID>
+          <Name>Process Plant</Name>
+          <SourceAttributeID>Process Plant Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="130ecd7b-69cf-476d-8d87-612b57c944bd">
+          <ID>Meter Type</ID>
+          <Name>Meter Type</Name>
+          <SourceAttributeID>Meter Type</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="41cdfff2-10fa-4c3c-8d90-29fed828219a">
+          <ID>Meter</ID>
+          <Name>Meter</Name>
+          <SourceAttributeID>DM Dim Meter Structure</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+</Dimension>

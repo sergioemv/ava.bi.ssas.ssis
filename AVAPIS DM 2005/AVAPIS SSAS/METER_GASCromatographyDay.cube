@@ -1,0 +1,693 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a3feb89d-ae7b-4ed9-8f96-71c882afd1a5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>METER_GASCromaDay</ID>
+  <Name>METER_GASCromatographyDay</Name>
+  <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="1477" scrolltop="-2184" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="93" x="16325" y="20585" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_Date (dbo.DM_Dim_Date)" left="5012" top="10703" logicalid="8" controlid="1" masterid="0" hint1="0" hint2="0" width="3334" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000060d0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Dim_Date" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Fact_CromatographyEnergyDay (dbo.DM_Fact_CromatographyEnergyDay)" left="5661" top="0" logicalid="9" controlid="2" masterid="0" hint1="0" hint2="0" width="7227" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800003b1c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Fact_CromatographyEnergyDay" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6224" top="4700" logicalid="10" controlid="3" masterid="0" hint1="0" hint2="0" width="855" height="6503" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DM_Fact_CromatographyEnergyDay_DM_Dim_Date]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="4" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6679" y="10703" />
+              <point x="6679" y="7852" />
+              <point x="6524" y="7852" />
+              <point x="6524" y="5000" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_MeterGasStructure" left="68" top="9969" logicalid="11" controlid="4" masterid="0" hint1="0" hint2="0" width="3983" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800008f0f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Dim_MeterStructure" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3310" top="4700" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="2964" height="5769" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DM_Fact_CromatographyEnergyDay_DM_Dim_MeterStructure]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="12" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3709" y="9969" />
+              <point x="3709" y="7485" />
+              <point x="5974" y="7485" />
+              <point x="5974" y="5000" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_MeterTestType" left="8215" top="5491" logicalid="13" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="1480" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000c8050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DM_Dim_MeterTestType" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6774" top="4700" logicalid="14" controlid="7" masterid="0" hint1="0" hint2="0" width="2791" height="1291" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DM_Fact_CromatographyEnergyDay-DM_Dim_MeterTestType]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="2" sourceattachpoint="2" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="9165" y="5491" />
+              <point x="9165" y="5091" />
+              <point x="9195" y="5091" />
+              <point x="9195" y="5491" />
+              <point x="7074" y="5491" />
+              <point x="7074" y="5000" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>1477</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2184</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>68</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>93</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Language>3082</Language>
+  <Collation>Modern_Spanish_CI_AS</Collation>
+  <Dimensions>
+    <Dimension dwd:design-time-name="3ea2a338-02f2-4408-84be-2daf9e8a895c">
+      <ID>DIM MeterStructure</ID>
+      <Name>Gas Meter</Name>
+      <DimensionID>DM Dim Meter Structure</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8f11e50e-e821-4934-810a-ae6d9ca89d90">
+          <AttributeID>DM Dim Meter Structure</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f7d1d07e-a323-4bdc-baa7-742924a642b7">
+          <AttributeID>Production Unit Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1f0eb652-49d6-4cb9-9f06-c5a89b210673">
+          <AttributeID>Process Plant Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a4ff65d8-1339-4392-b02d-10e91b4f37cb">
+          <AttributeID>Meter Type</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="aebfe783-37f5-4c68-80ad-6245caf1fb09">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="7212bea7-2d82-48be-bf35-7af4995359ad">
+      <ID>DIM MeterTestType</ID>
+      <Name>Test Type</Name>
+      <DimensionID>DM Dim Meter Test Type</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="999ccf39-3021-486d-a641-f7fb48945d3d">
+          <AttributeID>DM Dim Meter Test Type</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="8e780afe-cb98-4bcc-b49c-cf2dc72aed66">
+      <ID>DIM Date</ID>
+      <Name>Date</Name>
+      <DimensionID>DIM Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="16992522-29a2-40dd-a4d8-fa70e4d55aaf">
+          <AttributeID>Date Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c8eddc9b-d5bc-4b9a-8a80-2005073ebf36">
+          <AttributeID>Date Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ceccfe50-bb36-47d0-ae33-b9cbe9cae94b">
+          <AttributeID>Date Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="59ff010d-0ee4-43fa-9530-d20186fe20b9">
+          <AttributeID>Date Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f1381bb8-8524-428e-9096-f648dbbd2640">
+          <AttributeID>Data Date</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="34fd5c09-3ef2-4e1e-8a4a-1d87299b0fd3">
+      <ID>DM Fact Cromatography Energy Day</ID>
+      <Name>Cromatography Energy Day</Name>
+      <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="e982332e-76ba-4b59-b50d-a3c53d0e1f53">
+          <ID>C1</ID>
+          <Name>C1</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="58857c7f-1100-47c0-99e4-5e7cafaf9ed6">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a4cb2c24-c653-4c58-ae05-ca35b0a223ec">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>C1</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="697ff02e-c9a2-46b8-8542-0fc906adb8c1">
+          <ID>C2</ID>
+          <Name>C2</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="d8a0ebdc-48a6-4edf-b371-6a9ef496c49b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2f3b476d-3afc-445d-b79e-777b4f0f0cf5">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>C2</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e1788045-2993-4208-b1d1-2b8801e7f669">
+          <ID>C3</ID>
+          <Name>C3</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="e54e5d6e-4b9e-46ee-abdc-8eef23095bf4">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="99e32d11-a4eb-4bb1-9abf-6edc8aa56a19">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>C3</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0be30c75-c70b-4b52-b093-0bb3f4ef5519">
+          <ID>IC4</ID>
+          <Name>IC4</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="6c254e7a-3291-46fa-a759-194f17043780">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2bd0cf35-ddaf-48d3-bf30-b749fc346f72">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>IC4</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="33f175ad-66ad-4ef3-afe1-9847b5a735fa">
+          <ID>NC4</ID>
+          <Name>NC4</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="622e1391-2885-4c16-add8-56e7d3767e34">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="faec0bfa-3026-4c43-9033-63ff421539ce">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>NC4</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5e0aa5ec-c048-468e-9858-f42b0d93c02d">
+          <ID>IC5</ID>
+          <Name>IC5</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="486d20b4-b600-4c94-be01-64d2bfa3756b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0b36c498-401a-4ff7-b85e-7a623d8e90ae">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>IC5</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e7949ff3-a235-43be-8be0-d229544c630b">
+          <ID>NC5</ID>
+          <Name>NC5</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="fec61259-411b-4dcb-9288-11e3b8732c98">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6dfeef06-c3e8-442c-a955-cff774bbd832">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>NC5</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="efa8a26c-627e-4d61-8eb5-0082ed3d90ee">
+          <ID>C6</ID>
+          <Name>C6</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="c6774f71-f837-4bcf-aee0-09f8c845422b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5ccf79f3-a594-4ac0-ba07-796453165115">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>C6</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8183b7f1-bf2a-4006-8f0e-d7b117d1bd96">
+          <ID>C7</ID>
+          <Name>C7</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="4d4d1dc7-b41b-4d27-a339-ca8cd2cc0fe8">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="dc16a50a-2ce6-4cbd-aab4-a54776b27df1">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>C7</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b24c9b1b-d246-482f-b8e0-26c1b29d0a4a">
+          <ID>C7 Plus</ID>
+          <Name>C7 Plus</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="ed800be4-91cf-40e2-9dd9-95ce578ee773">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="51daddfd-a502-48c2-ba9e-323141d8c93f">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>C7Plus</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7cb60e74-ebc3-43b9-9dae-28b17ad10950">
+          <ID>C8</ID>
+          <Name>C8</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="6b1febee-dc6e-4c4e-8828-0a6566286c10">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0c41b363-094b-428a-b7ab-68b84416dd63">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>C8</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="610bdd20-ae08-4b17-90ac-ecb3ff34c5f6">
+          <ID>C9 Plus</ID>
+          <Name>C9 Plus</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="06b7f989-8663-4893-b99a-bbde116937d1">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2483468a-ed28-48f4-9d21-693aa652c549">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>C9Plus</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6a3de93c-49ce-413c-8aa8-3a8f956f20d0">
+          <ID>CO2 - DM Fact Cromatography Energy Day</ID>
+          <Name>CO2</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="1de14404-17a4-4a05-ab3f-7205c4c27638">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cc7b34a8-8849-427d-afdd-46cbdcf3273f">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>CO2</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d796ca67-e56f-4f15-80aa-d67efbaa88c8">
+          <ID>N2 - DM Fact Cromatography Energy Day</ID>
+          <Name>N2</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="ce58bb35-3075-4036-8d3f-f0f7d9b44a19">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="57ed3ec7-f0c2-4c5d-b8f1-12b4f0e64ce4">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>N2</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e73f63cf-286a-444e-b989-d3a312dcee8b">
+          <ID>Gdgda</ID>
+          <Name>Gdgda</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="c5ecce04-3e0a-446f-aa98-8fefe3555855">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8c259861-f700-4a85-9030-40eb3d1b9f2d">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>Gdgda</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2734bebc-2639-4889-852f-51f9b1905cc1">
+          <ID>HVID Zdgda</ID>
+          <Name>HVID Zdgda</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="c6779d25-f978-4372-bac4-0796b8cee383">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a194770c-27aa-4656-9bc4-c5eb0cbe8c84">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>HVIDZdgda</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="12cbe412-8f53-4e1b-8622-1f83c40e15b8">
+          <ID>HVID Zsgda</ID>
+          <Name>HVID Zsgda</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="551f8a03-9520-4cdc-82dc-d01950011fcd">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="80000235-b18b-4f67-9c85-82287e810721">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>HVIDZsgda</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e9a99494-8218-456c-91e7-6c23acb8ed57">
+          <ID>C8 Plus</ID>
+          <Name>C8 Plus</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="b1c35f05-f99d-4702-a5a4-304aca38e538">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cbe786fa-f622-4b25-9dfb-9d817187a49d">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>C8Plus</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b4a24d52-88ae-47fc-8848-6a4c88e0ec95">
+          <ID>C9</ID>
+          <Name>C9</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="4c8dcdb6-d919-42c5-a875-01b98b3c86d9">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f57f27f6-926d-4243-9505-91eaab934226">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>C9</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d7b52927-4610-43d8-a383-e7641e8feca7">
+          <ID>CO</ID>
+          <Name>CO</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="969159ef-ceb2-4777-a6ab-120e8a0e5d12">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d0219f22-8bf7-4fb1-8f0b-e2222fff8f23">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>CO</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="db522a7c-0569-4919-abde-afe33800d432">
+          <ID>H2S</ID>
+          <Name>H2S</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="34d6b1b2-74f0-42b8-b480-e0c9b06e78c1">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="80feebe2-16dd-4481-8165-77c1591d669b">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>H2S</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4c26a27c-b0a9-468d-a3a3-e6ecaa59e03d">
+          <ID>SO2</ID>
+          <Name>SO2</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="90ea2c2e-288f-402a-a20f-283fa3ac0791">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8e77c8da-5056-4934-b13a-c7d61ccf39b7">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>SO2</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a5c8dedb-3418-4700-895b-5d922bd53ad0">
+          <ID>NH3</ID>
+          <Name>NH3</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="1cfb3f28-aa66-4e40-882e-be7a1b230b8e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fe4fb9b8-d2ce-467d-8e24-ad99f893368c">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>NH3</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6d6f69e6-97f6-44a4-879f-d12a2692a843">
+          <ID>AIR</ID>
+          <Name>AIR</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="7216220b-c91f-42e0-947b-ccb97676d527">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="95001755-3bb3-4938-b9ba-8eeb408a3673">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>AIR</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="925508de-32d6-4258-9a02-d95a68049034">
+          <ID>H2</ID>
+          <Name>H2</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="4eec8f0a-5988-4063-a917-1c3d71f299c3">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="909e346e-142a-4461-8841-58263ccf0d57">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>H2</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1758c9dd-db0d-4a0a-bef8-95dd3e408527">
+          <ID>O2</ID>
+          <Name>O2</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="2343546c-a962-4b03-ab5f-a9908b3f1d27">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="69eb8101-97ae-44ca-82eb-62e0e65c3699">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>O2</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7164a58c-01f6-4304-af89-5483be411763">
+          <ID>CL2</ID>
+          <Name>CL2</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="c24b2378-5cd6-4240-92c1-b1bbbe77c002">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1383b62b-1890-40dc-84cb-bcbaa3c58daa">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>CL2</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1255f8a9-a465-4855-82f4-c8d2a64974b4">
+          <ID>H2O</ID>
+          <Name>H2O</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="ad3e4b3f-b1f2-481c-9e3e-302d1e7b8d6c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5602db08-c4ea-4bdc-8f2b-662e62cf3f75">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>H2O</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3b14aff1-c27b-47f8-bf18-53dc5d542c1e">
+          <ID>He</ID>
+          <Name>He</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="ce9fb373-2da2-45f4-b992-03babee14b02">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1ce9ad8f-9133-4682-a6f2-63311aab84f3">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>He</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="769a4a7c-f010-4b4a-a791-981f88317bc0">
+          <ID>HCL</ID>
+          <Name>HCL</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="6424f739-78dc-4465-9d0d-33b070013d88">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="25677ad4-ee97-49fc-86e0-16d40b314e78">
+              <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+              <ColumnID>HCL</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7e3a2453-cb28-461d-8948-e80d51376f36">
+          <CubeDimensionID>DIM MeterStructure</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4540d02a-7695-49dc-884d-39f6e363550e">
+              <AttributeID>DM Dim Meter Structure</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="86247f1f-dd5c-43aa-a45a-2c3cf1e56e95">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bfa44ce6-3575-429d-b1db-60e4d6b126da">
+                    <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+                    <ColumnID>MeterStructureId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="42c38ddb-cc00-4db9-ad94-875e2a81bdae">
+          <CubeDimensionID>DIM MeterTestType</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b3b082bd-302e-40bd-a3b5-3fa28500975d">
+              <AttributeID>DM Dim Meter Test Type</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fd90df3f-b9d0-4fd9-b4a9-e63710967c90">
+                  <DataType>WChar</DataType>
+                  <DataSize>2</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="75c5fd50-d288-4922-aa28-b41bb67a0bbe">
+                    <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+                    <ColumnID>TestType</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d81b3e27-11e4-4279-9f89-acbdbfe69949">
+          <CubeDimensionID>DIM Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="788f6705-87b2-448e-89ca-29d2af95788a">
+              <AttributeID>Date Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="54825f1a-246c-4e40-accb-676d9748e74b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f17b6b95-f73f-4559-9d21-8e947f19c308">
+                    <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+                    <ColumnID>DateId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+      <ProactiveCaching dwd:design-time-name="c008a953-e624-4812-b06e-d40c448e7305">
+        <SilenceInterval>-PT1S</SilenceInterval>
+        <Latency>-PT1S</Latency>
+        <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+        <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="ead682f1-4575-42cc-91d3-b1b0cb75d9d4" />
+      </ProactiveCaching>
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="c35340cb-35ea-4142-a0e0-77aa6a7e5c4b">
+    <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="76dbd377-909b-4cdb-a8b2-c8da685f5fd4">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+El comando CALCULATE controla la agregación de celdas hoja en el cubo.
+Si se elimina o modifica el comando CALCULATE, se ven afectados los datos del cubo.
+Sólo debe editar este comando si especifica manualmente cómo se agrega el cubo.
+*/
+CALCULATE; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+  <ProactiveCaching dwd:design-time-name="2c71a420-3462-4fd8-96c3-85b94ce8aa99">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="3c26b18d-35bf-4c3e-9345-6a56948e31f0" />
+  </ProactiveCaching>
+</Cube>

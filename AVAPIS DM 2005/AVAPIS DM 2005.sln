@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{D183A3D8-5FD8-494B-B014-37F57B35E655}") = "AVAPIS SSIS", "AVAPIS SSIS\AVAPIS SSIS.dtproj", "{FB4F7304-28E2-4C27-B246-8F935E93FBD1}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "AVA_PISystem_Olap", "AVAPIS SSAS\AVA_PISystem_Olap.dwproj", "{3E276BA5-5C31-4D06-9B24-9409BD701428}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB4F7304-28E2-4C27-B246-8F935E93FBD1}.Development|Default.ActiveCfg = Development
+		{FB4F7304-28E2-4C27-B246-8F935E93FBD1}.Development|Default.Build.0 = Development
+		{3E276BA5-5C31-4D06-9B24-9409BD701428}.Development|Default.ActiveCfg = Development
+		{3E276BA5-5C31-4D06-9B24-9409BD701428}.Development|Default.Build.0 = Development
+		{3E276BA5-5C31-4D06-9B24-9409BD701428}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

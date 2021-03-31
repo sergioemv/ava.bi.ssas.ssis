@@ -1,0 +1,335 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0ecc1b80-a099-4d45-be47-f9dfc7fe8336" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DM Dim Well Structure</ID>
+  <Name>DIM WellStructure</Name>
+  <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-800" scrolltop="-5966" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7461" y="17701" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_WellStructure (dbo.DM_Dim_WellStructure)" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4419" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800004311000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Dim_WellStructure" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-800</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5966</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8e4cdb06-98a7-4f4e-b00d-3b110836df12">
+    <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+  </Source>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="9d14479b-5869-4535-96a8-272f863a30b0">
+      <ID>DM Dim Well Structure</ID>
+      <Name>DM Dim Well Structure</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>534</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fef20717-7c1a-4e72-bce1-d87730a458e6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5faec5f5-3d7c-4af8-97fd-9c4cb625f9e5">
+            <TableID>dbo_DM_Dim_WellStructure</TableID>
+            <ColumnID>WellStructureID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f8c35322-d4d2-444f-b4e8-0bec62ce45b8">
+          <AttributeID>Production Unit Code</AttributeID>
+          <Name>Production Unit</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9655c7cb-e980-4219-9706-ff0cdf1570a6">
+          <AttributeID>Block Code</AttributeID>
+          <Name>Block</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1f71d77e-8861-4102-873c-e2899a45aee7">
+          <AttributeID>Field Code</AttributeID>
+          <Name>Field</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="981778c4-aff6-47bb-a152-ed0ff9a1d3df">
+          <AttributeID>Well Code</AttributeID>
+          <Name>Well</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="26366f8b-462e-4e59-8767-b2a525cef730">
+          <AttributeID>Line Code</AttributeID>
+          <Name>Line</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="840cb6b5-4544-4441-a421-6d2527fb5f35">
+          <AttributeID>Completion Zone Code</AttributeID>
+          <Name>Completion Zone</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ee176b1d-37e8-40f0-beaa-01a74373aec7">
+          <AttributeID>Completion Zone Reservoir</AttributeID>
+          <Name>Completion Zone Reservoir</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>FilteredList</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="856fdaeb-c867-451d-8e17-e9165489d8ce">
+      <ID>Production Unit Code</ID>
+      <Name>Production Unit</Name>
+      <EstimatedCount>1</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d7d87837-28d0-4512-a39a-01c8d9a794bf">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8e7f2d96-8ec3-4430-9780-3a44d6abb9c6">
+            <TableID>dbo_DM_Dim_WellStructure</TableID>
+            <ColumnID>ProductionUnitCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="3abc1216-9a0c-4f37-b1e5-0097cc67544f">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="1c776220-3f54-4c5e-b2cf-3c8d3a92fe75">
+          <TableID>dbo_DM_Dim_WellStructure</TableID>
+          <ColumnID>ProductionUnitID</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="655cf032-495c-4ed7-ac4b-e48ac6e7b20f">
+      <ID>Block Code</ID>
+      <Name>Block</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="04364bf6-264c-4bce-87d4-0acce70e3b7f">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4894c707-2d60-4526-a7cb-450c47ee3334">
+            <TableID>dbo_DM_Dim_WellStructure</TableID>
+            <ColumnID>BlockCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="36d90ff5-b19f-4aa1-bbf0-c2cb6f3d7da7">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a5b8998b-3d45-4321-9825-2caf52c0b941">
+          <TableID>dbo_DM_Dim_WellStructure</TableID>
+          <ColumnID>BlockID</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="01e36baa-2800-4a19-90aa-14f9c4398c42">
+      <ID>Field Code</ID>
+      <Name>Field</Name>
+      <EstimatedCount>4</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0edaec1a-279c-4c3a-b664-f04c24dbd4af">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4af590c2-661c-4db6-9206-bf228dbfa556">
+            <TableID>dbo_DM_Dim_WellStructure</TableID>
+            <ColumnID>FieldCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="6533ebbb-17f6-4664-a5d9-cbf741eba23a">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="e16ae06a-1039-4020-b830-2d97d1f6c6a7">
+          <TableID>dbo_DM_Dim_WellStructure</TableID>
+          <ColumnID>FieldID</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="bcfc2bcf-eec3-4453-957f-aac35336227d">
+      <ID>Well Code</ID>
+      <Name>Well</Name>
+      <EstimatedCount>19</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="30e44628-2179-4bf4-91c6-9894f28a8b1d">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1533490c-bca1-4d95-839a-fe51c9ceacd2">
+            <TableID>dbo_DM_Dim_WellStructure</TableID>
+            <ColumnID>WellCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="62ec19e2-8f1e-43e9-99c2-de1f74075990">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="325925f9-c0d2-4ead-8fc9-e3fb7ae7e148">
+          <TableID>dbo_DM_Dim_WellStructure</TableID>
+          <ColumnID>WellID</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="46a99d5a-08d6-4cc1-a27f-e37babf67ee2">
+      <ID>Line Code</ID>
+      <Name>Line</Name>
+      <EstimatedCount>42</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bdb59403-6c24-49df-86e5-890ea3e79fc8">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ebbf8410-62ad-4590-88a2-8f881498c39d">
+            <TableID>dbo_DM_Dim_WellStructure</TableID>
+            <ColumnID>LineCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="94f2d05c-a624-4d59-b4c3-bdbf9b1497e8">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="10fbe227-3eb2-40a6-baec-2c966f2a4d91">
+          <TableID>dbo_DM_Dim_WellStructure</TableID>
+          <ColumnID>LineID</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="77bbd8fb-cffa-4b41-a636-a20cdb3e8422">
+      <ID>Completion Zone Code</ID>
+      <Name>Completion Zone</Name>
+      <EstimatedCount>178</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="887dc334-4445-463e-969b-e36ddbc78dab">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ce9b3c98-b5c4-4398-a19e-56ade940d127">
+            <TableID>dbo_DM_Dim_WellStructure</TableID>
+            <ColumnID>CompletionZoneCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="f334924e-aa80-420c-aa0d-b8d55e627b42">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="ac031a38-9c62-41bd-b6d1-3075c0d13a6b">
+          <TableID>dbo_DM_Dim_WellStructure</TableID>
+          <ColumnID>CompletionZoneID</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="ecc1621a-4154-4135-bf5e-6fbd90f5d2f4">
+      <ID>Completion Zone Reservoir</ID>
+      <Name>Completion Zone Reservoir</Name>
+      <EstimatedCount>41</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cd177769-91f5-4b17-bec3-e95ed8343f2c">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="73b6a61d-dcfc-4433-a5e3-87c241c4118a">
+            <TableID>dbo_DM_Dim_WellStructure</TableID>
+            <ColumnID>CompletionZoneReservoir</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="6bad926b-4e79-422c-9833-439b0bd2c8c2">
+      <ID>Field - Well - Line - Completion Zone</ID>
+      <Name>Well Structure</Name>
+      <Levels>
+        <Level dwd:design-time-name="53a64672-c790-40c2-aa87-0f36313dc2c7">
+          <ID>Production Unit</ID>
+          <Name>Production Unit</Name>
+          <SourceAttributeID>Production Unit Code</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="c0e28f23-4d8a-440b-b06d-7a5ac4792a4d">
+          <ID>Block</ID>
+          <Name>Block</Name>
+          <SourceAttributeID>Block Code</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ec6e9562-a167-4e66-8164-85536ffe4e46">
+          <ID>Field</ID>
+          <Name>Field</Name>
+          <SourceAttributeID>Field Code</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="cdb6b530-73eb-47b8-9f7d-fbb821f768a0">
+          <ID>Well</ID>
+          <Name>Well</Name>
+          <SourceAttributeID>Well Code</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="b9fbd6c8-e909-4eea-8b27-55ad5e7d2fd5">
+          <ID>Line</ID>
+          <Name>Line</Name>
+          <SourceAttributeID>Line Code</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="07ec1f99-1fc2-49fb-a626-4b01562d1215">
+          <ID>Completion Zone</ID>
+          <Name>Completion Zone</Name>
+          <SourceAttributeID>Completion Zone Code</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+</Dimension>

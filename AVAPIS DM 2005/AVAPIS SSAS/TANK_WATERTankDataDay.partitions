@@ -1,0 +1,106 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="35c615c2-be0c-4652-a93b-6976b23c080a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>TANK_WATERTankDataDay</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>DM Fact Water Tank Data Day</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="7390c84b-a0cc-491d-bfc2-36efc651cc61">
+          <ID>DM Fact Water Tank Data Day</ID>
+          <Name>Water Tank Day Data</Name>
+          <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+          <Annotations>
+            <Annotation>
+              <Name>AggregationPercent</Name>
+              <Value>99</Value>
+            </Annotation>
+          </Annotations>
+          <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b5174bc7-a174-4a29-84c7-d42b492272e1">
+            <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+            <TableID>dbo_DM_Fact_WaterTankDataDay</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="25e6058f-04d9-4211-b1fa-19159e9ecace">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="a43b66ba-32e3-4565-a4ec-01e7c0804201">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
+          <EstimatedRows>42</EstimatedRows>
+          <AggregationDesignID>AggregationDesign</AggregationDesignID>
+        </Partition>
+      </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign</ID>
+          <Name>AggregationDesign</Name>
+          <CreatedTimestamp>2008-07-12T05:31:08Z</CreatedTimestamp>
+          <LastSchemaUpdate>2008-07-12T05:31:08Z</LastSchemaUpdate>
+          <EstimatedRows>42</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>DIM WaterTankStructure</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>DM Dim Water Tank Structure</AttributeID>
+                  <EstimatedCount>5</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Production Unit Name</AttributeID>
+                  <EstimatedCount>1</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>DIM WaterTankStructure</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>DM Dim Water Tank Structure</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 1</ID>
+              <Name>Aggregation 1</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>DIM WaterTankStructure</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Production Unit Name</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 2</ID>
+              <Name>Aggregation 2</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>DIM WaterTankStructure</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

@@ -1,0 +1,45 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="81c0727f-1623-402f-9ee2-07973a48a297" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ALLOCATION_DailyComposition</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>DM Fact Allocation Composition Daily</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="b07eb539-e95a-42e5-9adf-11fc09568825">
+          <ID>DM Fact Allocation Composition Daily</ID>
+          <Name>Allocation Composition Daily</Name>
+          <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e06d9c38-caec-46b9-9f98-1883484b1d3f">
+            <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+            <TableID>dbo_DM_Fact_AllocationCompositionDaily</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DM Fact Allocation Composition Month</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d11bd4a1-9132-4636-b75a-27ccce2e9945">
+          <ID>DM Fact Allocation Composition Month</ID>
+          <Name>DM Fact Allocation Composition Month</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1c5cee41-5b6a-43ef-97b0-b812e232aba4">
+            <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+            <TableID>dbo_DM_Fact_AllocationCompositionMonth</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

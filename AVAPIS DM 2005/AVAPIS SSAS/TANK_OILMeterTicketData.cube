@@ -1,0 +1,839 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="48f0e5d7-8979-45ad-9fd0-6eab770bafb7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DSV AVAPIS DW 3</ID>
+  <Name>TANK_OILMeterTicketData</Name>
+  <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="26" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1548" scrolltop="-1128" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="85" x="20029" y="20214" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_OilMeterStructure (dbo.DM_Dim_OilMeterStructure)" left="12338" top="12341" logicalid="13" controlid="1" masterid="0" hint1="0" hint2="0" width="3784" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000c80e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Dim_OilMeterStructure" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_TicketElements (dbo.DM_Dim_TicketElements)" left="12266" top="722" logicalid="14" controlid="2" masterid="0" hint1="0" hint2="0" width="3784" height="5902" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000c80e00000e170000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Dim_TicketElements" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Fact_OilMeterTicketData (dbo.DM_Fact_OilMeterTicketData)" left="5785" top="-173" logicalid="15" controlid="3" masterid="0" hint1="0" hint2="0" width="4339" height="16704" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000f310000040410000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Fact_OilMeterTicketData" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_OilMeter_OilTicket" left="-757" top="13826" logicalid="16" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000af050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DM_Dim_OilMeter_OilTicket" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_Date (dbo.DM_Dim_Date)" left="20" top="7109" logicalid="17" controlid="5" masterid="0" hint1="0" hint2="0" width="3334" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000060d0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Dim_Date" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_TicketAbstract (dbo.DM_Dim_TicketAbstract)" left="366" top="529" logicalid="18" controlid="6" masterid="0" hint1="0" hint2="0" width="3784" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000c80e00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Dim_TicketAbstract" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9824" top="12242" logicalid="19" controlid="7" masterid="0" hint1="0" hint2="0" width="2814" height="1737" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DM_Fact_OilMeterTicketData_DM_Dim_OilMeterStructure]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="14" destattachpoint="65" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12338" y="12641" />
+              <point x="11293" y="12641" />
+              <point x="11293" y="13679" />
+              <point x="10124" y="13679" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9824" top="1074" logicalid="20" controlid="8" masterid="0" hint1="0" hint2="0" width="2742" height="805" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DM_Fact_OilMeterTicketData_DM_Dim_TicketElements1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="16" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12266" y="1473" />
+              <point x="11195" y="1473" />
+              <point x="11195" y="1579" />
+              <point x="10124" y="1579" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9824" top="524" logicalid="21" controlid="9" masterid="0" hint1="0" hint2="0" width="2742" height="805" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DM_Fact_OilMeterTicketData_DM_Dim_TicketElements]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="14" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12266" y="923" />
+              <point x="11195" y="923" />
+              <point x="11195" y="1029" />
+              <point x="10124" y="1029" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3054" top="6229" logicalid="22" controlid="10" masterid="0" hint1="0" hint2="0" width="3031" height="1416" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DM_Fact_OilMeterTicketData_DM_Dim_Date]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="3" sourceattachpoint="11" destattachpoint="38" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3354" y="7245" />
+              <point x="4554" y="7245" />
+              <point x="4554" y="6529" />
+              <point x="5785" y="6529" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3850" top="477" logicalid="23" controlid="11" masterid="0" hint1="0" hint2="0" width="2235" height="852" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DM_Fact_OilMeterTicketData_DM_Dim_TicketAbstract]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="3" sourceattachpoint="15" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4150" y="876" />
+              <point x="4967" y="876" />
+              <point x="4967" y="1029" />
+              <point x="5785" y="1029" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1943" top="13604" logicalid="24" controlid="12" masterid="0" hint1="0" hint2="0" width="4142" height="925" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DM_Fact_OilMeterTicketData-DM_Dim_OilMeter_OilTicket]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="11" destattachpoint="66" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2243" y="14003" />
+              <point x="4014" y="14003" />
+              <point x="4014" y="14229" />
+              <point x="5785" y="14229" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1548</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1128</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-757</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-173</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>85</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="d033ac7c-aac9-41b8-9ea8-05c024cad953">
+      <ID>Target</ID>
+      <Name>Target</Name>
+      <DimensionID>DM Dim Ticket Elements</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="88c06a83-c018-44a1-86b3-9ce4a89fcadf">
+          <AttributeID>DM Dim Ticket Elements</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e33794a6-7b96-405d-96c0-29606a063081">
+          <AttributeID>Production Unit Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bcd69a52-2e8e-4b9e-8372-f436370fdafe">
+          <AttributeID>Company Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="97e64313-3fc9-4b16-870a-342681f8b1a7">
+          <AttributeID>Ticket Element Type</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="76758e60-2813-4113-bad6-310a83699cb5">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="7b5bd9c6-2799-4bdd-a71a-5ae17aaf7b0e">
+      <ID>Source</ID>
+      <Name>Source</Name>
+      <DimensionID>DM Dim Ticket Elements</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="bd2bed45-5f99-46a4-a85d-eacdf38789b3">
+          <AttributeID>DM Dim Ticket Elements</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5d8fd19b-a80e-45a5-9b29-f3dc0a03972e">
+          <AttributeID>Production Unit Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ed202937-e2d5-41a6-9663-722c2e1447c4">
+          <AttributeID>Company Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="771b991a-3357-4794-a8c6-7ce1dacaf345">
+          <AttributeID>Ticket Element Type</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="b50dc4c4-e229-4fe2-b8bf-4c5d0a7ef786">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="cceef1a5-5bff-4c79-bdcc-c4ecca9834a2">
+      <ID>DIM TankOilMeterStructure</ID>
+      <Name>Oil Meter</Name>
+      <DimensionID>DM Dim Oil Meter Structure</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="da9eb03f-bca4-459b-a6c9-f5c6031ec9f4">
+          <AttributeID>DM Dim Oil Meter Structure</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9dde44cc-9348-4dc6-917f-88869bda803b">
+          <AttributeID>Production Unit Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eda2b460-05ce-4e20-a280-420bfbb92570">
+          <AttributeID>Process Plant Code</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="bac8b629-32c1-4525-bd5f-332af7680adb">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="7ef73be8-af6c-4c40-a547-5fc10f7b6ed2">
+      <ID>DIM TicketAbstract</ID>
+      <Name>Ticket Abstract</Name>
+      <DimensionID>DM Dim Ticket Abstract</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="62917f49-fed3-4fba-8793-f1d408c44a57">
+          <AttributeID>DM Dim Ticket Abstract</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b1a1ffe9-990c-458d-92b8-f6240f5bd3c1">
+          <AttributeID>Operation Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e0c4ac57-2872-48bf-8f0b-8c1ac547ae3c">
+          <AttributeID>Transport Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="670187a8-df88-4555-8033-57ec1b525740">
+          <AttributeID>Ticket Status</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="ff3de35f-6376-4800-bc3d-6978cbe95d6f">
+      <ID>DIM TankOilMeterOilTicket</ID>
+      <Name>Oil Ticket</Name>
+      <DimensionID>DM Dim Oil Meter Oil Ticket</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a361a23d-0830-4b28-b160-13bc03d57ba2">
+          <AttributeID>DM Dim Oil Meter Oil Ticket</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="28e9ec4f-9f66-43c8-aacb-f91be0679f2b">
+      <ID>DIM Date</ID>
+      <Name>Date</Name>
+      <DimensionID>DIM Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f0b87b51-741d-4eb1-a919-6e84392f6f7a">
+          <AttributeID>Date Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="075fe470-7c65-4b72-9e36-b869ad9c35d2">
+          <AttributeID>Date Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5870da49-8610-4ce1-8e3b-72fb4e932d0d">
+          <AttributeID>Date Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="debd30cd-8f0c-45d5-9b00-2313a5b6752a">
+          <AttributeID>Date Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1b8b4abe-3ebe-4deb-9c3b-5dc95b1faf5e">
+          <AttributeID>Data Date</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="4f5c1d7e-4a06-4484-8f3a-44f95f46db08">
+      <ID>DM Fact Oil Meter Ticket Data</ID>
+      <Name>Oil Meter Ticket Data</Name>
+      <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="7f08aee5-687b-495a-b8b2-903e1513b14b">
+          <ID>Initial Oil Gross Volume</ID>
+          <Name>Initial Oil Gross Volume</Name>
+          <Source dwd:design-time-name="1b99e5dc-1ecc-4c59-a7f4-80e5f95270c7">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5cb20e2b-112d-47cd-8b06-26c067264745">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>InitialOilGrossVolume</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8a71b5db-7c50-4723-83c6-e3efdbb605a5">
+          <ID>Final Oil Gross Volume</ID>
+          <Name>Final Oil Gross Volume</Name>
+          <Source dwd:design-time-name="100c884a-78e4-4b66-810d-c12e96be5e19">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="80f020d4-d117-4869-84c6-ae31d00b3570">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>FinalOilGrossVolume</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d0f01752-effd-428b-a2c1-f7f11db96d37">
+          <ID>Initial Line Pressure</ID>
+          <Name>Initial Line Pressure</Name>
+          <Source dwd:design-time-name="0ca99c40-b2bd-4b8c-8c2b-f848b59b2b47">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8be172a5-670b-46c6-aaf8-f9f6a030d52c">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>InitialLinePressure</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="89d51ba2-37fa-4871-9e5b-bffa0501541e">
+          <ID>Final Line Pressure</ID>
+          <Name>Final Line Pressure</Name>
+          <Source dwd:design-time-name="e88b02a8-2249-49c0-b54b-310643d9325c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="42715e18-1215-4c87-8b97-7f44cce9deab">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>FinalLinePressure</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="23f9870c-2247-4dbd-a12d-bada54570aaa">
+          <ID>Initial Line Temperature</ID>
+          <Name>Initial Line Temperature</Name>
+          <Source dwd:design-time-name="a0205731-a05d-4279-ac15-165c6e57fe2d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c80a90ca-b585-4c7d-8d58-5fda5a40ae36">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>InitialLineTemperature</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9ccd0db7-fa4c-4a97-8857-0bfcb285b1ac">
+          <ID>Final Line Temperature</ID>
+          <Name>Final Line Temperature</Name>
+          <Source dwd:design-time-name="fe9d3d8f-871f-4ff2-b4b5-c0862dad7c9f">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="aa016129-a6c7-4f14-a94e-8f056345bafb">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>FinalLineTemperature</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d00f5f1a-7064-40db-94c4-7788a23fc322">
+          <ID>Initial Sample Temperature</ID>
+          <Name>Initial Sample Temperature</Name>
+          <Source dwd:design-time-name="eda41913-6cb6-4076-801b-54316e640998">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="56597a78-3264-4244-8172-b2fb2291000d">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>InitialSampleTemperature</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="91319f14-3f25-4003-9207-02ffc351bda8">
+          <ID>Final Sample Temperature</ID>
+          <Name>Final Sample Temperature</Name>
+          <Source dwd:design-time-name="654f5d08-4af1-4e92-ba26-e3d685abb7c9">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="791cf1c2-3664-452e-8c8b-a5b6f6aa6011">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>FinalSampleTemperature</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="782538cd-819e-4bd0-b4f6-6bf013d2b92f">
+          <ID>Initial Sample API</ID>
+          <Name>Initial Sample API</Name>
+          <Source dwd:design-time-name="89fb186f-83f9-404b-baf9-c7ddf502aaa1">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="36c41fa7-ee6b-426d-96bb-d6eb2321c9b4">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>InitialSampleAPI</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="45958d96-556d-4587-8bf3-9941fd97a80c">
+          <ID>Final Sample API</ID>
+          <Name>Final Sample API</Name>
+          <Source dwd:design-time-name="0e3e3011-e421-43aa-8336-f67c3219dce2">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6555aef7-4dd7-4bed-ab6b-9e3642bd9166">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>FinalSampleAPI</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="049bca3b-ad20-4153-a93a-f4c24314f6cc">
+          <ID>Initial Correct API</ID>
+          <Name>Initial Correct API</Name>
+          <Source dwd:design-time-name="9b7747e1-26bf-4077-8b89-9d01ba80d23b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="28adeaa1-6268-41d5-9bff-161059c4d46d">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>InitialCorrectAPI</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3982d605-3c4b-456a-b601-9bb43ac8a586">
+          <ID>Final Correct API</ID>
+          <Name>Final Correct API</Name>
+          <Source dwd:design-time-name="41386a59-7677-4c04-a21d-004dcfebd5d1">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6598d71b-2338-4a92-9371-fbc2cb1e4de7">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>FinalCorrectAPI</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a92174ca-1c49-479c-a55b-564391f7fa57">
+          <ID>Initial Volume Factor</ID>
+          <Name>Initial Volume API</Name>
+          <Source dwd:design-time-name="4c5f81fa-8448-451a-b7fe-bfac92560ef0">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4f9a02c6-6444-49b7-ac8e-eaa3feb84ad7">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>InitialVolumeFactor</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d8f18a1d-1877-464a-9d63-230351fed8a4">
+          <ID>Final Volume Factor</ID>
+          <Name>Final Volume API</Name>
+          <Source dwd:design-time-name="7b4fcaf1-6101-4f90-b565-626b854b0fd3">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="177734aa-ab39-4c82-bf81-2b999d607525">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>FinalVolumeFactor</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="541d96e5-badd-4f5b-8407-f4568a527563">
+          <ID>Initial BSW Factor</ID>
+          <Name>Initial BSW</Name>
+          <Source dwd:design-time-name="5c2370b8-4bda-462a-965b-a79283733596">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e7d2a053-fe5b-4071-b743-c2e59e55cb33">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>InitialBSWFactor</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a2d99a75-58b2-42fb-83d5-4a35ef197163">
+          <ID>Final BSW Factor</ID>
+          <Name>Final BSW</Name>
+          <Source dwd:design-time-name="1c2e5800-e6c1-4d1e-bcd5-0ada45de894c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="26a37b14-d5b5-44c4-9c19-cf834c731a23">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>FinalBSWFactor</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="aea3e185-2b6e-414b-a5e8-17a50c485bcd">
+          <ID>Initial RVP Factor</ID>
+          <Name>Initial RVP</Name>
+          <Source dwd:design-time-name="f13fa472-46a4-40f6-bd95-6a0f7a8f0586">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="64a98cb7-2c14-4f52-88aa-52edee91f067">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>InitialRVPFactor</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9fc6607b-6f49-444c-99d8-99f84a521043">
+          <ID>Final RVP Factor</ID>
+          <Name>Final RVP</Name>
+          <Source dwd:design-time-name="b1ae2fd8-bd5b-463d-b546-c03a4be5423b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5102f84a-51c0-4382-beeb-2148482fac8e">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>FinalRVPFactor</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5346895a-961e-4a5c-9ba2-8d1baf402823">
+          <ID>Initial Meter Factor</ID>
+          <Name>Initial Meter Factor</Name>
+          <Source dwd:design-time-name="c882f7df-fae7-44f3-bc9a-51ae6257b67b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c4990c04-4232-4eb0-9f21-696a9b638b73">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>InitialMeterFactor</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2a6682af-fccc-43e5-9187-609e9a2d8faa">
+          <ID>Final Meter Factor</ID>
+          <Name>Final Meter Factor</Name>
+          <Source dwd:design-time-name="7063ab2f-e458-4bdc-8e4c-f7d2d4ef99d8">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="16a15f56-e20b-4b1c-af84-74ce291ecad5">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>FinalMeterFactor</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="60928ad8-42f4-441c-b4e7-6a39ef78cf59">
+          <ID>Initial Oil Net Volume</ID>
+          <Name>Initial Oil Net Volume</Name>
+          <Source dwd:design-time-name="2815df97-c87e-4e2e-9b78-7856ba561db9">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d1738670-df15-40e1-a7dc-6f3ab51d4bf9">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>InitialOilNetVolume</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="abb366b2-fe0a-49eb-a064-eec7225d63f2">
+          <ID>Final Oil Net Volume</ID>
+          <Name>Final Oil Net Volume</Name>
+          <Source dwd:design-time-name="0bb2ce9a-db57-428e-acd9-2f00a64edcce">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c2506d68-7f73-4a7b-b8e5-53f14c997a83">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>FinalOilNetVolume</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6168b016-e87f-45de-8a4e-9a8582575eba">
+          <ID>Oil Net Volume Move</ID>
+          <Name>Oil Net Volume Move</Name>
+          <Source dwd:design-time-name="792407fe-2b07-41f3-b31a-3ed62bd6b9fa">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="796492ba-532b-4f2d-aa57-fa99deef2b6d">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>OilNetVolumeMove</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8e0d4f13-f251-49af-bc3d-09dad4bb4bdc">
+          <ID>Initial Density API</ID>
+          <Name>Initial Density API</Name>
+          <Source dwd:design-time-name="770c85cf-7451-4d7d-be1a-ae127d0883e0">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="87c9ee70-fb62-4fe6-b834-b594c7531857">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>InitialDensityAPI</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c41501bf-af1b-4775-9942-1c2f4d4645fc">
+          <ID>Final Density API</ID>
+          <Name>Final Density API</Name>
+          <Source dwd:design-time-name="48a104e9-8bd1-4295-8c51-644e8bd7c803">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7c6609bd-bbdc-4368-8c40-ad600c342632">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>FinalDensityAPI</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="135ecdfa-d205-4532-bfcd-65452d9e03f8">
+          <ID>Initial Oil Mass</ID>
+          <Name>Initial Oil Mass</Name>
+          <Source dwd:design-time-name="ca134123-e222-4a22-bcc0-b214a8ac28a7">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="45831cfd-e4fe-4975-89f3-beac1e0cbf75">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>InitialOilMass</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b960c25b-69ef-489b-85fb-e4bbc1e85389">
+          <ID>Final Oil Mass</ID>
+          <Name>Final Oil Mass</Name>
+          <Source dwd:design-time-name="8c1eeab5-eb3b-4c7e-9ed2-aaf88b0a6de8">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="14f365a8-de07-47a8-9e64-5479515d737a">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>FinalOilMass</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e947e6db-b13d-42f5-b1ca-74a1faed8b0b">
+          <ID>Oil Mass Move</ID>
+          <Name>Oil Mass Move</Name>
+          <Source dwd:design-time-name="e5c6a43a-20fb-43f5-9b54-41098f98a074">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a66b168e-4bcf-4777-a069-c6b8fc59ccc0">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>OilMassMove</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="207cec6c-e1b5-4fbf-96bb-7b6565ed06b3">
+          <ID>Initial Free Water</ID>
+          <Name>Initial Free Water</Name>
+          <Source dwd:design-time-name="db2e2c5d-848f-4b51-9330-531822c56465">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9e434bfe-3117-473f-83e9-af16cd5e6e26">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>InitialFreeWater</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="056f6d11-9e0d-4077-936a-78ab8787b1af">
+          <ID>Final Free Water</ID>
+          <Name>Final Free Water</Name>
+          <Source dwd:design-time-name="71c47855-6670-4c2f-9c52-cb3448a39b38">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0babaef1-3d79-4ffd-a18b-5ee1b9c0393d">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+              <ColumnID>FinalFreeWater</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0609dc16-1c6f-4079-808b-764f63445968">
+          <ID>Recuento DM Fact Oil Meter Ticket Data</ID>
+          <Name>Recuento DM Fact Oil Meter Ticket Data</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="3669b079-c261-4ecb-94a1-c729a8e2c16c">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="7b8f8039-ae7d-4900-a40a-7745dcdac650">
+              <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b37011e3-3dec-4884-82b8-85ffab137c33">
+          <CubeDimensionID>Target</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2a5adcfa-4fd8-4300-8032-9ff2eed5f04c">
+              <AttributeID>DM Dim Ticket Elements</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d8835ee0-e8e4-4126-96c1-c988a85910df">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b4997b36-33cc-46e8-8968-f94ee7df96aa">
+                    <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+                    <ColumnID>TargetID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f549fe48-104c-4405-99bc-dcf513de16ad">
+          <CubeDimensionID>Source</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="bdb3cb07-4bd1-431f-88a8-b60579ad7338">
+              <AttributeID>DM Dim Ticket Elements</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6bfb6aec-4d13-4212-945c-77d39f15488c">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="09c03c29-cbfe-4102-9794-8800021688dc">
+                    <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+                    <ColumnID>SourceID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c1a161fc-7a52-4c04-9fdc-af7a65bc23fb">
+          <CubeDimensionID>DIM TankOilMeterStructure</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="69ca96b0-f73d-46b8-8a87-841caed56a81">
+              <AttributeID>DM Dim Oil Meter Structure</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="beb75089-916a-4d58-88f5-483c16380881">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5c986d8c-393c-48a4-8306-ccb7aefefb60">
+                    <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+                    <ColumnID>OilMeterStructureID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2b6d0261-add9-401f-ae7a-2ce847a8b1ea">
+          <CubeDimensionID>DIM TicketAbstract</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5e29d3f7-ade5-4668-899c-0f1f9bb6dcc1">
+              <AttributeID>DM Dim Ticket Abstract</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f7b6fd7a-0cd8-450b-bdda-3f9f3e604e92">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="41cd2a34-aded-4829-8875-c8182373200e">
+                    <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+                    <ColumnID>TicketAbstractID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2d2ab803-7ea2-427d-9702-0dcfcd7dbd4e">
+          <CubeDimensionID>DIM TankOilMeterOilTicket</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="003fecb9-9988-4d7f-9e53-55521d82d50a">
+              <AttributeID>DM Dim Oil Meter Oil Ticket</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b436c962-727f-4342-a06d-90e91b811719">
+                  <DataType>WChar</DataType>
+                  <DataSize>15</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9dabbfea-7d56-4735-8ea7-29491db3a300">
+                    <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+                    <ColumnID>OilTicket</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="08d751ca-6f17-4418-8b45-ff757aaf89dd">
+          <CubeDimensionID>DIM Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="dbf6b39b-bc2b-4a02-b539-ad1e54715707">
+              <AttributeID>Date Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7bd744a0-ce98-4b8a-81dd-9b1f458cbcd5">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a7495037-5f24-4e7e-b38a-16825ec172bd">
+                    <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+                    <ColumnID>DateId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="fe4d8d94-b0c5-4815-8465-a3ce3db788bc">
+    <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+  </Source>
+</Cube>

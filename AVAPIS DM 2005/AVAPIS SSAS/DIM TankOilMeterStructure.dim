@@ -1,0 +1,178 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="548efd0f-faa2-455b-81d6-86ac249ed354" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DM Dim Oil Meter Structure</ID>
+  <Name>DIM TankOilMeterStructure</Name>
+  <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1937" scrolltop="-5940" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6059" y="16351" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_OilMeterStructure (dbo.DM_Dim_OilMeterStructure)" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3784" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000c80e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Dim_OilMeterStructure" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1937</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5940</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="4fb5e61b-8d53-4aef-b879-5af02ab15035">
+    <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+  </Source>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="1a96d33f-7723-4e84-9813-bc804843dcd8">
+      <ID>DM Dim Oil Meter Structure</ID>
+      <Name>Oil Meter</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8a556061-359e-48a8-b7ce-bdacf49d9e89">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2267f987-17fe-4d01-9ba8-0d5aecb16ada">
+            <TableID>dbo_DM_Dim_OilMeterStructure</TableID>
+            <ColumnID>OilMeterStructureID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="64db7516-a689-4d26-918d-b0d42a8ed64f">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="e18a74bb-1422-4809-9ba8-7888186e1ab9">
+          <TableID>dbo_DM_Dim_OilMeterStructure</TableID>
+          <ColumnID>OilMeterID</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="b52cb12c-2b5b-465a-bd60-1324d5ff2669">
+          <AttributeID>Production Unit Code</AttributeID>
+          <Name>Production Unit</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4b52cc75-365c-4e32-bdcf-3d7a69a4bb8d">
+          <AttributeID>Process Plant Code</AttributeID>
+          <Name>Process Plant</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+    </Attribute>
+    <Attribute dwd:design-time-name="d4a244a0-5a10-4b58-ac58-34d9a2746541">
+      <ID>Production Unit Code</ID>
+      <Name>Production Unit</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d2473104-661a-4969-b3b5-c3c350e536f9">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c34e630e-0130-4a1a-82a2-4e4606f55c49">
+            <TableID>dbo_DM_Dim_OilMeterStructure</TableID>
+            <ColumnID>ProductionUnitCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="943237c8-5891-4b04-9000-856fd889cde0">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="e92b9f25-d77a-402a-a6df-c6ac4fbbaa51">
+          <TableID>dbo_DM_Dim_OilMeterStructure</TableID>
+          <ColumnID>ProductionUnitID</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+    <Attribute dwd:design-time-name="5d040ef4-a0d0-4b28-a332-bf0480905d3f">
+      <ID>Process Plant Code</ID>
+      <Name>Process Plant</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3510f4b1-97df-48a9-b492-07820b1c3f16">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="da42f5ab-cb9e-4cdb-9e16-3227f22a0033">
+            <TableID>dbo_DM_Dim_OilMeterStructure</TableID>
+            <ColumnID>ProcessPlantCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="246c6920-b1a6-4bd8-a528-d3a61cf1e90f">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="5720c0d4-df6d-4e3b-8280-ee6a6470eb4b">
+          <TableID>dbo_DM_Dim_OilMeterStructure</TableID>
+          <ColumnID>PlantID</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="cbe7b920-3814-4a77-9bfb-d27bf0ad8de2">
+      <ID>Jerarquía</ID>
+      <Name>P Unit - Plant - Oil Meter</Name>
+      <Levels>
+        <Level dwd:design-time-name="a001d8bd-4105-4256-b5c4-58758ad54a57">
+          <ID>Production Unit</ID>
+          <Name>Production Unit</Name>
+          <SourceAttributeID>Production Unit Code</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="2b84b52c-ea41-4873-864b-2eb03d1bb5b4">
+          <ID>Process Plant</ID>
+          <Name>Process Plant</Name>
+          <SourceAttributeID>Process Plant Code</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="d4f6d6db-cefc-455e-bdee-848b6b025ac7">
+          <ID>DM Dim Oil Meter Structure</ID>
+          <Name>Oil Meter</Name>
+          <SourceAttributeID>DM Dim Oil Meter Structure</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+</Dimension>

@@ -1,0 +1,417 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="26881388-2914-4465-bb38-1dd0b6987aed" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DSV AVAPIS DW 1</ID>
+  <Name>TANK_WATERTankDataDay</Name>
+  <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5037" scrolltop="-2835" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="26908" y="18653" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_WaterTankStructure (dbo.DM_Dim_WaterTankStructure)" left="6468" top="0" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="4048" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000d00f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Dim_WaterTankStructure" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_Date (dbo.DM_Dim_Date)" left="377" top="7400" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="3334" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000060d0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Dim_Date" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Fact_WaterTankDataDay (dbo.DM_Fact_WaterTankDataDay)" left="20" top="0" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="4048" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000d00f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Fact_WaterTankDataDay" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3768" top="2101" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DM_Fact_WaterTankDataDay_DM_Dim_WaterTankStructure]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="22" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6468" y="2500" />
+              <point x="4068" y="2500" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1645" top="4700" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DM_Fact_WaterTankDataDay_DM_Fact_WaterTankDataDay]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2044" y="7400" />
+              <point x="2044" y="5000" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5037</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2835</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="22157136-0159-4f8e-b657-6d8e74ae9867">
+      <ID>DIM WaterTankStructure</ID>
+      <Name>Water Tank</Name>
+      <DimensionID>DIM WaterTankStructure</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b692059b-33f2-4f1a-99c7-09ac187c685d">
+          <AttributeID>DM Dim Water Tank Structure</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="061e5b9c-35e6-45e3-9cf5-345b83ec40e4">
+          <AttributeID>Production Unit Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b7caed81-783e-4928-918f-965185001ace">
+          <AttributeID>Process Plant Code</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="a5f97fa6-eab3-470c-acc3-b3841ca958db">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="c3eb7aa8-72ab-4eea-adca-5d4e9f3afafb">
+      <ID>DIM Date</ID>
+      <Name>Date</Name>
+      <DimensionID>DIM Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b78f7ff6-9dfb-4086-86c7-2f694a4e2abf">
+          <AttributeID>Date Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="69eb9bc0-3f32-4cea-b707-be7d212256f4">
+          <AttributeID>Date Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cc2213ff-a1c5-4869-ae57-8b881ef1a1e6">
+          <AttributeID>Date Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cf48c60b-3c16-4eb3-b350-6416ceaf3053">
+          <AttributeID>Date Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eb13cfdd-db3a-42df-b621-1127f8500811">
+          <AttributeID>Data Date</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="294f9f08-754c-44d6-8ff1-6d503db7474c">
+      <ID>DM Fact Water Tank Data Day</ID>
+      <Name>Water Tank Day Data</Name>
+      <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="cb7cbcf6-ed47-43b5-93b5-27bf95090e84">
+          <ID>Number Hours</ID>
+          <Name>Number Hours</Name>
+          <Source dwd:design-time-name="03830d80-b0df-41e9-aef6-a7311d776d44">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b229acc2-7d3b-4115-9689-73469cde582b">
+              <TableID>dbo_DM_Fact_WaterTankDataDay</TableID>
+              <ColumnID>NumberHours</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="208368f8-9030-456e-997d-53b46bf1d23f">
+          <ID>Water Initial Stock</ID>
+          <Name>_Water Initial Stock</Name>
+          <Source dwd:design-time-name="e0dccd03-5bde-4975-b611-c7c613fd3878">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ddd4dd49-7324-4382-bde9-8695290369aa">
+              <TableID>dbo_DM_Fact_WaterTankDataDay</TableID>
+              <ColumnID>WaterInitialStock</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="71dcc03d-a514-47c5-93de-39b2ce0da227">
+          <ID>Water Production</ID>
+          <Name>Water Production</Name>
+          <Source dwd:design-time-name="0393f474-f11c-429d-8e91-5b0e40b46a9a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="beb19b16-2981-4365-a14d-ea20dc3c1e02">
+              <TableID>dbo_DM_Fact_WaterTankDataDay</TableID>
+              <ColumnID>WaterProduction</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6f683ec3-99e9-4775-b7f8-d251a91ad4be">
+          <ID>Water Production Test</ID>
+          <Name>Water Production Test</Name>
+          <Source dwd:design-time-name="ee1b9042-466f-4f59-b17c-cb7f9205cea1">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5f422a02-54b3-4a0f-b05a-2e0eea4a1f96">
+              <TableID>dbo_DM_Fact_WaterTankDataDay</TableID>
+              <ColumnID>WaterProductionTest</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9cbf5c99-f508-48ab-bb83-c1035037740d">
+          <ID>Water Gains</ID>
+          <Name>Water Gains</Name>
+          <Source dwd:design-time-name="0e96da29-6a78-4b58-8e3a-a2aae8edbdd8">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4b9f52b7-fcd8-40c9-9e06-de510b6ebc14">
+              <TableID>dbo_DM_Fact_WaterTankDataDay</TableID>
+              <ColumnID>WaterGains</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="99510678-5a98-424a-8d41-c6d2a723c302">
+          <ID>Water Input Transfer</ID>
+          <Name>Water Input Transfer</Name>
+          <Source dwd:design-time-name="85303841-6768-457d-8dee-11c8cd5e9fd1">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ae4dc4d2-0d9a-443d-8d45-86eac21ead9e">
+              <TableID>dbo_DM_Fact_WaterTankDataDay</TableID>
+              <ColumnID>WaterInputTransfer</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="efc414bd-78e6-442a-9f24-0921401a7fb2">
+          <ID>Water Losses</ID>
+          <Name>Water Losses</Name>
+          <Source dwd:design-time-name="8fd723f4-2eb0-44c3-a83f-c99d201d4359">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b7cacc2e-d8b1-4ceb-b923-a8c6308d145a">
+              <TableID>dbo_DM_Fact_WaterTankDataDay</TableID>
+              <ColumnID>WaterLosses</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ea872c53-9ab9-4dd2-a87b-ac35601f9d32">
+          <ID>Water Output Transfer</ID>
+          <Name>Water Output Transfer</Name>
+          <Source dwd:design-time-name="dcd1179c-5f04-4bce-bec4-276775cac299">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d3a3b0a6-3539-411d-92f9-ad8228ccc586">
+              <TableID>dbo_DM_Fact_WaterTankDataDay</TableID>
+              <ColumnID>WaterOutputTransfer</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5ce176f9-07a3-4f7a-81a1-ad98b8eb984c">
+          <ID>Water Drain</ID>
+          <Name>Water Drain</Name>
+          <Source dwd:design-time-name="e706368a-8ed9-401a-a118-cba7d735f6ab">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d9160719-9c1a-4515-9ad4-cfa115dcb324">
+              <TableID>dbo_DM_Fact_WaterTankDataDay</TableID>
+              <ColumnID>WaterDrain</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="03d4793a-84fc-4ef9-9b06-1706d6b296ef">
+          <ID>Water Final Stock</ID>
+          <Name>_Water Final Stock</Name>
+          <Source dwd:design-time-name="38ed4ec7-ec9b-4d9d-bb91-b6da0855dbdf">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e3b12d94-b7d1-4f43-9e22-a4474eefaa38">
+              <TableID>dbo_DM_Fact_WaterTankDataDay</TableID>
+              <ColumnID>WaterFinalStock</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="deadae4f-3f30-43b4-a883-637b3cfa417b">
+          <ID>Avaible Space</ID>
+          <Name>Avaible Space</Name>
+          <Source dwd:design-time-name="d3a2bf76-1e3e-45a9-a813-f4bb2c0f181a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="47081e69-f1fd-474c-ad84-d70c23221f7f">
+              <TableID>dbo_DM_Fact_WaterTankDataDay</TableID>
+              <ColumnID>AvaibleSpace</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="81652f33-7f17-4329-b762-9cff499bb590">
+          <ID>Avaible Water</ID>
+          <Name>Avaible Water</Name>
+          <Source dwd:design-time-name="d3c5a7c3-f5f4-42cc-b203-ec54e2d01950">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="da9be53b-29ee-4a93-b28c-65c333c494d7">
+              <TableID>dbo_DM_Fact_WaterTankDataDay</TableID>
+              <ColumnID>AvaibleWater</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <EstimatedRows>42</EstimatedRows>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5e04bb9b-5411-402d-816e-4f3daa0c97d6">
+          <CubeDimensionID>DIM WaterTankStructure</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="85021ea1-6fc8-4bde-a475-f1842b0d0488">
+              <AttributeID>DM Dim Water Tank Structure</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9cc219c2-73f5-4b7f-aac5-a442991edf3b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cbd4ce80-9f29-4efa-b80c-2e0296eee427">
+                    <TableID>dbo_DM_Fact_WaterTankDataDay</TableID>
+                    <ColumnID>WaterTankStructureID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7cec772d-e063-4e4f-bd68-90653839fd99">
+          <CubeDimensionID>DIM Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="198afc9a-eac8-4453-8708-4a714ccfd805">
+              <AttributeID>Date Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="be2f73f2-eda3-4e95-a8e9-df98a3ea3d71">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="72445237-c357-439b-96d1-a4cb0bd736cf">
+                    <TableID>dbo_DM_Fact_WaterTankDataDay</TableID>
+                    <ColumnID>DateID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+      <AggregationDesigns />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="1c7a22c9-c9a7-49ae-a350-873c8dd969a0">
+    <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="b697d894-9518-4574-970b-c748ea091a59">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+El comando CALCULATE controla la agregación de celdas hoja en el cubo.
+Si se elimina o modifica el comando CALCULATE, se ven afectados los datos del cubo.
+Sólo debe editar este comando si especifica manualmente cómo se agrega el cubo.
+*/
+CALCULATE; 
+
+CREATE SET CURRENTCUBE.[Valid Days]
+ AS filter([Date].[DataDay].[all].children, not isempty([Number Hours])) ; 
+CREATE SET CURRENTCUBE.[Valid Months]
+ AS filter([Date].[DataMonth].[all].children, not isempty([Number Hours])) ; 
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Water Initial Stock]
+ AS 
+iif ([Date].[DataDay].currentmember.level is [Date].[DataDay].[DataDay]
+or [Date].[DataDate].currentmember.level is [Date].[DataDate].[DataDate],
+[_Water Initial Stock],
+iif([Date].[DataMonth].currentmember.level is [Date].[DataMonth].[DataMonth],
+([Valid Days].item(0)
+, [_Water Initial Stock]),
+([Valid Months].ITEM(0)
+, [Water Initial Stock]))
+), 
+FORMAT_STRING = "#,#", 
+VISIBLE = 1  ;     
+CREATE MEMBER CURRENTCUBE.[MEASURES].[Water Final Stock]
+ AS 
+iif ([Date].[DataDay].currentmember.level is [Date].[DataDay].[DataDay]
+or [Date].[DataDate].currentmember.level is [Date].[DataDate].[DataDate],
+[_Water Final Stock],
+iif([Date].[DataMonth].currentmember.level is [Date].[DataMonth].[DataMonth],
+(tail(filter([Date].[DataDay].[all].children, not isempty([Number Hours])),1).item(0)
+, [_Water Final Stock]),
+(tail([Valid Months],1).item(0)
+, [Water Final Stock])
+--0
+)
+), 
+FORMAT_STRING = "#,#", 
+VISIBLE = 1; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>

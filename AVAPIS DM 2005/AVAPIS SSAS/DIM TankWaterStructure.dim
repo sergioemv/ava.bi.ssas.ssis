@@ -1,0 +1,181 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b308cc52-f5ed-41c4-8c7f-04f43ed6f6ee" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DIM WaterTankStructure</ID>
+  <Name>DIM TankWaterStructure</Name>
+  <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1937" scrolltop="-6125" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6059" y="16351" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_WaterTankStructure (dbo.DM_Dim_WaterTankStructure)" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3784" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000c80e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Dim_WaterTankStructure" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1937</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6125</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8c15a7c4-d9e8-45fe-a4c2-2dcd7089ca92">
+    <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+  </Source>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="faae4777-01e7-4444-93ae-77adc645b291">
+      <ID>DM Dim Water Tank Structure</ID>
+      <Name>Water Tank</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="568f1741-4c65-415a-ace9-4e69656e2fbf">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ee658a0a-4a2f-4655-9321-7b0c107ac48c">
+            <TableID>dbo_DM_Dim_WaterTankStructure</TableID>
+            <ColumnID>WaterTankStructureID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="7756f125-1382-41e9-9c6b-830d9e12a4c9">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="69aba737-5cbe-4d8a-bd4b-9a8247a489e9">
+          <TableID>dbo_DM_Dim_WaterTankStructure</TableID>
+          <ColumnID>WaterTankID</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="452af019-bd84-4cc2-9f02-96e24424d74a">
+          <AttributeID>Production Unit Name</AttributeID>
+          <Name>ProductionUnitName</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2ec5be46-7ba8-49c5-8390-be2e09546609">
+          <AttributeID>Process Plant Code</AttributeID>
+          <Name>Process Plant</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="bdb0974d-6196-4d2f-9fc6-cfd8913c94df">
+      <ID>Production Unit Name</ID>
+      <Name>Production Unit</Name>
+      <EstimatedCount>1</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3edd4026-0ffd-4c31-813f-0c9fa703b09e">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e32db6ca-09f4-475f-b13e-bf2175e80bf1">
+            <TableID>dbo_DM_Dim_WaterTankStructure</TableID>
+            <ColumnID>ProductionUnitCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="1bfbb48a-5620-43ab-98cd-161962c39cb6">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="30d97306-212a-4f7c-8446-b1d684c7b5a6">
+          <TableID>dbo_DM_Dim_WaterTankStructure</TableID>
+          <ColumnID>ProductionUnitID</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="296a5d97-2f1a-4554-93a0-e5d1b5b3d5cb">
+      <ID>Process Plant Code</ID>
+      <Name>Process Plant</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b98bfa7f-b2dd-411e-ad34-802a7ecc727a">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d3cb5faa-5fa0-4227-b7b9-06d1a502adeb">
+            <TableID>dbo_DM_Dim_WaterTankStructure</TableID>
+            <ColumnID>ProcessPlantCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="9cd988f6-380b-456f-a590-2b47e82e3fce">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="7773312b-6a5b-4876-8b6e-37c718900003">
+          <TableID>dbo_DM_Dim_WaterTankStructure</TableID>
+          <ColumnID>PlantID</ColumnID>
+        </Source>
+      </NameColumn>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="fc81e8fd-d175-4cbe-a375-7c66e387c477">
+      <ID>Jerarquía</ID>
+      <Name>P Unit - Plant - Water Tank</Name>
+      <Levels>
+        <Level dwd:design-time-name="86effe69-92ca-44a6-9cb2-cb791ff1d96e">
+          <ID>ProductionUnitName</ID>
+          <Name>Production Unit</Name>
+          <SourceAttributeID>Production Unit Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f903101f-aad1-48d9-a427-a79dc3ca9733">
+          <ID>Process Plant</ID>
+          <Name>Process Plant</Name>
+          <SourceAttributeID>Process Plant Code</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="0241dc27-9535-4198-849a-c2a45793d434">
+          <ID>Water Tank</ID>
+          <Name>Water Tank</Name>
+          <SourceAttributeID>DM Dim Water Tank Structure</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+</Dimension>

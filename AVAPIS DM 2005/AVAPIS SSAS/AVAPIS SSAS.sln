@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "AVAPIS SSAS", "AVAPIS SSAS.dwproj", "{EC70F26C-AE36-46A6-8783-09F8CCFFDDDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC70F26C-AE36-46A6-8783-09F8CCFFDDDD}.Development|Default.ActiveCfg = Development
+		{EC70F26C-AE36-46A6-8783-09F8CCFFDDDD}.Development|Default.Build.0 = Development
+		{EC70F26C-AE36-46A6-8783-09F8CCFFDDDD}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

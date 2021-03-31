@@ -1,0 +1,25 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="212155c2-ec9f-445d-b912-89efb5c9a120" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>TANK_OILMeterTicketData</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>DM Fact Oil Meter Ticket Data</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="72dae0de-12fa-45ab-8c8e-661f382d1ae4">
+          <ID>DM Fact Oil Meter Ticket Data</ID>
+          <Name>Oil Meter Ticket Data</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fa73f631-714c-4c18-a8d1-1fe97df72dd3">
+            <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+            <TableID>dbo_DM_Fact_OilMeterTicketData</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

@@ -1,0 +1,184 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="10628cb9-a468-4b6d-997a-fc7bbd8a05d4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DM Dim Oil Tank Structure</ID>
+  <Name>DIM TankOilStructure</Name>
+  <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1937" scrolltop="-5940" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6059" y="16351" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_Dim_OilTankStructure (dbo.DM_Dim_OilTankStructure)" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3784" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000c80e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_Dim_OilTankStructure" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1937</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5940</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e41a5dfe-d7a4-42dc-aa4c-e782a01c05aa">
+    <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+  </Source>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="b105b91b-8eb6-4839-9ff5-34d48610b97c">
+      <ID>DM Dim Oil Tank Structure</ID>
+      <Name>Oil Tank</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>3</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="663443ad-e8c9-472d-bec6-32042ee972cb">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="61244721-18c8-453b-9879-72cbdc59ea75">
+            <TableID>dbo_DM_Dim_OilTankStructure</TableID>
+            <ColumnID>OilTankStructureID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="62aed02e-9a3d-4908-afe7-8f279004eceb">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="bba2b165-b886-47cc-bc1e-10db77019704">
+          <TableID>dbo_DM_Dim_OilTankStructure</TableID>
+          <ColumnID>OilTankID</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="aed142c2-47d8-4508-a09b-be9d8f08c654">
+          <AttributeID>Production Unit Code</AttributeID>
+          <Name>Production Unit</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1d677817-71ae-4efe-baca-bc69c17b3922">
+          <AttributeID>Process Plant Code</AttributeID>
+          <Name>Process Plant</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="a1e15901-6114-4db3-815d-a066855d0875">
+      <ID>Production Unit Code</ID>
+      <Name>Production Unit</Name>
+      <EstimatedCount>1</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e538d97d-944b-4051-bf4b-6db79d31385f">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="649ecd2a-bd22-458f-b161-ddfc44ced331">
+            <TableID>dbo_DM_Dim_OilTankStructure</TableID>
+            <ColumnID>ProductionUnitCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="98438ce7-606e-4226-ae20-b54998f4583d">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="58c707be-0561-49e1-b0b2-2501190d9b5f">
+          <TableID>dbo_DM_Dim_OilTankStructure</TableID>
+          <ColumnID>ProductionUnitID</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="9b4b6e20-1720-45df-94e5-d73255662c7c">
+      <ID>Process Plant Code</ID>
+      <Name>Process Plant</Name>
+      <EstimatedCount>1</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ce164ec7-eac0-43d7-828e-cf57523b785a">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c4a1fe54-6314-46e1-a0d7-3c3928a42016">
+            <TableID>dbo_DM_Dim_OilTankStructure</TableID>
+            <ColumnID>PlantID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="85758114-dcfa-42cf-a804-1ab8527785ef">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="341afe8c-e8b8-4eea-8de3-be3a9d3aef07">
+          <TableID>dbo_DM_Dim_OilTankStructure</TableID>
+          <ColumnID>PlantID</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="08e2d6f7-5682-439d-955b-7d15e1070208">
+      <ID>Jerarquía</ID>
+      <Name>P Unit - Plant - Oil Tank</Name>
+      <Levels>
+        <Level dwd:design-time-name="a045437f-9562-4b85-a623-5ebb80c1b846">
+          <ID>Production Unit</ID>
+          <Name>Production Unit</Name>
+          <SourceAttributeID>Production Unit Code</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="3fcbbeae-2e90-42ad-82a5-957388a6a965">
+          <ID>Process Plant Code</ID>
+          <Name>Process Plant</Name>
+          <SourceAttributeID>Process Plant Code</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="69777bc0-b61d-47d3-9e3e-2b9f4e72fbf6">
+          <ID>DM Dim Oil Tank Structure</ID>
+          <Name>Oil Tank</Name>
+          <SourceAttributeID>DM Dim Oil Tank Structure</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+</Dimension>

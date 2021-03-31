@@ -1,0 +1,45 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="08fac567-b2ae-460f-a53a-4e3a0b0277d7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>WELL_WellTestCromatography</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>DM Fact Well Production Test</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="86be1fb5-059e-432a-b5cf-2283f7c0838c">
+          <ID>DM Fact Well Production Test</ID>
+          <Name>Well Production Test Cromatography</Name>
+          <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="214a7ee3-3c0f-43a4-b728-626b66045b90">
+            <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+            <TableID>dbo_DM_Fact_WellProductionTest</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DM Fact Well Production Test Cromatography</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2f41a416-5af7-4daa-b4b6-d6a3a93355a5">
+          <ID>DM Fact Well Production Test Cromatography</ID>
+          <Name>DM Fact Well Production Test Cromatography</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="2b7eea11-9bf0-426d-8087-4348520630fd">
+            <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+            <TableID>dbo_DM_Fact_WellProductionTestCromatography</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

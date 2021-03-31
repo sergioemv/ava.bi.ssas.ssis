@@ -1,0 +1,25 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ece05d0e-a15f-4f6e-aa43-296f2c9c2a1c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>METER_GASCromaDay</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>DM Fact Cromatography Energy Day</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="30c46050-b01e-404a-a8ee-a7598118c37e">
+          <ID>DM Fact Cromatography Energy Day</ID>
+          <Name>DM Fact Cromatography Energy Day</Name>
+          <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3fc9d894-4502-4fba-8d2e-3bff121aac14">
+            <DataSourceViewID>DSV AVAPIS DW</DataSourceViewID>
+            <TableID>dbo_DM_Fact_CromatographyEnergyDay</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
