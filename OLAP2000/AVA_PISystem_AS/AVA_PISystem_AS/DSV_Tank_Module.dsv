@@ -1,0 +1,1098 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c6e9eb3b-7b67-44ba-83b3-6097356ade41" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>AVA PI System Data Mart</ID>
+  <Name>DSV_Tank_Module</Name>
+  <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>DGM_OilTank_Ticket</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="147" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-11613" scrolltop="1368" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="91" x="18865" y="16536" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_PsOilTankDataDay (dbo.DM_PsOilTankDataDay)" left="-10565" top="2111" logicalid="126" controlid="58" masterid="0" hint1="0" hint2="0" width="6218" height="11687" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000800004a180000a72d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_PsOilTankDataDay" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_PsProductionUnitDataDay (dbo.DM_PsProductionUnitDataDay)" left="-1947" top="6078" logicalid="127" controlid="59" masterid="0" hint1="0" hint2="0" width="6228" height="3752" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="0008000054180000a80e0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_PsProductionUnitDataDay" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-4647" top="7555" logicalid="128" controlid="60" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DM_PsOilTankDataDay-DM_PsProductionUnitDataDay]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="59" destid="58" sourceattachpoint="28" destattachpoint="43" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-1947" y="7954" />
+                    <point x="-4347" y="7954" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_PsOilTankTicketDataDay (dbo.DM_PsOilTankTicketDataDay)" left="-5783" top="-8022" logicalid="129" controlid="61" masterid="0" hint1="0" hint2="0" width="8606" height="7733" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000800009e210000351e0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_PsOilTankTicketDataDay" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-4530" top="-589" logicalid="130" controlid="62" masterid="0" hint1="0" hint2="0" width="6097" height="7167" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DM_PsOilTankTicketDataDay-DM_PsProductionUnitDataDay]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="59" destid="61" sourceattachpoint="10" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="1167" y="6078" />
+                    <point x="1167" y="2895" />
+                    <point x="-4230" y="2895" />
+                    <point x="-4230" y="-289" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_MsTicketElements (dbo.DM_MsTicketElements)" left="1790" top="27074" logicalid="131" controlid="63" masterid="0" hint1="0" hint2="0" width="5815" height="3256" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000b7160000b80c0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_MsTicketElements" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="2070" top="-589" logicalid="132" controlid="64" masterid="0" hint1="0" hint2="0" width="827" height="28163" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DM_PsOilTankTicketDataDay-DM_MsTicketElements]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="63" destid="61" sourceattachpoint="2" destattachpoint="29" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="2497" y="27074" />
+                    <point x="2497" y="13393" />
+                    <point x="2370" y="13393" />
+                    <point x="2370" y="-289" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1520" top="-589" logicalid="133" controlid="65" masterid="0" hint1="0" hint2="0" width="827" height="28163" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DM_PsOilTankTicketDataDay-DM_MsTicketElements1]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="63" destid="61" sourceattachpoint="0" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="1947" y="27074" />
+                    <point x="1947" y="13393" />
+                    <point x="1820" y="13393" />
+                    <point x="1820" y="-289" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_MsOilTank (dbo.DM_MsOilTank)" left="-9462" top="16198" logicalid="134" controlid="66" masterid="0" hint1="0" hint2="0" width="4012" height="3256" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000ac0f0000b80c0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_MsOilTank" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_MsProductionUnit (dbo.DM_MsProductionUnit)" left="1264" top="22071" logicalid="135" controlid="67" masterid="0" hint1="0" hint2="0" width="4070" height="2385" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000e60f000051090000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_MsProductionUnit" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_MsPlant (dbo.DM_MsPlant)" left="-5148" top="21854" logicalid="136" controlid="68" masterid="0" hint1="0" hint2="0" width="4012" height="2820" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000ac0f0000040b0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_MsPlant" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-1436" top="22864" logicalid="137" controlid="69" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DM_MsPlant-DM_MsProductionUnit]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="67" destid="68" sourceattachpoint="16" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="1264" y="23263" />
+                    <point x="64" y="23263" />
+                    <point x="64" y="23264" />
+                    <point x="-1136" y="23264" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-7756" top="19154" logicalid="138" controlid="70" masterid="0" hint1="0" hint2="0" width="5014" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DM_MsOilTank-DM_MsPlant]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="68" destid="66" sourceattachpoint="6" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-3142" y="21854" />
+                    <point x="-3142" y="20654" />
+                    <point x="-7456" y="20654" />
+                    <point x="-7456" y="19454" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-7855" top="13498" logicalid="139" controlid="71" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DM_PsOilTankDataDay-DM_MsOilTank]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="66" destid="58" sourceattachpoint="6" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-7456" y="16198" />
+                    <point x="-7456" y="13798" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_MsCompany (dbo.DM_MsCompany)" left="-4622" top="27292" logicalid="143" controlid="75" masterid="0" hint1="0" hint2="0" width="4012" height="2820" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000ac0f0000040b0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_MsCompany" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-2916" top="23957" logicalid="144" controlid="76" masterid="0" hint1="0" hint2="0" width="6615" height="3635" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_dbo_DM_MsProductionUnit_dbo_DM_MsCompany]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="67" destid="75" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="3299" y="24456" />
+                    <point x="3299" y="25874" />
+                    <point x="-2616" y="25874" />
+                    <point x="-2616" y="27292" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-910" top="28303" logicalid="146" controlid="78" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DM_MsTicketElements-DM_MsCompany]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="75" destid="63" sourceattachpoint="19" destattachpoint="26" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-610" y="28702" />
+                    <point x="1790" y="28702" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-11613</DiagramViewPortLeft>
+            <DiagramViewPortTop>1368</DiagramViewPortTop>
+            <DiagramBoundingLeft>-10565</DiagramBoundingLeft>
+            <DiagramBoundingTop>-8022</DiagramBoundingTop>
+            <DiagramZoom>91</DiagramZoom>
+          </Diagram>
+          <Diagram>
+            <Name>DGM_OilTank_Balance</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="91" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10652" scrolltop="4355" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="18865" y="16536" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_PsOilTankDataDay (dbo.DM_PsOilTankDataDay)" left="-9170" top="12055" logicalid="81" controlid="38" masterid="0" hint1="0" hint2="0" width="7462" height="9075" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000261d000073230000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_PsOilTankDataDay" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_PsProductionUnitDataDay (dbo.DM_PsProductionUnitDataDay)" left="541" top="9621" logicalid="82" controlid="39" masterid="0" hint1="0" hint2="0" width="5725" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000800005d160000a50a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_PsProductionUnitDataDay" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-2008" top="11684" logicalid="83" controlid="40" masterid="0" hint1="0" hint2="0" width="2849" height="808" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DM_PsOilTankDataDay-DM_PsProductionUnitDataDay]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="39" destid="38" sourceattachpoint="30" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="541" y="12083" />
+                    <point x="-1" y="12083" />
+                    <point x="-1" y="12192" />
+                    <point x="-1708" y="12192" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_MsPlant (dbo.DM_MsPlant)" left="-43" top="5439" logicalid="84" controlid="41" masterid="0" hint1="0" hint2="0" width="3704" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000780e0000a50a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_MsPlant" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_MsProductionUnit (dbo.DM_MsProductionUnit)" left="-7187" top="4911" logicalid="85" controlid="42" masterid="0" hint1="0" hint2="0" width="3757" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000ad0e0000fe080000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_MsProductionUnit" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-3730" top="5113" logicalid="86" controlid="43" masterid="0" hint1="0" hint2="0" width="3987" height="888" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DM_MsPlant-DM_MsProductionUnit]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="42" destid="41" sourceattachpoint="15" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-3430" y="5512" />
+                    <point x="-2266" y="5512" />
+                    <point x="-2266" y="5701" />
+                    <point x="-43" y="5701" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_MsOilTank (dbo.DM_MsOilTank)" left="-7239" top="7794" logicalid="87" controlid="44" masterid="0" hint1="0" hint2="0" width="3704" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000780e00004d0c0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_MsOilTank" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-3835" top="6402" logicalid="88" controlid="45" masterid="0" hint1="0" hint2="0" width="4092" height="2166" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DM_MsOilTank-DM_MsPlant]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="41" destid="44" sourceattachpoint="18" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-43" y="6801" />
+                    <point x="-443" y="6801" />
+                    <point x="-443" y="8268" />
+                    <point x="-3535" y="8268" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-7436" top="10444" logicalid="89" controlid="46" masterid="0" hint1="0" hint2="0" width="799" height="1911" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DM_PsOilTankDataDay-DM_MsOilTank]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="44" destid="38" sourceattachpoint="1" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-7037" y="10943" />
+                    <point x="-7037" y="11499" />
+                    <point x="-7089" y="11499" />
+                    <point x="-7089" y="12055" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-10652</DiagramViewPortLeft>
+            <DiagramViewPortTop>4355</DiagramViewPortTop>
+            <DiagramBoundingLeft>-9170</DiagramBoundingLeft>
+            <DiagramBoundingTop>4911</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+          <Diagram>
+            <Name>DGM_OilTank_Ticket</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="171" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="864" scrolltop="-1740" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="18865" y="16536" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_PsOilTankTicketDataDay (dbo.DM_PsOilTankTicketDataDay)" left="7514" top="4921" logicalid="156" controlid="79" masterid="0" hint1="0" hint2="0" width="5318" height="8387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000c6140000c3200000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_PsOilTankTicketDataDay" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_MsTicketElements (dbo.DM_MsTicketElements)" left="14155" top="8996" logicalid="157" controlid="80" masterid="0" hint1="0" hint2="0" width="5133" height="3202" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000800000d140000820c0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_MsTicketElements" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="12532" top="9648" logicalid="158" controlid="81" masterid="0" hint1="0" hint2="0" width="1923" height="866" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DM_PsOilTankTicketDataDay-DM_MsTicketElements]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="80" destid="79" sourceattachpoint="20" destattachpoint="37" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="14155" y="10047" />
+                    <point x="13494" y="10047" />
+                    <point x="13494" y="10214" />
+                    <point x="12832" y="10214" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="12532" top="9098" logicalid="159" controlid="82" masterid="0" hint1="0" hint2="0" width="1923" height="866" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DM_PsOilTankTicketDataDay-DM_MsTicketElements1]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="80" destid="79" sourceattachpoint="18" destattachpoint="35" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="14155" y="9497" />
+                    <point x="13494" y="9497" />
+                    <point x="13494" y="9664" />
+                    <point x="12832" y="9664" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_PsProductionUnitDataDay (dbo.DM_PsProductionUnitDataDay)" left="2063" top="1482" logicalid="160" controlid="83" masterid="0" hint1="0" hint2="0" width="5540" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000a4150000a50a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_PsProductionUnitDataDay" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="7303" top="3545" logicalid="161" controlid="84" masterid="0" hint1="0" hint2="0" width="1520" height="1676" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DM_PsOilTankTicketDataDay-DM_PsProductionUnitDataDay]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="83" destid="79" sourceattachpoint="27" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7603" y="3944" />
+                    <point x="8523" y="3944" />
+                    <point x="8523" y="4921" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_MsProductionUnit (dbo.DM_MsProductionUnit)" left="11654" top="-119" logicalid="162" controlid="85" masterid="0" hint1="0" hint2="0" width="5874" height="2460" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000f21600009c090000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_MsProductionUnit" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_MsCompany (dbo.DM_MsCompany)" left="15945" top="4220" logicalid="166" controlid="89" masterid="0" hint1="0" hint2="0" width="3704" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000780e0000a50a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_MsCompany" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="15842" top="1842" logicalid="167" controlid="90" masterid="0" hint1="0" hint2="0" width="799" height="2678" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_dbo_DM_MsProductionUnit_dbo_DM_MsCompany]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="85" destid="89" sourceattachpoint="17" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="16241" y="2341" />
+                    <point x="16241" y="3280" />
+                    <point x="16147" y="3280" />
+                    <point x="16147" y="4220" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="15748" top="6446" logicalid="168" controlid="91" masterid="0" hint1="0" hint2="0" width="799" height="2850" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DM_MsTicketElements-DM_MsCompany]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="89" destid="80" sourceattachpoint="1" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="16147" y="6945" />
+                    <point x="16147" y="7970" />
+                    <point x="16171" y="7970" />
+                    <point x="16171" y="8996" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_MsTicket_Abstract (dbo.DM_MsTicket_Abstract)" left="8696" top="-1669" logicalid="169" controlid="92" masterid="0" hint1="0" hint2="0" width="3096" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000180c0000a50a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DM_MsTicket_Abstract" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="8745" top="557" logicalid="170" controlid="93" masterid="0" hint1="0" hint2="0" width="799" height="4664" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[DM_PsOilTankTicketDataDay-DM_MsTicket_Abstract]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="92" destid="79" sourceattachpoint="1" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="9144" y="1056" />
+                    <point x="9144" y="2988" />
+                    <point x="9073" y="2988" />
+                    <point x="9073" y="4921" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>864</DiagramViewPortLeft>
+            <DiagramViewPortTop>-1740</DiagramViewPortTop>
+            <DiagramBoundingLeft>2063</DiagramBoundingLeft>
+            <DiagramBoundingTop>-119</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>AVA_PISystem_DataMart</DataSourceID>
+  <Schema>
+    <xs:schema id="AVA_x0020_PI_x0020_System_x0020_Data_x0020_Mart" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="AVA_x0020_PI_x0020_System_x0020_Data_x0020_Mart" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="e99e5013-d818-4483-8868-2317226e0779">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_DM_PsOilTankDataDay" msprop:FriendlyName="DM_PsOilTankDataDay" msprop:DbSchemaName="dbo" msprop:DbTableName="DM_PsOilTankDataDay" msprop:design-time-name="3722b84c-db6b-4ad0-8d62-a82be843c1c8" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ProductionUnitCode" msprop:FriendlyName="ProductionUnitCode" msprop:DbColumnName="ProductionUnitCode" msprop:design-time-name="b6a0e769-1633-49a1-8a8a-06d7b115278b">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ProcessPlantCode" msprop:FriendlyName="ProcessPlantCode" msprop:DbColumnName="ProcessPlantCode" msprop:design-time-name="76627cc6-d793-45ab-ae4d-3a91671b160b">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="OilTankCode" msprop:FriendlyName="OilTankCode" msprop:DbColumnName="OilTankCode" msprop:design-time-name="70579b1b-042e-47a1-b11c-e3511528f8c7">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DataDate" msprop:FriendlyName="DataDate" msprop:DbColumnName="DataDate" msprop:design-time-name="59bea369-be28-4367-be89-86d4dbe8c6f8" type="xs:dateTime" />
+                  <xs:element name="NumberHours" msprop:FriendlyName="NumberHours" msprop:DbColumnName="NumberHours" msprop:design-time-name="2ef045d8-577c-4a3d-ba69-d3b8339eb07f" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="OilInitialStock" msprop:FriendlyName="OilInitialStock" msprop:DbColumnName="OilInitialStock" msprop:design-time-name="882d93d9-27ec-4d8f-9a74-d7a1ca8950dc" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="OilProduction" msprop:FriendlyName="OilProduction" msprop:DbColumnName="OilProduction" msprop:design-time-name="b4afc14c-3635-4357-b733-d43fe6dcbfd4" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="OilProductionTest" msprop:FriendlyName="OilProductionTest" msprop:DbColumnName="OilProductionTest" msprop:design-time-name="8e51a0de-92e3-461f-b269-cadab8220930" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="OilGains" msprop:FriendlyName="OilGains" msprop:DbColumnName="OilGains" msprop:design-time-name="b722b868-73b6-4f1f-a4f7-17ce78dd5095" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="OilInputTransfer" msprop:FriendlyName="OilInputTransfer" msprop:DbColumnName="OilInputTransfer" msprop:design-time-name="7f66f49c-9dff-41c9-af28-3af5e0472408" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="OilPurchase" msprop:FriendlyName="OilPurchase" msprop:DbColumnName="OilPurchase" msprop:design-time-name="7de10307-fcb4-4aaf-8a58-90e7f4c43c96" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="OilSales" msprop:FriendlyName="OilSales" msprop:DbColumnName="OilSales" msprop:design-time-name="4b6a6cb5-34dd-4941-adcb-bf839178f130" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="OilLosses" msprop:FriendlyName="OilLosses" msprop:DbColumnName="OilLosses" msprop:design-time-name="287c4594-3f03-46af-8761-59e7c27285c7" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="OilOutputTransfer" msprop:FriendlyName="OilOutputTransfer" msprop:DbColumnName="OilOutputTransfer" msprop:design-time-name="944957dd-ea6b-4dbc-8289-992304b160a4" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="OilDrain" msprop:FriendlyName="OilDrain" msprop:DbColumnName="OilDrain" msprop:design-time-name="6403bd49-6922-45d6-8bdf-2e8426770de0" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="OilFinalStock" msprop:FriendlyName="OilFinalStock" msprop:DbColumnName="OilFinalStock" msprop:design-time-name="67968ce7-dda8-42c9-8dd1-ec9fc92a8a38" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="WaterProduction" msprop:FriendlyName="WaterProduction" msprop:DbColumnName="WaterProduction" msprop:design-time-name="bef9ac18-5efd-49ec-8b06-449abcb192c6" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="WaterProductionTest" msprop:FriendlyName="WaterProductionTest" msprop:DbColumnName="WaterProductionTest" msprop:design-time-name="5222e1f3-dfc5-42f7-85af-7d0acccd8a34" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="WaterFinalStock" msprop:FriendlyName="WaterFinalStock" msprop:DbColumnName="WaterFinalStock" msprop:design-time-name="69c96ffe-9867-4259-9a54-04257cc3dd98" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="AvaibleSpace" msprop:FriendlyName="AvaibleSpace" msprop:DbColumnName="AvaibleSpace" msprop:design-time-name="22f1834f-06e9-4fdc-b4d3-8c585053f057" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="AvaibleOil" msprop:FriendlyName="AvaibleOil" msprop:DbColumnName="AvaibleOil" msprop:design-time-name="6a8de057-7dfd-4a84-b3f2-52ab9096b3ee" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="CorrectAPI" msprop:FriendlyName="CorrectAPI" msprop:DbColumnName="CorrectAPI" msprop:design-time-name="d31ada78-4d5e-432e-90a2-c45f1ac53485" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="AverageTemperature" msprop:FriendlyName="AverageTemperature" msprop:DbColumnName="AverageTemperature" msprop:design-time-name="3cd3cc23-d090-48dd-a4a0-71a2f028ba03" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="RVPFactor" msprop:FriendlyName="RVPFactor" msprop:DbColumnName="RVPFactor" msprop:design-time-name="b90f0240-2a2b-467f-893f-abf79dcf91c5" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="BSWFactor" msprop:FriendlyName="BSWFactor" msprop:DbColumnName="BSWFactor" msprop:design-time-name="b28f8c3e-2eb2-4652-89ef-d802e8ec046c" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DM_PsProductionUnitDataDay" msprop:FriendlyName="DM_PsProductionUnitDataDay" msprop:DbSchemaName="dbo" msprop:DbTableName="DM_PsProductionUnitDataDay" msprop:design-time-name="1e26124b-a3d4-4c9c-87f9-d290e7477dfc" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DataDate" msprop:FriendlyName="DataDate" msprop:DbColumnName="DataDate" msprop:design-time-name="8b994cd6-b232-4f9c-8576-9b6b67831b95" type="xs:dateTime" />
+                  <xs:element name="DataYear" msprop:design-time-name="979f1423-d271-4ce4-88e7-da04cf8931d3" msprop:DbColumnName="DataYear" type="xs:int" minOccurs="0" />
+                  <xs:element name="DataMonth" msprop:design-time-name="f407a789-8569-4c04-a216-8ff9f1413fff" msprop:DbColumnName="DataMonth" type="xs:int" minOccurs="0" />
+                  <xs:element name="DataDay" msprop:design-time-name="4b8c0f7e-aa69-47a9-8f63-39b330e0a2a7" msprop:DbColumnName="DataDay" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DM_PsOilTankTicketDataDay" msprop:FriendlyName="DM_PsOilTankTicketDataDay" msprop:DbSchemaName="dbo" msprop:DbTableName="DM_PsOilTankTicketDataDay" msprop:design-time-name="fea9e26e-d67c-44bb-bbe4-72284da4b074" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ProductionUnitCode" msprop:FriendlyName="ProductionUnitCode" msprop:DbColumnName="ProductionUnitCode" msprop:design-time-name="bcc4cc16-fffe-4765-84d2-05fb7d8e3e23">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="OilTicket" msprop:FriendlyName="OilTicket" msprop:DbColumnName="OilTicket" msprop:design-time-name="b6c4717e-ef89-49c1-9f88-dd0dc243174c">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TicketDate" msprop:FriendlyName="TicketDate" msprop:DbColumnName="TicketDate" msprop:design-time-name="7ff77ea7-8a15-4594-9e79-e5040eaaaeb0" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="OperationType" msprop:FriendlyName="OperationType" msprop:DbColumnName="OperationType" msprop:design-time-name="9c3aab85-eb40-49d7-b87c-93e8fa7fa723" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TransportType" msprop:FriendlyName="TransportType" msprop:DbColumnName="TransportType" msprop:design-time-name="23cfb5ea-971a-47df-a4eb-a567a382c3c2" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="OilTankCode" msprop:FriendlyName="OilTankCode" msprop:DbColumnName="OilTankCode" msprop:design-time-name="b571f2bc-1566-4d37-9ab2-422d7d6e25ee" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SourceCode" msprop:FriendlyName="SourceCode" msprop:DbColumnName="SourceCode" msprop:design-time-name="bd8b3cac-57fd-4ca5-baa5-3c47225c4c00" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TargetCode" msprop:FriendlyName="TargetCode" msprop:DbColumnName="TargetCode" msprop:design-time-name="cad0d84a-f787-4aa6-b559-3ba78cd2ea23" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="LinePressure" msprop:FriendlyName="LinePressure" msprop:DbColumnName="LinePressure" msprop:design-time-name="32ed6842-43f1-4cad-9391-f7362e94c7fa" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="LineTemperature" msprop:FriendlyName="LineTemperature" msprop:DbColumnName="LineTemperature" msprop:design-time-name="62ef8e3c-c08e-47bb-aeb8-655e0c83bea9" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="CorrectAPI" msprop:FriendlyName="CorrectAPI" msprop:DbColumnName="CorrectAPI" msprop:design-time-name="b509c075-de15-450d-b0a3-cd064c863411" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="RVPFactor" msprop:FriendlyName="RVPFactor" msprop:DbColumnName="RVPFactor" msprop:design-time-name="5edfbffe-6259-475a-86a6-0b4896372079" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="BSWFactor" msprop:FriendlyName="BSWFactor" msprop:DbColumnName="BSWFactor" msprop:design-time-name="2211cb44-9a2c-4b06-8da2-33063b05e3b6" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="OilNetVolume" msprop:FriendlyName="OilNetVolume" msprop:DbColumnName="OilNetVolume" msprop:design-time-name="575a97f1-426b-42b4-ad88-b358621ca00f" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="WaterVolume" msprop:FriendlyName="WaterVolume" msprop:DbColumnName="WaterVolume" msprop:design-time-name="5058b9a5-c394-43f3-acc0-379c73881512" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="TicketStatus" msprop:FriendlyName="TicketStatus" msprop:DbColumnName="TicketStatus" msprop:design-time-name="c337bf85-d2bb-40f6-8d59-6095577c5599" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TicketAbstractId" msprop:design-time-name="2c3a4f20-63c9-4f3a-b9b6-28062dabcae7" msprop:DbColumnName="TicketAbstractId" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DM_MsTicketElements" msprop:FriendlyName="DM_MsTicketElements" msprop:DbSchemaName="dbo" msprop:DbTableName="DM_MsTicketElements" msprop:design-time-name="c81a1075-14d5-46bb-8488-3352ed224dc4" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ProductionUnitCode" msprop:FriendlyName="ProductionUnitCode" msprop:DbColumnName="ProductionUnitCode" msprop:design-time-name="bf3ccdbd-15dc-42b4-aaf0-24c194bc2f3d">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ElementCode" msprop:FriendlyName="ElementCode" msprop:DbColumnName="ElementCode" msprop:design-time-name="79c6213e-450d-4d0f-9902-cff093146338">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ElementName" msprop:FriendlyName="ElementName" msprop:DbColumnName="ElementName" msprop:design-time-name="575c4a0e-d774-4ef7-81f3-20ae5aa083af" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="40" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ElementID" msprop:FriendlyName="ElementID" msprop:DbColumnName="ElementID" msprop:design-time-name="c80d85ac-b67f-41ca-b8c0-3c81c25bad51" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CompanyCode" msprop:design-time-name="84d702e3-a347-4e29-9341-84386b3b4f2c" msprop:DbColumnName="CompanyCode">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DM_MsOilTank" msprop:FriendlyName="DM_MsOilTank" msprop:DbSchemaName="dbo" msprop:DbTableName="DM_MsOilTank" msprop:design-time-name="2ea508ad-1c63-4584-8949-2a4368ebce5b" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ProductionUnitCode" msprop:FriendlyName="ProductionUnitCode" msprop:DbColumnName="ProductionUnitCode" msprop:design-time-name="2ee860a0-219a-4649-9be3-4c2142fc93c4">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ProcessPlantCode" msprop:FriendlyName="ProcessPlantCode" msprop:DbColumnName="ProcessPlantCode" msprop:design-time-name="60ebf99b-6f20-4ef5-a379-43060573a13c">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="OilTankCode" msprop:FriendlyName="OilTankCode" msprop:DbColumnName="OilTankCode" msprop:design-time-name="bbd7533b-5cec-4296-bcdb-b7e0e9de2d5e">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="OilTankName" msprop:FriendlyName="OilTankName" msprop:DbColumnName="OilTankName" msprop:design-time-name="e8ccc145-2c41-46bf-b7d2-6e505eab0991" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="OilTankID" msprop:FriendlyName="OilTankID" msprop:DbColumnName="OilTankID" msprop:design-time-name="329fdb1e-4730-40a9-ab95-bfb58b068e0a" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="40" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DM_MsProductionUnit" msprop:FriendlyName="DM_MsProductionUnit" msprop:DbSchemaName="dbo" msprop:DbTableName="DM_MsProductionUnit" msprop:design-time-name="53998010-7081-4188-b726-1dd9b242b303" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ProductionUnitCode" msprop:FriendlyName="ProductionUnitCode" msprop:DbColumnName="ProductionUnitCode" msprop:design-time-name="4d80bf84-3332-48ab-948a-5395ce89b95a">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ProductionUnitID" msprop:FriendlyName="ProductionUnitID" msprop:DbColumnName="ProductionUnitID" msprop:design-time-name="920b2951-cef3-4e6b-a146-28497b991a1e" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="40" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ProductionUnitName" msprop:FriendlyName="ProductionUnitName" msprop:DbColumnName="ProductionUnitName" msprop:design-time-name="2ceb2e0c-c0bf-4b1c-8ed2-9f3097fc2d8f" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DM_MsPlant" msprop:FriendlyName="DM_MsPlant" msprop:DbSchemaName="dbo" msprop:DbTableName="DM_MsPlant" msprop:design-time-name="4505c0f7-1377-4e2b-88b5-b2e1ead7c451" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ProductionUnitCode" msprop:FriendlyName="ProductionUnitCode" msprop:DbColumnName="ProductionUnitCode" msprop:design-time-name="1addfe12-0c2b-4c9b-9e7c-adb6133d6e80">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ProcessPlantCode" msprop:FriendlyName="ProcessPlantCode" msprop:DbColumnName="ProcessPlantCode" msprop:design-time-name="4ab993b1-135f-4a59-93a6-40082f9be919">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="PlantName" msprop:FriendlyName="PlantName" msprop:DbColumnName="PlantName" msprop:design-time-name="97d4926c-bb9c-4566-8b97-5838e5141a60" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="PlantID" msprop:FriendlyName="PlantID" msprop:DbColumnName="PlantID" msprop:design-time-name="481b9735-e578-4872-ad3e-729e3056a0f9" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="40" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DM_MsCompany" msprop:FriendlyName="DM_MsCompany" msprop:DbSchemaName="dbo" msprop:DbTableName="DM_MsCompany" msprop:design-time-name="41648c73-5c24-4e8b-9719-725c45bed493" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ProductionUnitCode" msprop:FriendlyName="ProductionUnitCode" msprop:DbColumnName="ProductionUnitCode" msprop:design-time-name="f5845f93-97ff-4c47-9be5-332b1dd1e38e">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CompanyCode" msprop:FriendlyName="CompanyCode" msprop:DbColumnName="CompanyCode" msprop:design-time-name="11bfb8d6-81d9-4e10-802d-40b6168a6fa4">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CompanyName" msprop:FriendlyName="CompanyName" msprop:DbColumnName="CompanyName" msprop:design-time-name="045cdf7b-86e4-4fbd-828b-8f487d217fd2" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CompanyID" msprop:FriendlyName="CompanyID" msprop:DbColumnName="CompanyID" msprop:design-time-name="3e876570-e6e6-43d8-b59c-3bbff6922b72" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="40" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DM_MsTicket_Abstract" msprop:FriendlyName="DM_MsTicket_Abstract" msprop:DbSchemaName="dbo" msprop:DbTableName="DM_MsTicket_Abstract" msprop:design-time-name="77d478c7-5c9e-4c89-ba89-b320f8a8c954" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="UniqueId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="UniqueId" msprop:DbColumnName="UniqueId" msprop:design-time-name="dcaf0e86-8fc4-43dc-a951-40306798a122" type="xs:int" />
+                  <xs:element name="OperationType" msprop:FriendlyName="OperationType" msprop:DbColumnName="OperationType" msprop:design-time-name="d5b220ef-f206-456d-976c-1024a834e62e" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TransportType" msprop:FriendlyName="TransportType" msprop:DbColumnName="TransportType" msprop:design-time-name="fe2ad6b2-2d38-4519-864e-3dbdc0987f50" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TicketStatus" msprop:FriendlyName="TicketStatus" msprop:DbColumnName="TicketStatus" msprop:design-time-name="952e741f-09d4-45c5-baca-aa9b512cdbd2" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DM_PsOilTankDataDay" />
+          <xs:field xpath="ProductionUnitCode" />
+          <xs:field xpath="ProcessPlantCode" />
+          <xs:field xpath="OilTankCode" />
+          <xs:field xpath="DataDate" />
+        </xs:unique>
+        <xs:unique name="dbo_DM_PsProductionUnitDataDay_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DM_PsProductionUnitDataDay" />
+          <xs:field xpath="DataDate" />
+        </xs:unique>
+        <xs:unique name="dbo_DM_PsOilTankTicketDataDay_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DM_PsOilTankTicketDataDay" />
+          <xs:field xpath="ProductionUnitCode" />
+          <xs:field xpath="OilTicket" />
+        </xs:unique>
+        <xs:unique name="dbo_DM_MsTicketElements_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DM_MsTicketElements" />
+          <xs:field xpath="ProductionUnitCode" />
+          <xs:field xpath="CompanyCode" />
+          <xs:field xpath="ElementCode" />
+        </xs:unique>
+        <xs:unique name="dbo_DM_MsOilTank_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DM_MsOilTank" />
+          <xs:field xpath="ProductionUnitCode" />
+          <xs:field xpath="ProcessPlantCode" />
+          <xs:field xpath="OilTankCode" />
+        </xs:unique>
+        <xs:unique name="dbo_DM_MsProductionUnit_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DM_MsProductionUnit" />
+          <xs:field xpath="ProductionUnitCode" />
+        </xs:unique>
+        <xs:unique name="dbo_DM_MsPlant_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DM_MsPlant" />
+          <xs:field xpath="ProductionUnitCode" />
+          <xs:field xpath="ProcessPlantCode" />
+        </xs:unique>
+        <xs:unique name="dbo_DM_MsCompany_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DM_MsCompany" />
+          <xs:field xpath="ProductionUnitCode" />
+          <xs:field xpath="CompanyCode" />
+        </xs:unique>
+        <xs:unique name="dbo_DM_MsTicket_Abstract_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DM_MsTicket_Abstract" />
+          <xs:field xpath="UniqueId" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="DM_PsOilTankDataDay-DM_PsProductionUnitDataDay" msdata:parent="dbo_DM_PsProductionUnitDataDay" msdata:child="dbo_DM_PsOilTankDataDay" msdata:parentkey="DataDate" msdata:childkey="DataDate" />
+          <msdata:Relationship name="DM_PsOilTankTicketDataDay-DM_PsProductionUnitDataDay" msdata:parent="dbo_DM_PsProductionUnitDataDay" msdata:child="dbo_DM_PsOilTankTicketDataDay" msdata:parentkey="DataDate" msdata:childkey="TicketDate" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="DM_PsOilTankTicketDataDay-DM_MsTicketElements" msdata:parent="dbo_DM_MsTicketElements" msdata:child="dbo_DM_PsOilTankTicketDataDay" msdata:parentkey="ElementCode ProductionUnitCode" msdata:childkey="SourceCode ProductionUnitCode" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="DM_PsOilTankTicketDataDay-DM_MsTicketElements1" msdata:parent="dbo_DM_MsTicketElements" msdata:child="dbo_DM_PsOilTankTicketDataDay" msdata:parentkey="ElementCode ProductionUnitCode" msdata:childkey="TargetCode ProductionUnitCode" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="DM_MsPlant-DM_MsProductionUnit" msdata:parent="dbo_DM_MsProductionUnit" msdata:child="dbo_DM_MsPlant" msdata:parentkey="ProductionUnitCode" msdata:childkey="ProductionUnitCode" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="DM_MsOilTank-DM_MsPlant" msdata:parent="dbo_DM_MsPlant" msdata:child="dbo_DM_MsOilTank" msdata:parentkey="ProductionUnitCode ProcessPlantCode" msdata:childkey="ProductionUnitCode ProcessPlantCode" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="DM_PsOilTankDataDay-DM_MsOilTank" msdata:parent="dbo_DM_MsOilTank" msdata:child="dbo_DM_PsOilTankDataDay" msdata:parentkey="OilTankCode ProcessPlantCode ProductionUnitCode" msdata:childkey="OilTankCode ProcessPlantCode ProductionUnitCode" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="FK_dbo_DM_MsProductionUnit_dbo_DM_MsCompany" msdata:parent="dbo_DM_MsProductionUnit" msdata:child="dbo_DM_MsCompany" msdata:parentkey="ProductionUnitCode" msdata:childkey="ProductionUnitCode" />
+          <msdata:Relationship name="DM_MsTicketElements-DM_MsCompany" msdata:parent="dbo_DM_MsCompany" msdata:child="dbo_DM_MsTicketElements" msdata:parentkey="ProductionUnitCode CompanyCode" msdata:childkey="ProductionUnitCode CompanyCode" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="DM_PsOilTankTicketDataDay-DM_MsTicket_Abstract" msdata:parent="dbo_DM_MsTicket_Abstract" msdata:child="dbo_DM_PsOilTankTicketDataDay" msdata:parentkey="UniqueId" msdata:childkey="TicketAbstractId" msprop:Description="" msprop:IsLogical="True" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+  </Schema>
+</DataSourceView>

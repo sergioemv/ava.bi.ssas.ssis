@@ -1,0 +1,63 @@
+﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Database>
+    <DataSources>
+      <DataSource>
+        <ID>AVA_PISystem_DataMart</ID>
+        <ConnectionString>Provider=SQLNCLI.1;Data Source=AVADEV09;Integrated Security=SSPI;Initial Catalog=AVA_PISystem_DataMart</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode>Default</ImpersonationMode>
+          <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
+    </DataSources>
+    <Dimensions>
+      <Dimension>
+        <ID>DM Ps Production Unit Data Day</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DM Ms Oil Tank</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DM Ms Ticket Elements</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DM Ms Production Unit</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DM Ms Ticket Abstract</ID>
+      </Dimension>
+    </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>AVA PI System Data Mart 1</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>DM Ps Oil Tank Data Day</ID>
+            <Partitions>
+              <Partition>
+                <ID>DM Ps Oil Tank Data Day</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>AVA PI System Data Mart</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>DM Ps Oil Tank Ticket Data Day</ID>
+            <Partitions>
+              <Partition>
+                <ID>DM Ps Oil Tank Ticket Data Day</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
+    <DataSourceImpersonationInfo>
+      <ImpersonationMode>Default</ImpersonationMode>
+      <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+    </DataSourceImpersonationInfo>
+  </Database>
+</ConfigurationSettings>

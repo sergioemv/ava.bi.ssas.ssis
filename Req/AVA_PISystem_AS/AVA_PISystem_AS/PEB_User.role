@@ -1,0 +1,12 @@
+﻿<Role xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="92737513-587d-403a-913b-b396cd158eb4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Role</ID>
+  <Name>PEB_User</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Description></Description>
+  <Members>
+    <Member>
+      <Name>test</Name>
+    </Member>
+  </Members>
+</Role>

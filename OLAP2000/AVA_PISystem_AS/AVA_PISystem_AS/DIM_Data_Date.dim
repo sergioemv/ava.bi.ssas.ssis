@@ -1,0 +1,214 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="59e8cdf8-06b1-417a-9ac3-e42de3199f01" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DM Ps Production Unit Data Day</ID>
+  <Name>DIM_Data_Date</Name>
+  <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1549" scrolltop="-3691" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7329" y="15293" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DM_PsProductionUnitDataDay (dbo.DM_PsProductionUnitDataDay)" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DM_PsProductionUnitDataDay" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1549</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3691</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="5c33350f-3990-47e4-aec9-f745577824c6">
+    <DataSourceViewID>AVA PI System Data Mart</DataSourceViewID>
+  </Source>
+  <Type>Time</Type>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="644cd27b-720e-4241-a2ef-ae4df2552300">
+      <ID>Year</ID>
+      <Name>DataYear</Name>
+      <Type>Years</Type>
+      <EstimatedCount>8</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e8ecf9e1-1060-4aea-bef1-b4b0cf271652">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5ea005d9-3bc7-46c5-94af-fde006be3461">
+            <TableID>dbo_DM_PsProductionUnitDataDay</TableID>
+            <ColumnID>DataYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="a91c7219-db35-493b-9b65-54df1cf56b0c">
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="85c0340f-c925-4cfe-af65-55e4f8849bec">
+          <TableID>dbo_DM_PsProductionUnitDataDay</TableID>
+          <ColumnID>DataYear</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+    <Attribute dwd:design-time-name="f9aa3e51-58a3-419b-ba0f-839764fc1094">
+      <ID>Month</ID>
+      <Name>DataMonth</Name>
+      <Type>Months</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="eb73182b-d26f-471e-a09b-7cf8110bbc85">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bf427702-77ea-4e17-b599-b637b46d7afd">
+            <TableID>dbo_DM_PsProductionUnitDataDay</TableID>
+            <ColumnID>DataMonth</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="45974314-ab08-4577-a8f0-16a1b10b2bf5">
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="df8d2b73-8d81-4254-94f6-a16837f7a910">
+          <TableID>dbo_DM_PsProductionUnitDataDay</TableID>
+          <ColumnID>DataMonth</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+    <Attribute dwd:design-time-name="ab74f2b5-6267-40c8-a263-eb95126ec874">
+      <ID>Date</ID>
+      <Name>DataDate</Name>
+      <Type>Days</Type>
+      <Usage>Key</Usage>
+      <EstimatedCount>2653</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7ed53dbe-8b5d-4af3-a009-8be10a9dd737">
+          <DataType>Date</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="69efa202-3cb7-47e0-94cb-0052326dd97a">
+            <TableID>dbo_DM_PsProductionUnitDataDay</TableID>
+            <ColumnID>DataDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="189aa90a-213c-4f23-b144-1e031b1811f8">
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="3d908aba-0428-48a8-be9b-93527a7ccb9c">
+          <TableID>dbo_DM_PsProductionUnitDataDay</TableID>
+          <ColumnID>DataDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="179f507b-10fa-4ccc-b53f-905abf1d4cea">
+          <AttributeID>Year</AttributeID>
+          <Name>DataYear</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9c90138d-e92c-4f7a-bf3c-0ee0cbffc762">
+          <AttributeID>Month</AttributeID>
+          <Name>DataMonth</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9164ef88-0d6c-4900-87f5-11e44c9abe17">
+          <AttributeID>Day of Month</AttributeID>
+          <Name>DataDay</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+    <Attribute dwd:design-time-name="5af18af7-6a89-48bb-bb5a-68adbd53288f">
+      <ID>Day of Month</ID>
+      <Name>DataDay</Name>
+      <Type>DayOfMonth</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ad2a186d-0a70-4204-8171-af47b8e1af85">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bdaf2f47-adb4-41d5-9950-a9e8573f49a7">
+            <TableID>dbo_DM_PsProductionUnitDataDay</TableID>
+            <ColumnID>DataDay</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="cb393a17-3bd9-4cd4-bcf6-e6ad64d81f14">
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="33965fac-b39e-4fdd-bc7a-299b575b6c73">
+          <TableID>dbo_DM_PsProductionUnitDataDay</TableID>
+          <ColumnID>DataDay</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="e2b72576-042d-45c1-8581-efecb8a01b47">
+      <ID>DataYear -  DataMonth -  DataDate</ID>
+      <Name>HRC_DataDay</Name>
+      <Levels>
+        <Level dwd:design-time-name="089613d2-eeae-4302-8417-af235aafb56d">
+          <ID>DataYear</ID>
+          <Name>DataYear</Name>
+          <SourceAttributeID>Year</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="c6a16c46-ad8d-4a53-8ac0-d89a6e186371">
+          <ID>DataMonth</ID>
+          <Name>DataMonth</Name>
+          <SourceAttributeID>Month</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="55441498-7412-45ef-b772-6a86780762f9">
+          <ID>DataDay</ID>
+          <Name>DataDay</Name>
+          <SourceAttributeID>Day of Month</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+</Dimension>

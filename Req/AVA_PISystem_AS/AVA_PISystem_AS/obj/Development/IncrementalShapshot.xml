@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>AVA_PISystem_AS</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>QuJIZCrY0owmVkfiiKPBZw==4/19/2008 11:06:07 AM4/9/2008 9:33:39 AM</TimeStamp>
+        <ID>
+          <String>AVA_PISystem_DataMart</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>tSZnWQgAtjEMJCwipWWQAA==4/22/2008 9:05:33 PM4/19/2008 9:19:39 AM</TimeStamp>
+        <ID>
+          <String>AVA PI System Data Mart</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>AEZzmZ6r7RkjvwNYT97dqA==4/21/2008 5:32:21 PM4/19/2008 10:02:39 AM</TimeStamp>
+        <ID>
+          <String>DM Ps Production Unit Data Day</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yRlDlqevSAtZztJxr4l9wQ==4/21/2008 5:28:33 PM4/21/2008 5:09:36 PM</TimeStamp>
+        <ID>
+          <String>DM Ms Oil Tank</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qpQUTFsAi1VgGl7gJDz2Aw==4/22/2008 8:12:21 PM4/22/2008 8:51:51 AM</TimeStamp>
+        <ID>
+          <String>DM Ms Ticket Elements</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Lq6UmNy9nSW4IWooSHLB0A==4/22/2008 8:20:58 PM4/22/2008 8:19:45 PM</TimeStamp>
+        <ID>
+          <String>DM Ms Production Unit</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hEJQPOukM1+wh13Vt7gjAA==4/22/2008 9:05:33 PM4/22/2008 9:05:04 PM</TimeStamp>
+        <ID>
+          <String>DM Ms Ticket Abstract</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>J+Vf1ccFOq/IkU7FGrfRcA==4/21/2008 6:17:32 PM4/21/2008 5:38:28 PMJQRhMrobWfbQMSCQ52D7CQ==4/21/2008 5:38:53 PM4/21/2008 5:38:28 PM</TimeStamp>
+        <ID>
+          <String>AVA PI System Data Mart 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>IW0jMLnP2LbQMyV7zDJ8YQ==4/22/2008 9:06:10 PM4/21/2008 7:01:51 PM/X9OtIB7myQtMBAxFnCYqg==4/21/2008 7:02:10 PM4/21/2008 7:01:51 PM</TimeStamp>
+        <ID>
+          <String>AVA PI System Data Mart</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>GiOT9vCAkJ6vzC9p5QbIOQ==4/19/2008 11:06:07 AM4/19/2008 10:58:55 AM</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>r2Um1AtSIrLdiyAQUy0EWQ==4/19/2008 11:06:07 AM4/9/2008 9:29:45 AM</TimeStamp>
+      <ID>
+        <String>AVA_PISystem_AS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2008-04-23T01:06:12Z</LastDeployed>
+</DeploymentSnapshot>
